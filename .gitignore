@@ -1,0 +1,5 @@
+drafts/
+site/dist/
+.citation-corpus/
+__pycache__/
+*.pyc
