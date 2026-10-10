@@ -72,10 +72,5 @@
 - 数据：改动只进 `drafts/`（现稿 `book/` 不动）；每次保存进 `drafts/history/`，git 留痕；本仓已 `git init`（仅本地）。
 - 「交稿」→ 写 `drafts/.submitted.json` + POST webhook `aging-desk` → 唤醒 Hermes 跑 `tools/diff_draft.py` 比对，出清单等用户定夺，确认后才合并进 book/ 并部署。
 - 本地起服务：`systemctl --user restart book-desk book-desk-tunnel`；日志 `editor/server.log`、`journalctl --user -u book-desk`。
-
-## 编辑台与改动层（2026-10-10）
-
-- 网页编辑台：https://aging-edit.fly2ai.top/?t=<见 editor/.token>，token 在 `editor/.token`、webhook 在 `editor/config.json`。
-- 写入只进 `drafts/`（含 `drafts/history/` 逐版历史）；`book/` 是现稿，只有用户点头合并时才改。
-- 用户点"交稿"→ 唤醒 Hermes（webhook 路由 `aging-desk`）→ 跑 `tools/diff_draft.py` → 出清单等用户定夺 → 才合并。
-- **推公开仓库时必须排除**：`drafts/`、`editor/`（含 token/config）、`site/dist/`、`.citation-corpus/`。本地 git 仓库保留这些以便回退，公开镜像不要。
+- **推公开仓库时必须排除**：`drafts/`、`editor/`（含 token/config）、`site/dist/`、`.citation-corpus/`。本地 git 保留这些以便回退，公开镜像不要。
+- 常驻：`systemctl --user restart book-desk book-desk-tunnel`（隧道 `Requires=` 书稿服务）；`pkill -f '[e]ditor/editor.py'` 的方括号别省，否则会杀掉自己那条命令。
