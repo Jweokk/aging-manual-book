@@ -212,6 +212,7 @@ textarea{flex:1;border:0;padding:16px 18px;font:14px/1.75 ui-monospace,Menlo,Con
   <button onclick="revert()">撤掉本篇改动</button>
   <button class="primary" onclick="submitAll()">交稿</button>
   <span id="stat">读入中…</span><span id="msg"></span>
+  <div id="banner" style="flex-basis:100%;font-size:13px;color:#6b6558;line-height:1.5"></div>
 </header>
 <main>
   <div id="list"></div>
@@ -219,7 +220,7 @@ textarea{flex:1;border:0;padding:16px 18px;font:14px/1.75 ui-monospace,Menlo,Con
   <div id="prev"></div>
 </main>
 <script>
-let units=[], cur=null, dirty=false, timer=null;
+let units=[], cur=null, dirty=false, timer=null, justSubmitted=false;
 const ta=document.getElementById('ta'), prev=document.getElementById('prev');
 const stat=document.getElementById('stat'), msg=document.getElementById('msg');
 const lintBox=document.createElement('div'); lintBox.id='lint';
@@ -268,6 +269,7 @@ async function submitAll(){
   if(!confirm('交稿？共 '+n+' 个单元有草稿改动。交稿后我会拿你的版本和现稿逐条比对，再跟你确认。')) return;
   if(dirty) await save(false);
   const d=await j('/api/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+  justSubmitted=true;
   msg.textContent='已交稿 '+d.at+'，'+d.files.length+' 个单元；'+d.hook; refreshState();
 }
 let state={};
@@ -278,6 +280,23 @@ async function refreshState(){
     dot.className='dot'+(st.submitted?' s':(st.draft?' d':''));
     e.title=st.draft?('草稿 '+(st.saved_at||'')+(st.submitted?'（已交稿）':'')):'';
   });
+  refreshBanner();
+}
+function refreshBanner(){
+  const el=document.getElementById('banner');
+  const n=Object.values(state).filter(x=>x.draft).length;
+  if(justSubmitted){
+    el.style.color='#2f7d4f';
+    el.textContent='✓ 已交稿：Hermes 会把你的改动并进正稿并上线（约 1 分钟），随后在 Slack 汇报改了什么、哪几处建议复核。改动全部保留在历史里，随时可回退。';
+    return;
+  }
+  if(n){
+    el.style.color='#b45f06';
+    el.textContent='⚠ 有 '+n+' 个单元在草稿层，还没上线（还没交稿）。改完点右上角「交稿」→ 自动并入正稿并上线。';
+  } else {
+    el.style.color='#6b6558';
+    el.textContent='当前没有未上线的改动——这里显示的是已经上线的正稿。改动经「交稿」后即并入正稿、上线，并保留历史可回退。';
+  }
 }
 function toggleNav(){document.getElementById('list').classList.toggle('open')}
 function toggleView(){
