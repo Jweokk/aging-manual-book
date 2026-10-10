@@ -1,0 +1,6 @@
+{
+ "token": "bbd2a98197e0bca4",
+ "port": 8792,
+ "webhook_url": "http://10.7.0.16:8644/webhooks/aging-desk",
+ "webhook_secret": "quDTHstGnP3lDQpNVmgB7ysxSJ1hcYYbYkP0EZwM4V4"
+}
