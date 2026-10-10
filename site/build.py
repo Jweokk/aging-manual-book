@@ -41,6 +41,12 @@ def autolink(html: str) -> str:
         html)
 
 
+def wrap_tables(html: str) -> str:
+    """把 <table> 包进可横向滚动的壳：手机上宽表不再撑破版式。"""
+    return html.replace("<table>", '<div class="tw"><table>').replace(
+        "</table>", "</table></div>")
+
+
 def decorate(html: str) -> str:
     """〔待核 1〕/〔转引 1〕 → 徽标；【A】/【B】/【C】 → 分档徽标。"""
     html = re.sub(r"〔([^〕]{1,30})〕", r'<span class="flag">\1</span>', html)
@@ -116,7 +122,7 @@ def build() -> dict:
             raw = path.read_text(encoding="utf-8")
             n_chars = cjk_count(raw)
             md.reset()
-            html = autolink(decorate(md.convert(raw)))
+            html = wrap_tables(autolink(decorate(md.convert(raw))))
             stats["done"] += 1
             stats["chars"] += n_chars
             stats["pending"] += len(re.findall(r"〔待核", raw))   # 只数真待核（原来把〔转引〕〔官方口径〕也算进来了）
@@ -237,8 +243,38 @@ footer {{ max-width:1180px; margin:0 auto 60px; padding:0 24px; color:var(--mute
   nav {{ position:static; max-height:none; }}
   .chapter {{ padding:24px 20px; }}
 }}
+/* —— 手机阅读与回目录（2026-10-10 用户提）—— */
+.tw {{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:14px 0; }}
+.tw table {{ margin:0; }}
+.chapter a {{ word-break:break-all; }}
+#tocBtn {{ position:fixed; right:20px; bottom:74px; height:44px; padding:0 16px; display:none;
+  align-items:center; gap:6px; background:var(--card); color:var(--ink); border:1px solid var(--line);
+  border-radius:999px; font-size:15px; cursor:pointer; box-shadow:0 6px 18px rgba(0,0,0,.10); z-index:90; }}
+#drawer {{ position:fixed; inset:0; background:rgba(38,34,32,.45); z-index:120; display:none; }}
+#drawer.on {{ display:block; }}
+#drawer .sheet {{ position:absolute; left:0; right:0; bottom:0; max-height:78vh; overflow:auto;
+  background:var(--card); border-radius:18px 18px 0 0; padding:12px 16px 26px; }}
+#drawer .row {{ display:flex; justify-content:space-between; align-items:center; padding:4px 2px 10px;
+  border-bottom:1px solid var(--line); margin-bottom:6px; }}
+#drawer .row b {{ font-size:15px; }}
+#drawer .btn {{ border:1px solid var(--line); background:var(--wash); border-radius:999px;
+  padding:7px 14px; font-size:14px; cursor:pointer; }}
+#drawer .nav-link {{ font-size:15px; padding:9px 8px; }}
+@media (max-width:900px) {{
+  body {{ font-size:16.5px; }}
+  header.top {{ padding:24px 16px 6px; }}
+  h1.book {{ font-size:24px; }}
+  .wrap {{ padding:0 14px; margin:12px auto 56px; }}
+  .chapter {{ padding:20px 16px; border-radius:14px; }}
+  .chapter h1 {{ font-size:21px; padding-left:11px; border-left-width:4px; }}
+  .chapter h2 {{ font-size:18px; margin:26px 0 8px; }}
+  .chapter p, .chapter li {{ font-size:16px; }}
+  .panel {{ padding:16px 14px; }}
+  #tocBtn {{ display:flex; }}
+}}
 @media print {{
-  nav, #top, .panel {{ display:none; }}
+  nav, #top, #tocBtn, #drawer, .panel {{ display:none; }}
+  .tw {{ overflow:visible; }}
   .wrap {{ display:block; max-width:none; padding:0; margin:0; }}
   body {{ background:#fff; font-size:11.5pt; }}
   .chapter {{ border:0; padding:0; margin:0 0 18pt; break-before:page; }}
@@ -263,21 +299,40 @@ footer {{ max-width:1180px; margin:0 auto 60px; padding:0 24px; color:var(--mute
   </main>
 </div>
 <footer>这是内部校样，未对外发布 · 生成脚本 site/build.py · 章节缺漏与待核标记见顶部面板</footer>
+<button id="tocBtn" title="展开目录">☰ 目录</button>
+<div id="drawer" role="dialog" aria-label="目录">
+  <div class="sheet">
+    <div class="row"><b>目录</b>
+      <span><button class="btn" id="toHead">回到开头</button> <button class="btn" id="closeDrawer">关闭</button></span>
+    </div>
+    <div id="drawerNav"></div>
+  </div>
+</div>
 <button id="top" title="回到顶部">↑</button>
 <script>
-const bar = document.getElementById('bar'), top = document.getElementById('top');
+const bar = document.getElementById('bar'), btnTop = document.getElementById('top');
 const links = [...document.querySelectorAll('.nav-link')];
 const secs = [...document.querySelectorAll('section.chapter')];
 function onScroll() {{
   const h = document.documentElement;
   bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
-  top.classList.toggle('show', h.scrollTop > 600);
+  btnTop.classList.toggle('show', h.scrollTop > (window.innerWidth <= 900 ? 320 : 600));
   let cur = secs[0];
   for (const s of secs) if (s.getBoundingClientRect().top <= 120) cur = s;
   links.forEach(a => a.classList.toggle('active', a.hash === '#' + cur.id));
 }}
 document.addEventListener('scroll', onScroll, {{passive:true}}); onScroll();
-top.onclick = () => window.scrollTo({{top:0, behavior:'smooth'}});
+btnTop.onclick = () => window.scrollTo({{top:0, behavior:'smooth'}});
+/* 手机：目录抽屉（内容直接克隆左侧目录，不另维护一份） */
+const tocBtn = document.getElementById('tocBtn'), drawer = document.getElementById('drawer');
+const drawerNav = document.getElementById('drawerNav');
+drawerNav.innerHTML = document.querySelector('nav').innerHTML;
+drawerNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => drawer.classList.remove('on')));
+tocBtn.onclick = () => drawer.classList.add('on');
+document.getElementById('closeDrawer').onclick = () => drawer.classList.remove('on');
+document.getElementById('toHead').onclick = () => {{ drawer.classList.remove('on'); window.scrollTo({{top:0, behavior:'smooth'}}); }};
+drawer.addEventListener('click', e => {{ if (e.target === drawer) drawer.classList.remove('on'); }});
+document.addEventListener('keydown', e => {{ if (e.key === 'Escape') drawer.classList.remove('on'); }});
 </script>
 </body>
 </html>"""

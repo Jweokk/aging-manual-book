@@ -192,10 +192,23 @@ textarea{flex:1;border:0;padding:16px 18px;font:14px/1.75 ui-monospace,Menlo,Con
 .gA{background:#d9ecd9}#prev a{color:#2d6cdf;word-break:break-all}
 #msg{font-size:13px;color:var(--warn)}
 #lint{font-size:12.5px;color:#8a6d3b;white-space:pre-wrap}
+#mNav,#mPrev{display:none}
+@media (max-width:900px){
+  main{grid-template-columns:1fr;height:auto}
+  #list{display:none}
+  #list.open{display:block;position:fixed;top:0;left:0;right:0;bottom:0;z-index:30;overflow:auto;background:#fff;border-right:0;padding-top:6px}
+  #list.open::before{content:"← 点这里收起目录（或直接点一个单元）";display:block;padding:8px 12px;font-size:12.5px;color:#8a8377;background:#faf9f5;border-bottom:1px solid var(--line);margin-bottom:4px}
+  #edit{border-right:0;height:calc(100vh - 53px)}
+  #prev{display:none;height:calc(100vh - 53px)}
+  body.pv #prev{display:block} body.pv #edit{display:none}
+  #mNav,#mPrev{display:inline-block}
+}
 </style></head><body>
 <header>
   <b>变老说明书 · 书稿编辑台</b>
-  <button class="primary" onclick="save(false)">保存 (Ctrl+S)</button>
+  <button id="mNav" onclick="toggleNav()">☰ 目录</button>
+  <button id="mPrev" onclick="toggleView()">预览</button>
+  <button class="primary" onclick="save(false)">保存</button>
   <button onclick="revert()">撤掉本篇改动</button>
   <button class="primary" onclick="submitAll()">交稿</button>
   <span id="stat">读入中…</span><span id="msg"></span>
@@ -231,7 +244,7 @@ async function open_(f){
   if(!f||!units.some(x=>x.file===f)){msg.textContent='这个单元找不到（'+f+'）';return}
   cur=f; document.querySelectorAll('.u').forEach(e=>e.classList.toggle('on',e._file===f));
   const d=await j('/api/doc?f='+encodeURIComponent(f));
-  ta.value=d.text; dirty=false; render(); setStat(f+'（'+(d.source==='draft'?'草稿':'现稿')+'）'+d.cjk+' 字');
+  ta.value=d.text; dirty=false; render(); document.getElementById('list').classList.remove('open'); setStat(f+'（'+(d.source==='draft'?'草稿':'现稿')+'）'+d.cjk+' 字');
 }
 
 async function render(){
@@ -265,6 +278,11 @@ async function refreshState(){
     dot.className='dot'+(st.submitted?' s':(st.draft?' d':''));
     e.title=st.draft?('草稿 '+(st.saved_at||'')+(st.submitted?'（已交稿）':'')):'';
   });
+}
+function toggleNav(){document.getElementById('list').classList.toggle('open')}
+function toggleView(){
+  const pv=document.body.classList.toggle('pv');
+  document.getElementById('mPrev').textContent=pv?'原文':'预览';
 }
 boot();
 </script></body></html>"""
