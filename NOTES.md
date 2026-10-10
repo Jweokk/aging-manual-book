@@ -74,3 +74,10 @@
 - 本地起服务：`systemctl --user restart book-desk book-desk-tunnel`；日志 `editor/server.log`、`journalctl --user -u book-desk`。
 - **推公开仓库时必须排除**：`drafts/`、`editor/`（含 token/config）、`site/dist/`、`.citation-corpus/`。本地 git 保留这些以便回退，公开镜像不要。
 - 常驻：`systemctl --user restart book-desk book-desk-tunnel`（隧道 `Requires=` 书稿服务）；`pkill -f '[e]ditor/editor.py'` 的方括号别省，否则会杀掉自己那条命令。
+
+## 波洛克《变老之前要知道》一手核对（2026-10-10）
+
+- 英文原版电子书：`/home/ubuntu/books/getting-older-en.epub`（Lucy Pollock, *The Book About Getting Older (for people who don't want to talk about it)*, Penguin Books, 2020），抽出的纯文本 `getting-older-en.txt` 同目录。**这两份不进公开仓库**（有版权）。
+- 已核到的原句与页码（Penguin 2020 纸书分页，来自 epub 的 pagebreak 锚点）：`Here I am, your future` = 第 2 章 p.24；`a toxic mix that kills conversations` = 第 2 章 p.25；`May I ask you a delicate question?` = 第 14 章 p.264；`My amazing hairdo` = 第 13 章 p.243；减药之问 = 第 8 章 p.156；谵妄描写 = 第 9 章 p.164；意思能力假定 = 第 16 章 p.305；LPA 告诫 = 第 17 章 p.316。
+- 序与第 20 章已从"转引"改为**一手核对**（原句+页码+自译），`tools/check_citation.py` 的规则同步放宽：出现"一手"或"原句"即视为已标注。
+- 引文额度：同一本书全书 ≤200 字，目前用了 3 条短句英文原文。
