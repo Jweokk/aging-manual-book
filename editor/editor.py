@@ -245,7 +245,7 @@ async function open_(f){
   if(!f||!units.some(x=>x.file===f)){msg.textContent='这个单元找不到（'+f+'）';return}
   cur=f; document.querySelectorAll('.u').forEach(e=>e.classList.toggle('on',e._file===f));
   const d=await j('/api/doc?f='+encodeURIComponent(f));
-  ta.value=d.text; dirty=false; render(); document.getElementById('list').classList.remove('open'); setStat(f+'（'+(d.source==='draft'?'草稿':'现稿')+'）'+d.cjk+' 字');
+  ta.value=d.text; dirty=false; render(); document.getElementById('list').classList.remove('open'); refreshState(); setStat(f+'（'+(d.source==='draft'?'草稿':'现稿')+'）'+d.cjk+' 字');
 }
 
 async function render(){
