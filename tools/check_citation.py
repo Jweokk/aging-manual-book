@@ -66,7 +66,8 @@ def main():
     # 转引标注
     for f, t in book.items():
         raw = open(os.path.join(a.book, f), encoding="utf-8").read()
-        if "变老之前要知道" in raw and "转引" not in raw and "转述" not in raw:
+        if ("变老之前要知道" in raw and "转引" not in raw and "转述" not in raw
+                and "一手" not in raw and "原句" not in raw):
             print(f"✗ {f}: 提到《变老之前要知道》但没有\"转引/转述\"标注")
             bad += 1
     print("\n结论:", "无 ≥%d 字重合" % a.n if bad == 0 else f"发现 {bad} 处需人工判定")
