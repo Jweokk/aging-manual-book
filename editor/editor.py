@@ -288,6 +288,7 @@ class H(BaseHTTPRequestHandler):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(data)))
+        self.send_header("X-Robots-Tag", "noindex, nofollow")
         for k, v in (extra or {}).items():
             self.send_header(k, v)
         self.end_headers()

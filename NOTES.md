@@ -66,3 +66,9 @@
 1. 讨论并锁定「定位 + 读者 + 细分维度」（约 1 轮）
 2. 出**体例样章**（一章）给用户过目 → 用户确认
 3. 再批量推进其余章节；成品须先看再推
+
+## 书稿编辑台（2026-10-10 上线）
+- 地址 https://aging-edit.fly2ai.top/?t=<见 editor/.token> ；本地 8792，systemd 用户服务 `book-desk` + 反向隧道 `book-desk-tunnel`（本机 → dockervps → cloudflared）。
+- 数据：改动只进 `drafts/`（现稿 `book/` 不动）；每次保存进 `drafts/history/`，git 留痕；本仓已 `git init`（仅本地）。
+- 「交稿」→ 写 `drafts/.submitted.json` + POST webhook `aging-desk` → 唤醒 Hermes 跑 `tools/diff_draft.py` 比对，出清单等用户定夺，确认后才合并进 book/ 并部署。
+- 本地起服务：`systemctl --user restart book-desk book-desk-tunnel`；日志 `editor/server.log`、`journalctl --user -u book-desk`。
