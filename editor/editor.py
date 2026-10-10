@@ -220,18 +220,20 @@ async function boot(){
     if(u.part!==last){const p=document.createElement('div');p.className='part';p.textContent=u.part;list.appendChild(p);last=u.part}
     const el=document.createElement('div'); el.className='u'; el.dataset.f=u.file;
     el.innerHTML='<span class="dot"></span><span>'+(u.title||u.file)+'</span>';
-    el.onclick=()=>open_($(u.file));
+    el.onclick=()=>open_(u.file);
     el._file=u.file; list.appendChild(el);
   }
   refreshState(); setStat('共 '+units.length+' 个单元');
 }
 function $(f){return units.find(x=>x.file===f)}
 async function open_(f){
+  f=(typeof f==='string')?f:((f&&f.file)||'');
+  if(!f||!units.some(x=>x.file===f)){msg.textContent='这个单元找不到（'+f+'）';return}
   cur=f; document.querySelectorAll('.u').forEach(e=>e.classList.toggle('on',e._file===f));
   const d=await j('/api/doc?f='+encodeURIComponent(f));
-  ta.value=d.text; dirty=false; paint(); setStat(f+'（'+(d.source==='draft'?'草稿':'现稿')+'）'+d.cjk+' 字');
+  ta.value=d.text; dirty=false; render(); setStat(f+'（'+(d.source==='draft'?'草稿':'现稿')+'）'+d.cjk+' 字');
 }
-function paint(){ prev.innerHTML=document.getElementById('__tpl').innerHTML; render() }
+
 async function render(){
   if(!cur) return;
   const d=await j('/api/render',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:ta.value})});
@@ -265,7 +267,7 @@ async function refreshState(){
   });
 }
 boot();
-</script><div id="__tpl" style="display:none"></div></body></html>"""
+</script></body></html>"""
 
 
 class H(BaseHTTPRequestHandler):
@@ -316,6 +318,8 @@ class H(BaseHTTPRequestHandler):
             return self.send(200, json.dumps({"units": units()}, ensure_ascii=False))
         if u.path == "/api/doc":
             f = parse_qs(u.query).get("f", [""])[0]
+            if not f or not (BOOK / f).exists():
+                return self.send(404, json.dumps({"error": "unknown file", "f": f}, ensure_ascii=False))
             t, src = current_text(f)
             return self.send(200, json.dumps({"text": t, "source": src, "cjk": len(CJK.findall(t))}, ensure_ascii=False))
         if u.path == "/api/state":
