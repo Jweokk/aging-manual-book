@@ -1,0 +1,52 @@
+# 变老说明书 (The Getting-Older Manual)
+> Open-source, continuously updated. A practical handbook for growing older in China: 22 chapters + 5 appendices, arranged by what you (or your parents) will face next. Free to read and share (non-commercial).
+
+Subtitle: 你或你父母的下一步
+Thesis: 变老分阶段发生，每个阶段要办的事不一样。这本书不教你养老，只让你出问题的时候能翻到那一页。
+Source discipline: 每个数字后挂证据分档 A/B/C；二手来源标〔转引〕；核不到出处的标〔待核〕；发布前跑版权自检（与任何来源连续重合 ≥12 个汉字 = 0 处）。
+Reading paths: 通读（篇一→篇五）｜按症状查（附录 C）｜按心事查（附录 D）｜按制度查（附录 A）｜急事（附录 E）。
+Stats: 31 单元 / 约 16 万汉字 / A4 PDF 225 页 / v1.0.0 / 2026-10-10
+
+## Links
+- Read online (Chinese): https://aging.fly2ai.top
+- GitHub: https://github.com/Jweokk/aging-manual-book
+- PDF (latest): https://github.com/Jweokk/aging-manual-book/raw/main/book/aging-manual.pdf
+- English edition: in progress（先中文上线，英文分批推进；对应表见 book-en/README.md）
+
+## Contents (Chinese)
+  - [第 0 章 · 这份说明书怎么用](https://aging.fly2ai.top/00-第0章-这份说明书怎么用/)
+  - [序 · 老年人就是我们未来的样子](https://aging.fly2ai.top/序-老年人就是我们未来的样子/)
+  - [关于这份资料 · 与免责声明](https://aging.fly2ai.top/03-关于这份资料与免责声明/)
+- 篇一 · 存本钱：还没老的时候〔阶段一〕
+  - [第 1 章 · 变老不是某一天发生的](https://aging.fly2ai.top/01-第1章-变老不是某一天发生的/)
+  - [第 2 章 · 骨本与肌肉本](https://aging.fly2ai.top/02-第2章-骨本与肌肉本/)
+  - [第 3 章 · 脑本与感官本](https://aging.fly2ai.top/03-第3章-脑本与感官本/)
+  - [第 4 章 · 钱本与关系本](https://aging.fly2ai.top/04-第4章-钱本与关系本/)
+- 篇二 · 黑框警告：这三件事先看〔阶段二〕
+  - [第 5 章 · 跌倒是晚年的第一道分水岭](https://aging.fly2ai.top/05-第5章-跌倒是晚年的第一道分水岭/)
+  - [第 6 章 · 药不是吃得越多越好](https://aging.fly2ai.top/06-第6章-药不是吃得越多越好/)
+  - [第 7 章 · 吃不下、咽不下、噎住](https://aging.fly2ai.top/07-第7章-吃不下咽不下噎住/)
+  - [第 8 章 · 三条就医红线与第一小时](https://aging.fly2ai.top/08-第8章-三条就医红线与第一小时/)
+- 篇三 · 难以启齿与日常保养〔阶段二·续〕
+  - [第 9 章 · 记不住：从健忘到痴呆有多远](https://aging.fly2ai.top/09-第9章-记不住-从健忘到痴呆有多远/)
+  - [第 10 章 · 尿、便与体面](https://aging.fly2ai.top/10-第10章-尿便与体面/)
+  - [第 11 章 · 睡不着、疼、心里没劲、孤独](https://aging.fly2ai.top/11-第11章-睡不着疼心里没劲孤独/)
+  - [第 12 章 · 每天怎么吃](https://aging.fly2ai.top/12-第12章-每天怎么吃/)
+  - [第 13 章 · 每天怎么动](https://aging.fly2ai.top/13-第13章-每天怎么动/)
+  - [第 14 章 · 疫苗、筛查和体检单](https://aging.fly2ai.top/14-第14章-疫苗筛查和体检单/)
+- 篇四 · 把家、钱、人、权限安排好〔阶段三〕
+  - [第 15 章 · 住哪儿、和谁一起老](https://aging.fly2ai.top/15-第15章-住哪儿和谁一起老/)
+  - [第 16 章 · 钱从哪来：制度怎么替你付账](https://aging.fly2ai.top/16-第16章-钱从哪来制度怎么替你付账/)
+  - [第 17 章 · 人从哪来 + 给照护者的部分](https://aging.fly2ai.top/17-第17章-人从哪来与给照护者的部分/)
+  - [第 18 章 · 手机与骗局：把事办成，别被套走](https://aging.fly2ai.top/18-第18章-手机与骗局把事办成别被套走/)
+  - [第 19 章 · 权限设置：趁清醒把权限交出去](https://aging.fly2ai.top/19-第19章-权限设置趁清醒把权限交出去/)
+- 篇五 · 最后一程与善后〔阶段四〕
+  - [第 20 章 · 怎么开口：那些难以启齿的话](https://aging.fly2ai.top/20-第20章-怎么开口/)
+  - [第 21 章 · 走下坡之前：把最后的决定写好](https://aging.fly2ai.top/21-第21章-走下坡之前/)
+  - [第 22 章 · 谢幕之后：家属要办的手续](https://aging.fly2ai.top/22-第22章-谢幕之后/)
+  - [结语 · 把说明书翻旧的那一天](https://aging.fly2ai.top/30-结语/)
+  - [附录 A · 全国通用制度台账](https://aging.fly2ai.top/41-附录A/)
+  - [附录 C · 症状速查表](https://aging.fly2ai.top/43-附录C-症状速查表/)
+  - [附录 D · 恐惧速查表](https://aging.fly2ai.top/44-附录D-恐惧速查表/)
+  - [附录 E · 什么时候必须叫 120](https://aging.fly2ai.top/45-附录E-叫120判断表/)
+  - [附录 F · 话术卡：开口的十句话](https://aging.fly2ai.top/46-附录F-话术卡/)

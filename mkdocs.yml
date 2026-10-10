@@ -1,0 +1,93 @@
+site_name: 变老说明书
+site_description: 你或你父母的下一步 · 中国普通人的晚年使用与保养手册 · 免费公开、持续更新
+site_url: https://aging.fly2ai.top
+docs_dir: book
+site_dir: build/site
+repo_url: https://github.com/Jweokk/aging-manual-book
+repo_name: GitHub
+edit_uri: ""
+
+hooks:
+  - tools/mkdocs_hooks.py
+
+theme:
+  name: material
+  language: zh
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - footnotes
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - "变老说明书 · 封面": index.md
+  - 先看这一页:
+      - "第 0 章 · 这份说明书怎么用": 00-第0章-这份说明书怎么用.md
+      - "序 · 老年人就是我们未来的样子": 序-老年人就是我们未来的样子.md
+      - "关于这份资料 · 与免责声明": 03-关于这份资料与免责声明.md
+  - 篇一 · 存本钱：还没老的时候〔阶段一〕:
+      - "第 1 章 · 变老不是某一天发生的": 01-第1章-变老不是某一天发生的.md
+      - "第 2 章 · 骨本与肌肉本": 02-第2章-骨本与肌肉本.md
+      - "第 3 章 · 脑本与感官本": 03-第3章-脑本与感官本.md
+      - "第 4 章 · 钱本与关系本": 04-第4章-钱本与关系本.md
+  - 篇二 · 黑框警告：这三件事先看〔阶段二〕:
+      - "第 5 章 · 跌倒是晚年的第一道分水岭": 05-第5章-跌倒是晚年的第一道分水岭.md
+      - "第 6 章 · 药不是吃得越多越好": 06-第6章-药不是吃得越多越好.md
+      - "第 7 章 · 吃不下、咽不下、噎住": 07-第7章-吃不下咽不下噎住.md
+      - "第 8 章 · 三条就医红线与第一小时": 08-第8章-三条就医红线与第一小时.md
+  - 篇三 · 难以启齿与日常保养〔阶段二·续〕:
+      - "第 9 章 · 记不住：从健忘到痴呆有多远": 09-第9章-记不住-从健忘到痴呆有多远.md
+      - "第 10 章 · 尿、便与体面": 10-第10章-尿便与体面.md
+      - "第 11 章 · 睡不着、疼、心里没劲、孤独": 11-第11章-睡不着疼心里没劲孤独.md
+      - "第 12 章 · 每天怎么吃": 12-第12章-每天怎么吃.md
+      - "第 13 章 · 每天怎么动": 13-第13章-每天怎么动.md
+      - "第 14 章 · 疫苗、筛查和体检单": 14-第14章-疫苗筛查和体检单.md
+  - 篇四 · 把家、钱、人、权限安排好〔阶段三〕:
+      - "第 15 章 · 住哪儿、和谁一起老": 15-第15章-住哪儿和谁一起老.md
+      - "第 16 章 · 钱从哪来：制度怎么替你付账": 16-第16章-钱从哪来制度怎么替你付账.md
+      - "第 17 章 · 人从哪来 + 给照护者的部分": 17-第17章-人从哪来与给照护者的部分.md
+      - "第 18 章 · 手机与骗局：把事办成，别被套走": 18-第18章-手机与骗局把事办成别被套走.md
+      - "第 19 章 · 权限设置：趁清醒把权限交出去": 19-第19章-权限设置趁清醒把权限交出去.md
+  - 篇五 · 最后一程与善后〔阶段四〕:
+      - "第 20 章 · 怎么开口：那些难以启齿的话": 20-第20章-怎么开口.md
+      - "第 21 章 · 走下坡之前：把最后的决定写好": 21-第21章-走下坡之前.md
+      - "第 22 章 · 谢幕之后：家属要办的手续": 22-第22章-谢幕之后.md
+  - 结语与附录:
+      - "结语 · 把说明书翻旧的那一天": 30-结语.md
+      - "附录 A · 全国通用制度台账": 41-附录A.md
+      - "附录 C · 症状速查表": 43-附录C-症状速查表.md
+      - "附录 D · 恐惧速查表": 44-附录D-恐惧速查表.md
+      - "附录 E · 什么时候必须叫 120": 45-附录E-叫120判断表.md
+      - "附录 F · 话术卡：开口的十句话": 46-附录F-话术卡.md

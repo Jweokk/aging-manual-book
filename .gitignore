@@ -1,8 +1,28 @@
-drafts/
+# 注意：git 不支持行尾注释——规则后面写 # 会让整条规则失效（踩过）。
+# 注释一律单独一行。
+
+# 站点构建产物
+build/
 site/dist/
+.build-pdf.html
+
+# 内部工具与工作笔记，不进公开仓库
+# site/deploy.py 内含隧道 ID、内部主机名、令牌路径
+site/deploy.py
+# docs/待核/ 是逐章工作笔记，含未核实的原始线索
+docs/待核/
+# .citation-corpus/ 是版权自检的语料与白名单（含第三方全文）
 .citation-corpus/
-__pycache__/
-*.pyc
+
+# 作者改稿草稿层（编辑台写入，作者私有）
+drafts/
+
+# 编辑台口令与密钥
 editor/.token
 editor/config.json
 editor/server.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc

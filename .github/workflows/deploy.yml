@@ -1,0 +1,24 @@
+name: deploy-site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q mkdocs-material
+      # 站点目录从 site/manifest.json 生成；CI 里再跑一次，防止本地改了目录忘了同步
+      - run: python3 tools/gen_mkdocs.py
+      # llms.txt 在仓库根目录（单一事实源），MkDocs 会把 docs_dir 里的非 Markdown 文件一并发布
+      - run: cp llms.txt book/llms.txt
+      - run: mkdocs gh-deploy --force

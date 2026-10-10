@@ -1,0 +1,73 @@
+/* 变老说明书 · 站点样式补充
+   目标：浅色、好读、手机上能看。正文样式尽量交给 Material，这里只补三件事：
+   证据分档徽标、内部记号徽标、宽表横滑。 */
+
+/* ── 证据分档徽标：【A】/【B】/【C】 ───────────────────────── */
+.md-typeset .grade {
+  display: inline-block;
+  min-width: 1.1em;
+  padding: 0 .32em;
+  margin: 0 .12em;
+  border-radius: .22em;
+  font-size: .68em;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  vertical-align: .18em;
+  letter-spacing: 0;
+}
+.md-typeset .g-a { background: #2563eb; color: #fff; }
+.md-typeset .g-b { background: #0d9488; color: #fff; }
+.md-typeset .g-c { background: #e8e6e1; color: #4b5563; }
+[data-md-color-scheme="slate"] .md-typeset .g-c { background: #3f3f46; color: #d4d4d8; }
+
+/* ── 内部记号徽标：待核 / 转引 / 核对 / 官方口径 ─────────────── */
+.md-typeset .mk {
+  display: inline-block;
+  padding: 0 .38em;
+  margin: 0 .12em;
+  border: 1px solid currentColor;
+  border-radius: .22em;
+  font-size: .72em;
+  line-height: 1.55;
+  vertical-align: .1em;
+  white-space: nowrap;
+}
+.md-typeset .mk-pending { color: #b45309; background: #fff7ed; }
+.md-typeset .mk-quote   { color: #7c3aed; background: #f5f3ff; }
+.md-typeset .mk-checked { color: #0f766e; background: #f0fdfa; }
+.md-typeset .mk-off     { color: #475569; background: #f8fafc; }
+[data-md-color-scheme="slate"] .md-typeset .mk { background: transparent; }
+
+/* ── 宽表格：手机上横滑，别把版面撑破 ───────────────────────── */
+.md-typeset__table {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.md-typeset table:not([class]) {
+  font-size: .76rem;
+}
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  padding: .5em .6em;
+}
+
+/* ── 手机上正文大一点、段落松一点（读者多是中老年人） ───────── */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset {
+    font-size: .84rem;
+    line-height: 1.75;
+  }
+  .md-typeset h2 { margin-top: 1.4em; }
+}
+
+/* ── 条目里的栏目名（**要花多少**：…）着色，方便扫读 ─────────── */
+.md-typeset li > p > strong:first-child,
+.md-typeset li > strong:first-child {
+  color: #b45309;
+}
+[data-md-color-scheme="slate"] .md-typeset li > p > strong:first-child,
+[data-md-color-scheme="slate"] .md-typeset li > strong:first-child {
+  color: #fbbf24;
+}

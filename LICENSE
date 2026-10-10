@@ -1,0 +1,47 @@
+# 许可（License）
+
+《变老说明书：你或你父母的下一步》 · 著作权归整理者 Jweokk 所有 · 联系邮箱：weokk2025@gmail.com
+
+---
+
+## 一、正文与图表（book/、book-en/ 下的文字内容）
+
+采用 **知识共享 署名—非商业性使用—相同方式共享 4.0 国际许可协议（CC BY-NC-SA 4.0）**。
+
+你可以自由地复制、发行、通过信息网络传播本书，也可以基于本书创作演绎作品，惟须遵守：
+
+- **署名**：保留署名（Jweokk）与本书链接；
+- **非商业性使用**：不得用于商业目的；
+- **相同方式共享**：基于本书的演绎作品须采用同样的许可协议。
+
+许可协议全文（简体中文）：<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-Hans>
+
+建议署名格式：Jweokk《变老说明书》 <https://aging.fly2ai.top> （CC BY-NC-SA 4.0）
+
+**例外**：书中引用的第三方内容（法律条文、政策文号、指南名称、研究结论）版权归原权利人所有，本书按合理引用使用；引文一律加引号并注明出处，单处引文不超过 40 字，同一本书引文合计不超过 200 字。
+
+---
+
+## 二、脚本与配置（tools/、site/、.github/ 下的代码）
+
+MIT License
+
+Copyright (c) 2026 Jweokk
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
