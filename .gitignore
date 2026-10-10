@@ -3,3 +3,6 @@ site/dist/
 .citation-corpus/
 __pycache__/
 *.pyc
+editor/.token
+editor/config.json
+editor/server.log

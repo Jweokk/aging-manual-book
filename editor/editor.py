@@ -136,10 +136,15 @@ def lint(text: str) -> list:
 
 
 def git_commit(msg: str):
+    """只写一行日志，绝不动 git。
+
+    早先这里直接 `git add -A && commit`，会把当时工作区里**任何**未提交的改动
+    一起扫进去（连别的改动都算在"草稿：xx"这条提交里），而且编辑台跑在
+    server 侧，不该替作者决定提交什么。版本留痕由 drafts/history/ 负责，
+    合并上线由 Hermes 在 book/ 上提交。
+    """
     try:
-        subprocess.run(["git", "-C", str(ROOT), "add", "-A"], capture_output=True, timeout=20)
-        subprocess.run(["git", "-C", str(ROOT), "-c", "user.email=editor@local",
-                        "-c", "user.name=editor", "commit", "-qm", msg], capture_output=True, timeout=20)
+        (DRAFTS / ".journal.log").open("a", encoding="utf-8").write(f"{msg}\n")
     except Exception:
         pass
 
