@@ -1,18 +1,14 @@
 # 变老说明书 (The Getting-Older Manual)
-> Open-source, continuously updated. A practical handbook for growing older in China: 22 chapters + 5 appendices, arranged by what you (or your parents) will face next. Free to read and share (non-commercial).
-
-Subtitle: 你或你父母的下一步
-Thesis: 变老分阶段发生，每个阶段要办的事不一样。这本书不教你养老，只让你出问题的时候能翻到那一页。
+> Open-source, continuously updated. A practical handbook for growing older in China: 22 chapters + 5 appendices, arranged by what you (or your parents) face next. 《变老说明书：你或你父母的下一步》——中国普通人用得上的晚年手册，免费公开、持续更新（非商业）。
+Thesis: 变老分阶段来，每个阶段要办的事不一样。这本书不教你养老，只让你出问题的时候能翻到那一页。
 Source discipline: 每个数字后挂证据分档 A/B/C；二手来源标〔转引〕；核不到出处的标〔待核〕；发布前跑版权自检（与任何来源连续重合 ≥12 个汉字 = 0 处）。
 Reading paths: 通读（篇一→篇五）｜按症状查（附录 C）｜按心事查（附录 D）｜按制度查（附录 A）｜急事（附录 E）。
-Stats: 31 单元 / 约 16 万汉字 / A4 PDF 225 页 / v1.0.0 / 2026-10-10
-
+Stats: 31 单元 / 约 16 万汉字 / A4 PDF 225 页 / 首版 2026-10-10
 ## Links
 - Read online (Chinese): https://aging.fly2ai.top
 - GitHub: https://github.com/Jweokk/aging-manual-book
 - PDF (latest): https://github.com/Jweokk/aging-manual-book/raw/main/book/aging-manual.pdf
-- English edition: in progress（先中文上线，英文分批推进；对应表见 book-en/README.md）
-
+- English edition: in progress（先中文上线，英文按篇分批推进；对应表见 book-en/README.md）
 ## Contents (Chinese)
   - [第 0 章 · 这份说明书怎么用](https://aging.fly2ai.top/00-第0章-这份说明书怎么用/)
   - [序 · 老年人就是我们未来的样子](https://aging.fly2ai.top/序-老年人就是我们未来的样子/)
