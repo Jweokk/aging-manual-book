@@ -81,3 +81,14 @@
 - 已核到的原句与页码（Penguin 2020 纸书分页，来自 epub 的 pagebreak 锚点）：`Here I am, your future` = 第 2 章 p.24；`a toxic mix that kills conversations` = 第 2 章 p.25；`May I ask you a delicate question?` = 第 14 章 p.264；`My amazing hairdo` = 第 13 章 p.243；减药之问 = 第 8 章 p.156；谵妄描写 = 第 9 章 p.164；意思能力假定 = 第 16 章 p.305；LPA 告诫 = 第 17 章 p.316。
 - 序与第 20 章已从"转引"改为**一手核对**（原句+页码+自译），`tools/check_citation.py` 的规则同步放宽：出现"一手"或"原句"即视为已标注。
 - 引文额度：同一本书全书 ≤200 字，目前用了 3 条短句英文原文。
+
+
+## 正式出书（2026-10-10）
+
+- 仓库 `Jweokk/aging-manual-book`（public，v1.0.0）｜正式站 **https://aging.fly2ai.top**（GitHub Pages + MkDocs Material）｜编辑台不变（aging-edit，走隧道）
+- 站点：`python3 tools/gen_mkdocs.py`（从 site/manifest.json 生成 mkdocs.yml 的 nav）→ `.venv/bin/mkdocs build --strict`；CI = `.github/workflows/deploy.yml`（push main 自动 gh-deploy）
+- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 225 页）＋留档版
+- 记号渲染：`tools/mkdocs_hooks.py`（〔待核〕/〔转引〕/【A】→ 徽标），PDF 复用同一套正则
+- 更新节奏：季度校准（cron `aging-book-quarterly-update`，1/4/7/10 月 1 日 05:00，已钉 deepseek-flash）+ 年度大更；纠错入口 = GitHub Issue / 邮箱
+- 英文版：骨架已立（`book-en/README.md` 31 行对应表 + `assets/glossary-en.md`），分三批推进
+- 公开前清理：`.gitignore` 里 `site/deploy.py`、`docs/待核/`、`.citation-corpus/`、`drafts/`、`editor/.token` 都不入库（**注意 .gitignore 不支持行尾注释**）
