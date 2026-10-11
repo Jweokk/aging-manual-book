@@ -1,4 +1,4 @@
-# The Ageing Manual
+# The Aging Manual
 
 **What you, or your parents, do next.**
 
@@ -11,7 +11,7 @@ A practical manual for ordinary people in China: how the body ages, what to chec
 
 In China there is no shortage of books about growing old. What is missing is the one you can follow. Translations of good foreign books — *Being Mortal*, *The Book About Getting Older* — talk about attitude and conversation, but their institutions, money and paperwork are foreign. Official materials are authoritative and free, but they sit scattered across dozens of documents from a dozen departments, one document to one subject, and none of them is written in language a reader can use.
 
-This manual tries to close that gap: **Chinese context, the whole arc of ageing, an evidence grade and an official entry point on every entry, open source and correctable.** It is arranged by the four stages of ageing — build your reserves; read the warning signs; arrange the home, the money and the people; then the last stretch.
+This manual tries to close that gap: **Chinese context, the whole arc of aging, an evidence grade and an official entry point on every entry, open source and correctable.** It is arranged by the four stages of aging — build your reserves; read the warning signs; arrange the home, the money and the people; then the last stretch.
 
 ## How to read it
 

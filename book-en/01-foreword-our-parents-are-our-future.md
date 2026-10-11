@@ -27,7 +27,7 @@ Most people feel they got old all at once. It wasn't that moment.
 
 The body runs a system of compensation: when one function declines, the rest take on more. That system is tough, and it can cover your weak spots for years. So you don't feel the decline — until one day it can't hold: a fall, a hospital stay, an infection.
 
-That moment is not the start of ageing. It is the day the lid came off.
+That moment is not the start of aging. It is the day the lid came off.
 
 Which is why this book wants you to read it now. Not because something will happen to you today, but because on the day it does happen, the notes you reach for should not be someone else's.
 
@@ -51,13 +51,13 @@ This book is written from the second standpoint. It was shaped by two things. On
 
 ## The anxiety business
 
-Ageing is the easiest topic of all to be harvested in. The reason is not complicated: many people are afraid, information is unevenly spread, and judgement drops when you are frightened.
+Aging is the easiest topic of all to be harvested in. The reason is not complicated: many people are afraid, information is unevenly spread, and judgement drops when you are frightened.
 
 So someone will sell you a medical check-up package for several thousand yuan and say it catches everything early; someone will sell you a "memory-enhancing" supplement and say it prevents dementia; someone will take your property deed and say you can collect rent lying down.
 
 This book's method against that is crude: **every entry carries its source, and anything we could not check we would rather leave out.** Where a fear is being used by sellers, we mark it separately (see the table below).
 
-## The things people fear most about ageing, and how this book meets them
+## The things people fear most about aging, and how this book meets them
 
 The table below names those fears one by one. The second column says whether the fear is well placed — some are justified, some point in the wrong direction, and some are being used by sellers.
 
@@ -82,7 +82,7 @@ A few of them point in the wrong direction, and that is not your fault. Nobody t
 
 ## One honest thing
 
-Nobody can give you a painless answer about ageing. What this book can do is turn most of what is in it from "dropped on you suddenly" into "already thought about, and a little prepared for".
+Nobody can give you a painless answer about aging. What this book can do is turn most of what is in it from "dropped on you suddenly" into "already thought about, and a little prepared for".
 
 ## Acknowledgements: where the ideas came from
 

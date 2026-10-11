@@ -54,6 +54,7 @@
 5. **医学与照护部分直译**，但来源优先引英文原始文献（WHO／Cochrane／NICE／AGS），中文文献在英文版里给英文译名 + 原题。
 6. **不出现本站域名**（`fly2ai.top`）与中文社交平台名；需要指向附录时用"see Appendix C"。
 7. **正文干净**：不加数字上标、不解释编辑记号；〔待核〕在英文版里写作 `[unverified]`，〔转引〕写作 `[second-hand]`。
+8. **拼写用美式**：`aging`（不写英式 `ageing`）、`organize`、`program` 等一律美式；**专有名词照抄其官方拼法**（如 `Department of Ageing and Health, National Health Commission`、WHO 文件标题），不得为了统一而改。（理由：本站域名/仓库/PDF 都是 `aging`，读者在地址栏看到的就是这个词。）
 
 ## 验收（父代理自己做，第一批就做）
 

@@ -66,7 +66,7 @@ ALTERNATE = """extra:
       lang: en
 """
 
-TEMPLATE = """site_name: The Ageing Manual
+TEMPLATE = """site_name: The Aging Manual
 site_description: What you, or your parents, do next · a practical manual for growing old in China · free, open, updated every quarter
 site_url: https://aging.fly2ai.top/en/
 docs_dir: book-en
@@ -131,7 +131,7 @@ extra_javascript:
 
 """ + ALTERNATE + """
 nav:
-  - "The Ageing Manual": index.md
+  - "The Aging Manual": index.md
   - "中文版 · Chinese edition": https://aging.fly2ai.top/
   - "GitHub repository": https://github.com/Jweokk/aging-manual-book
 """

@@ -6,7 +6,7 @@ Not a doctor.
 
 It was put together with the help of AI: the public material was read through, the official documents were checked one by one, and what was left was sorted out. So nothing in here comes from an experiment of ours — **this book contains no measurements of our own**. Every number carries a grade tag saying where it came from and how strong that source is, so you can open it and check for yourself; where we could not check it, we say so.
 
-Nor does this book set out to teach you how to grow old. The people who wrote it are ageing too. They forget things, they find things a nuisance, and there are things they would rather not face.
+Nor does this book set out to teach you how to grow old. The people who wrote it are aging too. They forget things, they find things a nuisance, and there are things they would rather not face.
 
 ## This is not a checklist
 
@@ -27,13 +27,13 @@ This book wants to help you keep four accounts:
 
 **These four accounts cannot pay for each other.** One fewer fall does not buy you an extra 300 yuan a month, and an extra 300 yuan a month will not buy back a fall you didn't take. Neither stands in for the other.
 
-This comes first because most books about ageing keep only one account: how long you live, or how much you spend. Keep one account and you end up concluding "this is better than that"; keep four, and you find that many things do not need comparing at all — they are simply different things.
+This comes first because most books about aging keep only one account: how long you live, or how much you spend. Keep one account and you end up concluding "this is better than that"; keep four, and you find that many things do not need comparing at all — they are simply different things.
 
 ## How to read each entry
 
 Most entries have a fixed shape:
 
-- **What it costs**: what this item takes out of you — money, time, effort, and whether you have to bring something up. Ageing has a peculiarity: the most expensive cost is often not money but being unable to say the thing out loud. So "whether you have to bring it up" gets a line of its own.
+- **What it costs**: what this item takes out of you — money, time, effort, and whether you have to bring something up. Aging has a peculiarity: the most expensive cost is often not money but being unable to say the thing out loud. So "whether you have to bring it up" gets a line of its own.
 - **In short**: what this is actually about. After reading this line you should be able to explain it to your partner or your children.
 - **What you can do**: actions you can follow. Only the method — nothing forces you to do it.
 - **Where this comes from**: where the entry came from. **A** = a public source with a specific checkable figure (systematic review, large study, the text of a statute); **B** = supported by research, but no exact figure available (a single small study, for instance); **C** = common practice and experience, not evidence. If you are unsure, follow the letter back.
@@ -44,7 +44,7 @@ Some entries have only three lines. If one sentence says it clearly, we don't pa
 
 ## Two paths
 
-**Path one: for yourself.** Match yourself first — which stage of ageing are you at?
+**Path one: for yourself.** Match yourself first — which stage of aging are you at?
 
 - **Stage 1** Not old yet (forty or fifty, or you still think of yourself as young): build up your reserves. Go to Part 1.
 - **Stage 2** Just starting to age (your body has begun sending signals): read the signals, get what should be checked. Go to Part 2.
