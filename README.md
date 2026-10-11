@@ -10,23 +10,24 @@
 
 **Compiled by Jweokk** · weokk2025@gmail.com
 
-**Read online**: <https://aging.fly2ai.top> · **PDF**: [aging-manual.pdf](https://aging.fly2ai.top/aging-manual.pdf) (v1.0.0, A4, 225 pp.)
+**Read online**: <https://aging.fly2ai.top> · **PDF**: [aging-manual.pdf](https://aging.fly2ai.top/aging-manual.pdf) (v1.0.1, A4, 224 pp.)
 
 ---
 
 ## What this book is
 
-Growing older does not happen in one day. It arrives in stages: first the body sends signals, then someone has to help at home, then come the conversations nobody wants to start. This book is arranged along that timeline — **five stages, 22 chapters, 5 appendices, roughly 160,000 Chinese characters**.
+Growing older does not happen in one day. It arrives in stages: first the body sends signals, then someone has to help at home, then come the conversations nobody wants to start. This book is arranged along that timeline — **five stages, 22 chapters, 6 appendices, roughly 160,000 Chinese characters**.
 
 It is not a to-do list. Most entries you will use once or twice in a lifetime; you can start with any single entry that fits where you are now.
 
 ## How to use it
 
 - **First time**: start with [Chapter 0 · how to use this book](https://aging.fly2ai.top/00-第0章-这份说明书怎么用/) (Chinese).
-- **You or a parent has a symptom**: Appendix C is a symptom lookup (pain, leaking, forgetting, falls).
-- **Something urgent and you are not sure**: Appendix E, when you must call 120 (China's emergency number).
-- **Something weighing on your mind**: Appendix D is a fear lookup (fear of poverty, of burdening your children, of loneliness, of dying in pain).
+- **You or a parent has a symptom**: Appendix B is a symptom lookup (pain, leaking, forgetting, falls).
+- **Something urgent and you are not sure**: Appendix D, when you must call 120 (China's emergency number).
+- **Something weighing on your mind**: Appendix C is a fear lookup (fear of poverty, of burdening your children, of loneliness, of dying in pain).
 - **Money and entitlements**: Appendix A, a national ledger of schemes, each line with its policy basis and the date it was checked.
+- **What to read next**: Appendix F, further reading (narrative and ethics, caregiving, official sources).
 
 ## Evidence grades
 

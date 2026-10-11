@@ -33,7 +33,7 @@ LANGS = {
         "title": "变老说明书",
         "subtitle": "你或你父母的下一步",
         "meta": "整理者 Jweokk · {today} · v{version}",
-        "blurb": '中国普通人用得上的晚年手册：22 章正文、5 个附录，按"你或你父母的下一步"排。<br>不教你养老，只让你出问题的时候能翻到那一页——每条都写清要花多少、可以怎么做、来源在哪一档。',
+        "blurb": '中国普通人用得上的晚年手册：22 章正文、6 个附录，按"你或你父母的下一步"排。<br>不教你养老，只让你出问题的时候能翻到那一页——每条都写清要花多少、可以怎么做、来源在哪一档。',
         "disclaimer": "本书著作权归整理者 Jweokk 所有，免费阅读与非商业性分享，商业用途须事先获得书面许可。<br>内容为公开资料整理，不构成医疗建议。纠错与建议：weokk2025@gmail.com",
         "font_body": '"Noto Serif SC", "Songti SC", serif',
         "font_head": '"Noto Sans SC", "Heiti SC", sans-serif',
@@ -129,16 +129,21 @@ def build() -> int:
         print("没有找到章节，检查 manifest / book-en 对应表")
         return 1
 
-    toc = "".join(
-        f'<p class="toc-part">{t}</p>' if k == "part" else f'<p class="toc-entry">{t}</p>'
-        for k, t, _ in items
-    )
+    # 目录带页码：每单元一个锚点，页码由 CSS 的 target-counter 取（weasyprint 支持）。
+    # 首段（"先看这一页"这组前置件）不单独占扉页——否则全书第一页是一张只有标题的白页。
+    toc = ""
     body = ""
-    for k, t, h in items:
+    for i, (k, t, h) in enumerate(items):
         if k == "part":
-            body += f'<section class="part-page"><h1>{t}</h1></section>\n'
+            if not t.startswith("篇"):
+                continue
+            aid = f"part-{i}"
+            toc += f'<p class="toc-part"><a href="#{aid}">{t}</a><a class="pg" href="#{aid}"></a></p>'
+            body += f'<section class="part-page"><h1 id="{aid}">{t}</h1></section>\n'
         else:
-            body += f'<h2 class="chapter-title">{t}</h2>\n{h}\n'
+            aid = f"ch-{i}"
+            toc += f'<p class="toc-entry"><a href="#{aid}">{t}</a><a class="pg" href="#{aid}"></a></p>'
+            body += f'<h2 class="chapter-title" id="{aid}">{t}</h2>\n{h}\n'
 
     html = f"""<!DOCTYPE html>
 <html lang="{L['lang_attr']}">
@@ -167,8 +172,12 @@ def build() -> int:
   .toc-page {{ page-break-after: always; }}
   .toc-page h2 {{ font-family: {head_font}; font-size: 18pt; color: #c2410c; border-bottom: 2px solid #fdba74;
                   padding-bottom: 6pt; margin-bottom: 12pt; }}
+  .toc-part, .toc-entry {{ display: flex; justify-content: space-between; align-items: baseline; }}
   .toc-part {{ font-family: {head_font}; font-size: 11pt; font-weight: 700; color: #c2410c; margin: 12pt 0 4pt 0; }}
   .toc-entry {{ font-size: 10.5pt; line-height: 1.75; margin: 0 0 0 14pt; }}
+  .toc-part a, .toc-entry a {{ color: inherit; text-decoration: none; }}
+  .toc-part a.pg, .toc-entry a.pg {{ flex: 0 0 2.2cm; text-align: right; color: #78716c; }}
+  .toc-part a.pg::after, .toc-entry a.pg::after {{ content: target-counter(attr(href), page); }}
   .part-page {{ page-break-before: always; page-break-after: always; padding-top: 9cm; text-align: center; }}
   .part-page h1 {{ font-family: {head_font}; font-size: 20pt; color: #c2410c; border: none; }}
   .chapter-title {{ font-family: {head_font}; font-size: 15.5pt; color: #9a3412; page-break-before: always;

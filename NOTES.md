@@ -85,10 +85,16 @@
 
 ## 正式出书（2026-10-10）
 
-- 仓库 `Jweokk/aging-manual-book`（public，v1.0.0）｜正式站 **https://aging.fly2ai.top**（GitHub Pages + MkDocs Material）｜编辑台不变（aging-edit，走隧道）
+- 仓库 `Jweokk/aging-manual-book`（public，v1.0.1）｜正式站 **https://aging.fly2ai.top**（GitHub Pages + MkDocs Material）｜编辑台不变（aging-edit，走隧道）
 - 站点：`python3 tools/gen_mkdocs.py`（从 site/manifest.json 生成 mkdocs.yml 的 nav）→ `.venv/bin/mkdocs build --strict`；CI = `.github/workflows/deploy.yml`（push main 自动 gh-deploy）
-- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 225 页）＋留档版
+- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 224 页，v1.0.1）＋留档版
 - 记号渲染：`tools/mkdocs_hooks.py`（〔待核〕/〔转引〕/【A】→ 徽标），PDF 复用同一套正则
 - 更新节奏：季度校准（cron `aging-book-quarterly-update`，1/4/7/10 月 1 日 05:00，已钉 deepseek-flash）+ 年度大更；纠错入口 = GitHub Issue / 邮箱
 - 英文版：骨架已立（`book-en/README.md` 31 行对应表 + `assets/glossary-en.md`），分三批推进
 - 公开前清理：`.gitignore` 里 `site/deploy.py`、`docs/待核/`、`.citation-corpus/`、`drafts/`、`editor/.token` 都不入库（**注意 .gitignore 不支持行尾注释**）
+
+## 对标调研与 v1.0.1 修订（2026-10-11）
+
+- **对标调研**：读完英文原版《Getting Older》（Lucy Pollock，Penguin 2020）全书 19 章（本地 `/home/ubuntu/books/`，有版权，不进公开仓库），并与国内同类逐类对比，产出 `对标调研-原版与国内同类-2026-10-11.md`。三条硬线：原版案例是**合成的**（作者在 Author's Note 自述，不得当证据）、数字是英国口径、制度建议不可照搬。国内对标四类：译作（《最好的告别》《变老之前要知道》）、国内工具书（《老年实用手册》）、官方免费材料（散在几十个域名）、开源（GitHub 上中文同类基本空白）。
+- **v1.0.1**：附录重编号去跳号（C→B、D→C、E→D、F→E）；新增附录 F 延伸阅读；PDF 目录加页码；第 8 章噎住段并入第 7 章口径；第 1 章失能数字加口径注释；生前预嘱补北京"我的五个愿望"；19.8 补密码托管；仓库地址与 LICENSE 写进免责声明。详见 CHANGELOG.md。
+- **季度校准新增三件**（cron `aging-book-quarterly-update` 已同步）：《安宁疗护实践指南（2025 年版）》、《老年人认知障碍预防干预技术标准》等 7 项行业标准（WS/T 875—2026，2026-09-01 施行）、养老服务消费补贴（2026-01-01 起全国，中度以上失能每月最高 800 元，走"民政通"）。

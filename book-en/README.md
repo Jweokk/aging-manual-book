@@ -35,10 +35,11 @@
 | `22-第22章-谢幕之后.md` | `24-ch22-after-the-curtain-falls.md` |
 | `30-结语.md` | `30-afterword-when-the-manual-is-dog-eared.md` |
 | `41-附录A.md` | `41-appendix-a-national-entitlements-ledger.md` |
-| `43-附录C-症状速查表.md` | `43-appendix-c-symptom-lookup.md` |
-| `44-附录D-恐惧速查表.md` | `44-appendix-d-fear-lookup.md` |
-| `45-附录E-叫120判断表.md` | `45-appendix-e-when-to-call-120.md` |
-| `46-附录F-话术卡.md` | `46-appendix-f-phrase-cards.md` |
+| `42-附录B-症状速查表.md` | `42-appendix-b-symptom-lookup.md` |
+| `43-附录C-恐惧速查表.md` | `43-appendix-c-fear-lookup.md` |
+| `44-附录D-叫120判断表.md` | `44-appendix-d-when-to-call-120.md` |
+| `45-附录E-话术卡.md` | `45-appendix-e-phrase-cards.md` |
+| `46-附录F-延伸阅读.md` | `46-appendix-f-further-reading.md` |
 
 ## 翻译规则
 

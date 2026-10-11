@@ -26,3 +26,6 @@ editor/server.log
 .venv/
 __pycache__/
 *.pyc
+
+# 本地 DNS 备份，不进库
+.dns-backup-aging.json
