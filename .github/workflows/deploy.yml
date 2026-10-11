@@ -17,8 +17,26 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -q mkdocs-material
-      # 站点目录从 site/manifest.json 生成；CI 里再跑一次，防止本地改了目录忘了同步
+
+      # 站点目录从 site/manifest.json 生成（中文）；CI 里再跑一次，防止本地改了目录忘了同步
       - run: python3 tools/gen_mkdocs.py
+      # 英文站：结构从 book-en/README.md 的中英对应表生成，只把已译好的单元放进导航
+      - run: python3 tools/gen_mkdocs_en.py
+
       # llms.txt 在仓库根目录（单一事实源），MkDocs 会把 docs_dir 里的非 Markdown 文件一并发布
       - run: cp llms.txt book/llms.txt
-      - run: mkdocs gh-deploy --force
+
+      - run: mkdocs build --strict
+      - run: mkdocs build -f mkdocs-en.yml --strict
+
+      # 一个仓库一个自定义域名（aging.fly2ai.top）：中文放站根，英文挂 /en/ 子路径。
+      # CNAME 与 .nojekyll 都在站点目录里（CNAME 来自 book/CNAME）。
+      - run: cp -rT build/site-en build/site/en
+      - run: test -f build/site/en/index.html && test -f build/site/CNAME
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/site
+          publish_branch: gh-pages
+          force_orphan: true
