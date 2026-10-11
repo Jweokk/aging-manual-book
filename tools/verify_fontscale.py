@@ -12,7 +12,18 @@ import asyncio, base64, json, os, shutil, struct, subprocess, time, urllib.parse
 import websockets
 
 CHROME = "/home/ubuntu/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"
-PORT, PROFILE = 9361, "/tmp/cdp-fontscale"
+import socket
+
+
+def _free_port() -> int:
+    """每次挑一个空闲端口：固定端口会让并行两次验收互相 attach 到对方身上（踩过的坑）。"""
+    with socket.socket() as s:
+        s.bind(("127.0.0.1", 0))
+        return s.getsockname()[1]
+
+
+PORT = int(os.environ.get("CDP_PORT", _free_port()))
+PROFILE = os.environ.get("CDP_PROFILE", f"/tmp/cdp-fontscale-{os.getpid()}")
 BASE = os.environ.get("SITE_BASE", "http://127.0.0.1:8899/")
 # 换章保持那一步用的第二个页面。默认中文站的两个页面；英文站用环境变量换掉：
 #   SITE_BASE=https://aging.fly2ai.top/en/ \
@@ -68,7 +79,7 @@ SNAP = """(() => {
 
 
 async def main():
-    shutil.rmtree(PROFILE, ignore_errors=True)
+    shutil.rmtree(PROFILE, ignore_errors=True)   # 独立 profile：不复用上次的 localStorage
     proc = subprocess.Popen([CHROME, "--headless=new", f"--remote-debugging-port={PORT}", "--no-sandbox",
                              "--disable-dev-shm-usage", "--disable-gpu", f"--user-data-dir={PROFILE}",
                              "--window-size=1280,900", "about:blank"],

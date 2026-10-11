@@ -4,7 +4,18 @@ import asyncio, base64, json, os, shutil, struct, subprocess, time, urllib.parse
 import websockets
 
 CHROME = "/home/ubuntu/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"
-PORT, PROFILE = 9362, "/tmp/cdp-fontscale-shot"
+import os, socket
+
+
+def _free_port() -> int:
+    """独享空闲端口 + 独立 profile：固定端口会让并行两次互相 attach（踩过的坑）。"""
+    with socket.socket() as s:
+        s.bind(("127.0.0.1", 0))
+        return s.getsockname()[1]
+
+
+PORT = int(os.environ.get("CDP_PORT", _free_port()))
+PROFILE = os.environ.get("CDP_PROFILE", f"/tmp/cdp-fontscale-shot-{os.getpid()}")
 BASE = os.environ.get("SITE_BASE", "http://127.0.0.1:8899/")
 CH1 = BASE + urllib.parse.quote("12-第12章-每天怎么吃/")
 
