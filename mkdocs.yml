@@ -51,6 +51,9 @@ markdown_extensions:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  - assets/shelf-counter.js   # 页脚：访问计数 + PDF 下载计数（counter.fly2ai.top）
+
 nav:
   - "变老说明书 · 封面": index.md
   - 先看这一页:
