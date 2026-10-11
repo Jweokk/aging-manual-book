@@ -113,6 +113,8 @@ extra_javascript:
 """ + ALTERNATE + """
 nav:
   - "The Ageing Manual": index.md
+  - "中文版 · Chinese edition": https://aging.fly2ai.top/
+  - "GitHub repository": https://github.com/Jweokk/aging-manual-book
 """
 
 _pat_row = re.compile(r"^\|\s*`([^`]+)`\s*\|\s*`([^`]+)`\s*\|")

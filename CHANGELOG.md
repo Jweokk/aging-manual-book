@@ -7,6 +7,7 @@
 - 站点结构由 `tools/gen_mkdocs_en.py` 从 `book-en/README.md` 的中英对应表生成：单元标题直接取英文文件的一级标题（同一件事不写三遍），只把已存在的英文文件放进 nav；站点样式/脚本由它从 `book/assets/` 同步一份，只维护一份源。
 - 英文版验收脚本 `tools/check_en.py`：逐单元与中文源对照小节数、URL 集合、七栏栏目数、证据分档计数，并检查记号残留、`fly2ai`、`<sup>` 与中文残留行。
 - 发布改为"双语构建后合并"：中文在站根、英文在 `/en/`，一次发布。
+- **页眉窄屏加固**：字号调到 165%/185% 后，页眉里按 rem 计宽的搜索框与仓库链接会跟着膨胀，实测平板 960 顶出 37px、手机 390 顶出 84px（语言下拉浮层那 84px）；窄屏把这两个非正文控件收起，语言切换放进导航栏首项。`tools/verify_fontscale.py` 支持用 `CH0_PATH`/`CH1_PATH` 指到英文页，中英两站各跑一遍。
 - 统一规则见 `book-en/README.md` 与 `assets/glossary-en.md`：医学与照护直译；制度与钱改写为"中国大陆制度说明 + 与读者所在制度的差异提示"（长护险 vs LTC insurance、医保 vs Medicare、意定监护 vs power of attorney），不评价哪种制度更好；数字、日期、文号、URL 逐字照抄；证据分档 A/B/C 1:1；`〔待核〕`→`[unverified]`、`〔转引〕`→`[second-hand]`。
 
 ## 站点更新 — 2026-10-11（不涉及正文）

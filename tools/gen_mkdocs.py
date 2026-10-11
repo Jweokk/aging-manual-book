@@ -88,6 +88,7 @@ extra:
 
 nav:
   - "变老说明书 · 封面": index.md
+  - "English edition · 英文版": https://aging.fly2ai.top/en/
 '''
 
 

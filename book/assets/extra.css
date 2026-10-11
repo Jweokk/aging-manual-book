@@ -229,3 +229,16 @@ html { font-size: calc(125% * var(--aging-scale)) !important; }
 @media print {
   .aging-font { display: none; }
 }
+
+/* ── 页眉别被自己的控件撑破（放大字号后才发现）─────────────────
+   extra.css 的 :root{--aging-scale} 是按倍率放大 html 字号，而 Material 的搜索框、
+   仓库链接是 rem 计宽——字号一到 165%/185%，它们跟着膨胀，把页眉顶出屏幕（实测：
+   平板 960 顶出 37px、手机 390 顶出 84px）。语言下拉（extra.alternate）在长标签下
+   同样会越过右边界。窄屏一律先把这两个「非正文控件」收起来：语言切换在导航栏首项，
+   仓库链接在导航栏末尾与页脚，读者一样找得到，正文一个字都不少。 */
+@media screen and (max-width: 59.9844em) {
+  .md-header .md-select { display: none; }
+}
+@media screen and (max-width: 76.2344em) {
+  .md-header__source { display: none; }
+}

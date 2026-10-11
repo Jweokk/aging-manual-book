@@ -14,8 +14,11 @@ import websockets
 CHROME = "/home/ubuntu/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"
 PORT, PROFILE = 9361, "/tmp/cdp-fontscale"
 BASE = os.environ.get("SITE_BASE", "http://127.0.0.1:8899/")
-CH0 = BASE + urllib.parse.quote("00-第0章-这份说明书怎么用/")
-CH1 = BASE + urllib.parse.quote("12-第12章-每天怎么吃/")
+# 换章保持那一步用的第二个页面。默认中文站的两个页面；英文站用环境变量换掉：
+#   SITE_BASE=https://aging.fly2ai.top/en/ \
+#   CH0_PATH=00-how-to-use-this-book/ CH1_PATH=01-foreword-our-parents-are-our-future/ ...
+CH0 = BASE + os.environ.get("CH0_PATH", urllib.parse.quote("00-第0章-这份说明书怎么用/"))
+CH1 = BASE + os.environ.get("CH1_PATH", urllib.parse.quote("12-第12章-每天怎么吃/"))
 CONSOLE = []
 
 SNAP = """(() => {
@@ -195,7 +198,7 @@ async def main():
                 await asyncio.sleep(0.6)
                 s = await js(SNAP)
                 results.append(f"⑦ {label} @185% " + json.dumps(s, ensure_ascii=False))
-                chk(f"{label}：页眉不溢出", s["headerOverflow"] <= 0, f"headerOverflow={s['headerOverflow']}")
+                chk(f"{label}：页眉不溢出", s["headerOverflow"] is not None and s["headerOverflow"] <= 0, f"headerOverflow={s['headerOverflow']}（None=页眉元素没找到，页面可能没加载出来）")
                 chk(f"{label}：整页无横向溢出", s["pageOverflow"] <= 1, f"pageOverflow={s['pageOverflow']}")
                 chk(f"{label}：浮层没跑出视口", s["popBox"] and s["popBox"]["l"] >= 0 and s["popBox"]["r"] <= s["vw"], f"{s['popBox']}")
                 chk(f"{label}：浮层没被页眉裁掉", s["popHit"] is True, f"popHit={s['popHit']}")
