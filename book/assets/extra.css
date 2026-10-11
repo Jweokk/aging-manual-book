@@ -73,78 +73,159 @@
 }
 
 
-/* ── 字大小：全站字号调节（这本书的读者里中老年人多）──────────────
+/* ── 字号：全站调节（这本书的读者里中老年人多）──────────────────
    做法：整站以 rem 计量，把 <html> 的 font-size 乘以 --aging-scale 即可全站放大/缩小。
    --aging-scale 由 assets/font-scale.js 读写并存 localStorage，换章节、重开浏览器都保持；
    页面 <head> 里另有一段内联脚本在首次绘制前先设好，避免先小后大地闪一下。
-   默认 1.15（比 Material 原字号大一档）——读者反馈过默认字偏小。 */
+   默认 1.15（比 Material 原字号大一档）——读者反馈过默认字偏小。
+   控件本体用 px 写死，不跟着倍率涨大。 */
 :root { --aging-scale: 1.15; }
 html { font-size: calc(125% * var(--aging-scale)) !important; }
 
+/* 容器：页眉里（默认）或左下角浮动（找不到页眉槽位时的退路） */
 .aging-font {
-  position: fixed;
-  left: .6rem;
-  bottom: .6rem;
-  z-index: 5;
+  position: relative;
   display: flex;
-  align-items: stretch;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: .45rem;
-  overflow: hidden;
-  background: var(--md-default-bg-color);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .14);
-  font-size: .64rem;
-  line-height: 1;
+  align-items: center;
+  font-family: inherit;
 }
-.aging-font .af-btn {
-  display: flex;
-  flex-direction: column;
+.aging-font[data-place="float"] {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 5;
+}
+
+/* 页眉里的按钮：跟着页眉文字颜色走 */
+.aging-font__toggle {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: .12rem;
-  min-width: 2.6rem;
-  min-height: 2.6rem;
-  padding: .3rem .45rem;
+  min-width: 48px;
+  min-height: 40px;
+  padding: 0 8px;
   border: 0;
-  border-right: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
   background: transparent;
-  color: var(--md-default-fg-color);
-  font: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: 15px;
   font-weight: 700;
+  letter-spacing: .02em;
+  line-height: 1;
+  opacity: .75;
   cursor: pointer;
 }
-.aging-font .af-btn:last-child { border-right: 0; }
-.aging-font .af-btn:hover { background: var(--md-default-fg-color--lightest); }
-.aging-font .af-btn:disabled { color: var(--md-default-fg-color--light); cursor: default; }
-.aging-font .af-btn:disabled:hover { background: transparent; }
-.aging-font .af-reset { font-weight: 400; }
-.aging-font .af-name { font-size: .85em; }
-.aging-font .af-pct { font-weight: 700; }
+.aging-font__toggle:hover,
+.aging-font__toggle[aria-expanded="true"] { opacity: 1; background: rgba(255, 255, 255, .12); }
+.aging-font[data-place="float"] .aging-font__toggle {
+  min-width: 56px;
+  min-height: 48px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .14);
+}
 
+/* 点「字号」展开的小浮层 */
+.aging-font__pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  z-index: 6;
+  min-width: 208px;
+  max-width: calc(100vw - 16px);
+  padding: 10px 12px 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .18);
+  text-align: center;
+}
+.aging-font__pop[hidden] { display: none; }
+.aging-font[data-place="float"] .aging-font__pop {
+  top: auto;
+  bottom: calc(100% + 6px);
+  left: 0;
+  transform: none;
+}
+.aging-font__pop .af-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.aging-font__pop .af-btn {
+  min-width: 64px;
+  min-height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+.aging-font__pop .af-btn:hover { background: var(--md-default-fg-color--lightest); }
+.aging-font__pop .af-btn:disabled { color: var(--md-default-fg-color--light); cursor: default; }
+.aging-font__pop .af-btn:disabled:hover { background: transparent; }
+.aging-font__pop .af-pct { min-width: 56px; font-size: 16px; font-weight: 700; }
+.aging-font__pop .af-reset {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.aging-font__pop .af-reset:hover { text-decoration: underline; }
+.aging-font__pop .af-tip {
+  margin: 6px 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* 首次访问的引导气泡（只出现一次） */
 .af-hint {
-  position: fixed;
-  left: .6rem;
-  bottom: 3.6rem;
-  z-index: 5;
-  max-width: 15rem;
-  padding: .5rem .65rem;
-  border-radius: .45rem;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  z-index: 6;
+  width: 208px;
+  max-width: calc(100vw - 16px);
+  padding: 8px 10px;
+  border-radius: 6px;
   background: var(--md-primary-fg-color);
   color: #fff;
-  font-size: .62rem;
+  font-size: 13px;
   line-height: 1.5;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
   opacity: 0;
-  transform: translateY(.3rem);
   pointer-events: none;
-  transition: opacity .25s, transform .25s;
+  transition: opacity .25s;
 }
-.af-hint.af-on { opacity: 1; transform: none; }
+.aging-font[data-place="float"] .af-hint { top: auto; bottom: calc(100% + 6px); left: 0; transform: none; }
+.af-hint.af-on { opacity: 1; }
 
 @media screen and (max-width: 44.9375em) {
-  .aging-font { left: .4rem; bottom: .4rem; }
-  .af-hint { left: .4rem; bottom: 3.2rem; max-width: 12rem; }
+  .aging-font__pop { min-width: 196px; padding: 8px 10px 6px; }
+  .aging-font__pop .af-btn { min-width: 56px; }
+  .aging-font[data-place="float"] { left: 8px; bottom: 8px; }
 }
 @media print {
-  .aging-font, .af-hint { display: none; }
+  .aging-font { display: none; }
 }
