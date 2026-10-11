@@ -49,7 +49,7 @@ markdown_extensions:
   - footnotes
 
 extra_css:
-  - assets/extra.css?v=924ec39c
+  - assets/extra.css?v=db93e5f0
 
 extra_javascript:
   - assets/font-scale.js?v=e5b1d219      # 左下角「字大小」调节（localStorage 持久化）

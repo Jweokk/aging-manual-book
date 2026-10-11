@@ -26,7 +26,8 @@ The Chinese edition is the original and is complete. The English edition is bein
 | Batch | Contents | Status |
 |---|---|---|
 | Front matter | Chapter 0 · Foreword · About this book | **Available** |
-| 1 | part 1 and part 2 (Chapters 1–8) | In translation |
+| 0 | What this is · how to read it | **Available** |
+| 1 | part 1 and part 2 (Chapters 1–8) | **Available** |
 | 2 | parts 3 and 4 (Chapters 9–19) | Planned |
 | 3 | part 5, afterword, appendices (Chapters 20–22, A–F) | Planned |
 

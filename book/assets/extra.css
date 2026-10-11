@@ -37,6 +37,7 @@
 .md-typeset .mk-quote   { color: #7c3aed; background: #f5f3ff; }
 .md-typeset .mk-checked { color: #0f766e; background: #f0fdfa; }
 .md-typeset .mk-off     { color: #475569; background: #f8fafc; }
+.md-typeset .mk-res     { color: #1d4ed8; background: #eff6ff; }
 [data-md-color-scheme="slate"] .md-typeset .mk { background: transparent; }
 
 /* ── 宽表格：手机上横滑，别把版面撑破 ───────────────────────── */

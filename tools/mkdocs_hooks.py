@@ -23,12 +23,21 @@ _GRADE_TITLE = {
     "C": "证据分档 C：通行做法（多数国家和地区都这么做）",
 }
 
-# 英文版把中文记号写成方括号（见 assets/glossary-en.md），这里一并渲染成同样的徽标。
+# 内联出处：正文里的数字后面常紧跟「【官方口径：某部委】」这种即时出处，中文与英文
+# 各有一套写法，两套都渲染成同样的徽标（中文用【】，英文用 []，见 assets/glossary-en.md）。
+# 带内容的形态保留内容当正文，只把标签本身变成徽标。
+_pat_off_inline = re.compile(r"【官方口径(?:[：:]\s*([^】]{1,200}))?】")
+_pat_res_inline = re.compile(r"【第三方研究(?:[：:]\s*([^】]{1,200}))?】")
+
+# 英文版把中文记号写成方括号，这里一并渲染成同样的徽标。
 # 只加规则、不改源文件；中文页里不会出现这些串，互不影响。
 _pat_en_pending = re.compile(r"\[unverified\]")
 _pat_en_quote = re.compile(r"\[second-hand\]")
-_pat_en_official = re.compile(r"\[official wording\]")
+_pat_en_official = re.compile(r"\[official wording(?:[：:]\s*([^\]]{1,200}))?\]")
+_pat_en_research = re.compile(r"\[third-party research(?:[：:]\s*([^\]]{1,200}))?\]")
 _pat_en_checked = re.compile(r"\[checked\s*([\d\-]{6,12})\]")
+# 英文版的分档用 ASCII 方括号放在来源行首（中文是【A】），后随空格或竖线
+_pat_en_grade = re.compile(r"\[([ABC])\](?=[\s|，。;:)])")
 
 _pat_grade = re.compile(r"【([ABC])】")
 _pat_pending = re.compile(r"〔待核〕")
@@ -44,15 +53,43 @@ def _grade(m: re.Match) -> str:
     )
 
 
+def _off(m: re.Match) -> str:
+    body = (m.group(1) or "").strip()
+    chip = '<span class="mk mk-off" title="以官方文件口径为准 / per the official document">官方口径</span>'
+    return chip + (" " + body if body else "")
+
+
+def _res(m: re.Match) -> str:
+    body = (m.group(1) or "").strip()
+    chip = '<span class="mk mk-res" title="第三方研究，不是官方文件 / third-party research">第三方研究</span>'
+    return chip + (" " + body if body else "")
+
+
+def _en_off(m: re.Match) -> str:
+    body = (m.group(1) or "").strip()
+    chip = '<span class="mk mk-off" title="Per the wording of the official document">official wording</span>'
+    return chip + (" " + body if body else "")
+
+
+def _en_res(m: re.Match) -> str:
+    body = (m.group(1) or "").strip()
+    chip = '<span class="mk mk-res" title="Third-party research, not an official document">third-party research</span>'
+    return chip + (" " + body if body else "")
+
+
 def on_page_content(html: str, page, config, files) -> str:
     html = _pat_grade.sub(_grade, html)
+    html = _pat_off_inline.sub(_off, html)
+    html = _pat_res_inline.sub(_res, html)
     html = _pat_pending.sub('<span class="mk mk-pending" title="这一条还没核实到公开出处">待核</span>', html)
     html = _pat_quote.sub('<span class="mk mk-quote" title="来自二手来源的转述，不是一手原文">转引</span>', html)
     html = _pat_official.sub('<span class="mk mk-off" title="以官方文件口径为准">官方口径</span>', html)
     html = _pat_checked.sub(lambda m: f'<span class="mk mk-checked" title="已按该日期核对">核对 {m.group(1)}</span>', html)
     html = _pat_en_pending.sub('<span class="mk mk-pending" title="This entry has not been traced to a public source yet">unverified</span>', html)
     html = _pat_en_quote.sub('<span class="mk mk-quote" title="Somebody else\'s account of the source, not the original text">second-hand</span>', html)
-    html = _pat_en_official.sub('<span class="mk mk-off" title="Per the wording of the official document">official wording</span>', html)
+    html = _pat_en_grade.sub(_grade, html)
+    html = _pat_en_official.sub(_en_off, html)
+    html = _pat_en_research.sub(_en_res, html)
     html = _pat_en_checked.sub(lambda m: f'<span class="mk mk-checked" title="Checked on this date">checked {m.group(1)}</span>', html)
     return html
 
