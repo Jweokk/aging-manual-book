@@ -230,7 +230,10 @@ def build() -> int:
     HTML(string=html, base_url=BASE).write_pdf(versioned)
 
     txt = subprocess.run(["pdftotext", latest, "-"], capture_output=True, text=True).stdout
-    pages = txt.count("\f") + 1
+    # 页数以 pdfinfo 为准；pdftotext 用 \f 数会多算 1 页（末页无分页符）
+    info = subprocess.run(["pdfinfo", latest], capture_output=True, text=True).stdout
+    mpg = re.search(r"^Pages:\s+(\d+)", info, flags=re.M)
+    pages = int(mpg.group(1)) if mpg else txt.count("\f") + 1
     print(f"{L['title']} v{version} → {os.path.relpath(latest, BASE)}（{pages} 页，{len(txt)} 字）")
     # 抽查：首章、末章、附录都要在正文里
     for probe in (chapters[0][1][:8], chapters[-1][1][:8], "120"):

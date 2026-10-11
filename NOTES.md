@@ -87,7 +87,7 @@
 
 - 仓库 `Jweokk/aging-manual-book`（public，v1.0.1）｜正式站 **https://aging.fly2ai.top**（GitHub Pages + MkDocs Material）｜编辑台不变（aging-edit，走隧道）
 - 站点：`python3 tools/gen_mkdocs.py`（从 site/manifest.json 生成 mkdocs.yml 的 nav）→ `.venv/bin/mkdocs build --strict`；CI = `.github/workflows/deploy.yml`（push main 自动 gh-deploy）
-- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 224 页，v1.0.1）＋留档版
+- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 223 页，v1.0.1，pdfinfo 计）＋留档版
 - 记号渲染：`tools/mkdocs_hooks.py`（〔待核〕/〔转引〕/【A】→ 徽标），PDF 复用同一套正则
 - 更新节奏：季度校准（cron `aging-book-quarterly-update`，1/4/7/10 月 1 日 05:00，已钉 deepseek-flash）+ 年度大更；纠错入口 = GitHub Issue / 邮箱
 - 英文版：骨架已立（`book-en/README.md` 31 行对应表 + `assets/glossary-en.md`），分三批推进

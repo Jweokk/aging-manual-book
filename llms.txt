@@ -3,7 +3,7 @@
 Thesis: 变老分阶段来，每个阶段要办的事不一样。这本书不教你养老，只让你出问题的时候能翻到那一页。
 Source discipline: 每个数字后挂证据分档 A/B/C；二手来源标〔转引〕；核不到出处的标〔待核〕；发布前跑版权自检（与任何来源连续重合 ≥12 个汉字 = 0 处）。
 Reading paths: 通读（篇一→篇五）｜按症状查（附录 B）｜按心事查（附录 C）｜按制度查（附录 A）｜急事（附录 D）。
-Stats: 32 单元 / 约 16 万汉字 / A4 PDF 224 页 / v1.0.1（2026-10-11）；首版 v1.0.0 2026-10-10
+Stats: 32 单元 / 约 16 万汉字 / A4 PDF 223 页 / v1.0.1（2026-10-11）；首版 v1.0.0 2026-10-10
 ## Links
 - Read online (Chinese): https://aging.fly2ai.top
 - GitHub: https://github.com/Jweokk/aging-manual-book

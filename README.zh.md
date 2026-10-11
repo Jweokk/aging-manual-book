@@ -9,7 +9,7 @@
 
 **整理者：Jweokk** · 联系邮箱：weokk2025@gmail.com
 
-**在线阅读**：[aging.fly2ai.top](https://aging.fly2ai.top) · **整本下载**：[中文 PDF](https://aging.fly2ai.top/aging-manual.pdf)（v1.0.1 · A4 · 224 页）
+**在线阅读**：[aging.fly2ai.top](https://aging.fly2ai.top) · **整本下载**：[中文 PDF](https://aging.fly2ai.top/aging-manual.pdf)（v1.0.1 · A4 · 223 页）
 
 ---
 
