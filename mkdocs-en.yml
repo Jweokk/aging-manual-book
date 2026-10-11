@@ -55,11 +55,11 @@ markdown_extensions:
   - footnotes
 
 extra_css:
-  - assets/extra.css
+  - assets/extra.css?v=924ec39c
 
 extra_javascript:
-  - assets/font-scale.js
-  - assets/shelf-counter.js
+  - assets/font-scale.js?v=e5b1d219
+  - assets/shelf-counter.js?v=bfaac80a
 
 extra:
   alternate:
@@ -72,6 +72,8 @@ extra:
 
 nav:
   - "The Ageing Manual": index.md
+  - "中文版 · Chinese edition": https://aging.fly2ai.top/
+  - "GitHub repository": https://github.com/Jweokk/aging-manual-book
   - Start here:
       - "Chapter 0 · How to use this manual": 00-how-to-use-this-book.md
       - "Foreword · Older people are our future selves": 01-foreword-our-parents-are-our-future.md
@@ -82,6 +84,7 @@ nav:
       - "Chapter 3 · Brain and Senses Capital": 05-ch3-brain-and-senses-capital.md
       - "Chapter 4 · Money and Relationships as Capital": 06-ch4-money-and-relationships-capital.md
   - Part 2 · Three warnings to read first:
+      - "Chapter 5 · Falls Are the First Turning Point in Later Life": 07-ch5-falls-the-first-turning-point.md
       - "Chapter 6 · More medicine is not better": 08-ch6-more-medicine-is-not-better.md
       - "Chapter 7 · Warning Three: Can't Eat, Can't Swallow, Choking": 09-ch7-cant-eat-cant-swallow-choking.md
       - "Chapter 8 · Three red lines for going to hospital, and the first hour": 10-ch8-three-red-lines-and-the-first-hour.md

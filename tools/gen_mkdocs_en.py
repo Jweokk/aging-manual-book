@@ -11,11 +11,30 @@
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import shutil
 import sys
 from pathlib import Path
+
+_ASSET = re.compile(r"assets/(extra\.css|font-scale\.js|shelf-counter\.js)\b(?!\?)")
+
+
+def version_assets(text: str, assets_dir) -> str:
+    """给站点静态资源加内容指纹（?v=hash）。
+
+    Cloudflare 对 /assets/* 走 4 小时缓存，而 HTML 不缓存——改了 CSS/JS 之后，
+    回访读者会拿到"新页面 + 旧样式"。加指纹让内容一变就换 URL，读者不用等缓存过期。
+    """
+    def sub(m):
+        p = assets_dir / m.group(1)
+        if not p.exists():
+            return m.group(0)
+        h = hashlib.sha1(p.read_bytes()).hexdigest()[:8]
+        return f"assets/{m.group(1)}?v={h}"
+    return _ASSET.sub(sub, text)
+
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "site" / "manifest.json"
@@ -180,7 +199,8 @@ def main() -> int:
             n_units += 1
             lines.append(f'      - "{title}": {en_name}')
 
-    OUT.write_text(TEMPLATE + "\n".join(lines) + "\n", encoding="utf-8")
+    text = version_assets(TEMPLATE + "\n".join(lines) + "\n", SRC_ASSETS)
+    OUT.write_text(text, encoding="utf-8")
     print(f"已写 {OUT.relative_to(ROOT)}：{n_units} 个单元、{n_parts} 个篇")
     if pending:
         print(f"  （未译，暂不进 nav：{len(pending)} 个单元）")

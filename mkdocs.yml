@@ -49,11 +49,11 @@ markdown_extensions:
   - footnotes
 
 extra_css:
-  - assets/extra.css
+  - assets/extra.css?v=924ec39c
 
 extra_javascript:
-  - assets/font-scale.js      # 左下角「字大小」调节（localStorage 持久化）
-  - assets/shelf-counter.js   # 页脚：访问计数 + PDF 下载计数（counter.fly2ai.top）
+  - assets/font-scale.js?v=e5b1d219      # 左下角「字大小」调节（localStorage 持久化）
+  - assets/shelf-counter.js?v=bfaac80a   # 页脚：访问计数 + PDF 下载计数（counter.fly2ai.top）
 
 extra:
   alternate:
@@ -66,6 +66,7 @@ extra:
 
 nav:
   - "变老说明书 · 封面": index.md
+  - "English edition · 英文版": https://aging.fly2ai.top/en/
   - 先看这一页:
       - "第 0 章 · 这份说明书怎么用": 00-第0章-这份说明书怎么用.md
       - "序 · 老年人就是我们未来的样子": 序-老年人就是我们未来的样子.md
