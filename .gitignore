@@ -3,6 +3,9 @@
 
 # 站点构建产物
 build/
+
+# 英文站的资源是 gen_mkdocs_en.py 从 book/assets/ 同步过来的副本，只维护一份
+book-en/assets/
 site/dist/
 .build-pdf.html
 

@@ -77,6 +77,15 @@ extra_javascript:
   - assets/font-scale.js      # 左下角「字大小」调节（localStorage 持久化）
   - assets/shelf-counter.js   # 页脚：访问计数 + PDF 下载计数（counter.fly2ai.top）
 
+extra:
+  alternate:
+    - name: 中文（Chinese）
+      link: https://aging.fly2ai.top/
+      lang: zh
+    - name: English
+      link: https://aging.fly2ai.top/en/
+      lang: en
+
 nav:
   - "变老说明书 · 封面": index.md
 '''

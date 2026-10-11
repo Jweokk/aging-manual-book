@@ -6,7 +6,7 @@
 > Free to read · continuously updated · please share
 
 > **Chinese edition (main)**: [README.zh.md](README.zh.md) · [read online](https://aging.fly2ai.top)
-> **English edition**: in progress — the Chinese edition ships first, English chapters follow section by section. File mapping and translation rules: [book-en/README.md](book-en/README.md).
+> **English edition**: [read online](https://aging.fly2ai.top/en/) — published chapter by chapter as translation proceeds (front matter is up now; Parts 1 and 2 are being translated). File mapping and translation rules: [book-en/README.md](book-en/README.md).
 
 **Compiled by Jweokk** · weokk2025@gmail.com
 

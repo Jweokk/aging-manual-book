@@ -8,7 +8,7 @@ Stats: 32 单元 / 约 16 万汉字 / A4 PDF 223 页 / v1.0.1（2026-10-11）；
 - Read online (Chinese): https://aging.fly2ai.top
 - GitHub: https://github.com/Jweokk/aging-manual-book
 - PDF (latest): https://github.com/Jweokk/aging-manual-book/raw/main/book/aging-manual.pdf
-- English edition: in progress（先中文上线，英文按篇分批推进；对应表见 book-en/README.md）
+- English edition: https://aging.fly2ai.top/en/ （分批翻译上线中：前件三篇已上线，篇一、篇二在译；中英文件对应表见 book-en/README.md）
 ## Contents (Chinese)
   - [第 0 章 · 这份说明书怎么用](https://aging.fly2ai.top/00-第0章-这份说明书怎么用/)
   - [序 · 老年人就是我们未来的样子](https://aging.fly2ai.top/序-老年人就是我们未来的样子/)

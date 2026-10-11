@@ -1,0 +1,87 @@
+site_name: The Ageing Manual
+site_description: What you, or your parents, do next · a practical manual for growing old in China · free, open, updated every quarter
+site_url: https://aging.fly2ai.top/en/
+docs_dir: book-en
+site_dir: build/site-en
+repo_url: https://github.com/Jweokk/aging-manual-book
+repo_name: GitHub
+edit_uri: ""
+
+hooks:
+  - tools/mkdocs_hooks.py
+
+# book-en/README.md 是翻译工作用的中英对应表，不面向读者：不进 nav，也不进站点。
+# （它和 index.md 都会解析到站根，不排除会直接让 --strict 失败。）
+exclude_docs: |
+  README.md
+
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - footnotes
+
+extra_css:
+  - assets/extra.css
+
+extra_javascript:
+  - assets/font-scale.js
+  - assets/shelf-counter.js
+
+extra:
+  alternate:
+    - name: 中文（Chinese）
+      link: https://aging.fly2ai.top/
+      lang: zh
+    - name: English
+      link: https://aging.fly2ai.top/en/
+      lang: en
+
+nav:
+  - "The Ageing Manual": index.md
+  - Start here:
+      - "Chapter 0 · How to use this manual": 00-how-to-use-this-book.md
+      - "Foreword · Older people are our future selves": 01-foreword-our-parents-are-our-future.md
+      - "About this material, and what it does not take on": 02-about-this-book-and-disclaimer.md
+  - Part 1 · Build your reserves:
+      - "Chapter 1 · Growing Old Does Not Happen in One Day": 03-ch1-growing-old-does-not-happen-in-one-day.md
+      - "Chapter 2 · Bone and Muscle Capital: Two Accounts You Can Only Draw From, Never Pay Into": 04-ch2-bone-and-muscle-capital.md
+      - "Chapter 3 · Brain and Senses Capital": 05-ch3-brain-and-senses-capital.md
+      - "Chapter 4 · Money and Relationships as Capital": 06-ch4-money-and-relationships-capital.md
+  - Part 2 · Three warnings to read first:
+      - "Chapter 6 · More medicine is not better": 08-ch6-more-medicine-is-not-better.md
+      - "Chapter 7 · Warning Three: Can't Eat, Can't Swallow, Choking": 09-ch7-cant-eat-cant-swallow-choking.md
+      - "Chapter 8 · Three red lines for going to hospital, and the first hour": 10-ch8-three-red-lines-and-the-first-hour.md

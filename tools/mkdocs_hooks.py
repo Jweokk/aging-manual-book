@@ -23,6 +23,13 @@ _GRADE_TITLE = {
     "C": "证据分档 C：通行做法（多数国家和地区都这么做）",
 }
 
+# 英文版把中文记号写成方括号（见 assets/glossary-en.md），这里一并渲染成同样的徽标。
+# 只加规则、不改源文件；中文页里不会出现这些串，互不影响。
+_pat_en_pending = re.compile(r"\[unverified\]")
+_pat_en_quote = re.compile(r"\[second-hand\]")
+_pat_en_official = re.compile(r"\[official wording\]")
+_pat_en_checked = re.compile(r"\[checked\s*([\d\-]{6,12})\]")
+
 _pat_grade = re.compile(r"【([ABC])】")
 _pat_pending = re.compile(r"〔待核〕")
 _pat_quote = re.compile(r"〔转引〕")
@@ -43,6 +50,10 @@ def on_page_content(html: str, page, config, files) -> str:
     html = _pat_quote.sub('<span class="mk mk-quote" title="来自二手来源的转述，不是一手原文">转引</span>', html)
     html = _pat_official.sub('<span class="mk mk-off" title="以官方文件口径为准">官方口径</span>', html)
     html = _pat_checked.sub(lambda m: f'<span class="mk mk-checked" title="已按该日期核对">核对 {m.group(1)}</span>', html)
+    html = _pat_en_pending.sub('<span class="mk mk-pending" title="This entry has not been traced to a public source yet">unverified</span>', html)
+    html = _pat_en_quote.sub('<span class="mk mk-quote" title="Somebody else\'s account of the source, not the original text">second-hand</span>', html)
+    html = _pat_en_official.sub('<span class="mk mk-off" title="Per the wording of the official document">official wording</span>', html)
+    html = _pat_en_checked.sub(lambda m: f'<span class="mk mk-checked" title="Checked on this date">checked {m.group(1)}</span>', html)
     return html
 
 

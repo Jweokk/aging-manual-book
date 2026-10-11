@@ -5,7 +5,7 @@
 > 中国普通人用得上的晚年手册。它不教你养老——只要求你出问题的时候能翻到那一页。
 > 免费公开 · 持续更新 · 欢迎在线阅读与分享
 
-> **English edition**：在建。先中文上线，英文按篇分批推进，中英文件对应表见 [book-en/README.md](book-en/README.md)。
+> **English edition**：[在线阅读](https://aging.fly2ai.top/en/)——按篇分批翻译上线（前件三篇已上线，篇一、篇二在译），中英文件对应表见 [book-en/README.md](book-en/README.md)。
 
 **整理者：Jweokk** · 联系邮箱：weokk2025@gmail.com
 
