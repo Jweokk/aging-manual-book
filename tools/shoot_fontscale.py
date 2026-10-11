@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""出两张交付截图：手机默认档（带引导气泡）、桌面最大档。"""
-import asyncio, base64, json, shutil, struct, subprocess, time, urllib.parse, urllib.request
+"""出两张交付截图：手机首访（页眉按钮 + 引导气泡）、桌面（浮层展开、默认档）。"""
+import asyncio, base64, json, os, shutil, struct, subprocess, time, urllib.parse, urllib.request
 import websockets
 
 CHROME = "/home/ubuntu/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"
 PORT, PROFILE = 9362, "/tmp/cdp-fontscale-shot"
-BASE = "http://127.0.0.1:8899/"
+BASE = os.environ.get("SITE_BASE", "http://127.0.0.1:8899/")
 CH1 = BASE + urllib.parse.quote("12-第12章-每天怎么吃/")
 
 
@@ -45,9 +45,8 @@ async def main():
                 await cmd("Emulation.setDeviceMetricsOverride", width=w, height=h, deviceScaleFactor=2, mobile=mobile)
                 await cmd("Page.navigate", url=CH1)
                 await asyncio.sleep(2.0)
-                if scale_after:
-                    for _ in range(scale_after):
-                        await js("document.querySelector('.aging-font .af-inc').click()")
+                if scale_after == "open":
+                    await js("document.querySelector('.aging-font__toggle').click()")
                     await asyncio.sleep(0.6)
                 r = await cmd("Page.captureScreenshot", format="png")
                 data = base64.b64decode(r["data"])
@@ -56,8 +55,9 @@ async def main():
                 print(f"{path}  {pw}×{ph}  {len(data)//1024} KB  字号={await js('document.querySelector(\".aging-font .af-pct\").textContent')}")
 
             await cmd("Runtime.enable"); await cmd("Page.enable")
-            await shot("/tmp/fontscale-mobile-115.png", True, 390, 844, None)      # 手机默认档，首次访问带气泡
-            await shot("/tmp/fontscale-desktop-185.png", False, 1000, 1200, 3)    # 桌面最大档（185%）
+            await js("localStorage.clear()") if False else None
+            await shot("/tmp/af-mobile.png", True, 390, 844, None)     # 手机首访：页眉「字号」+ 引导气泡
+            await shot("/tmp/af-desktop.png", False, 1000, 1100, "open")  # 桌面：浮层展开，默认档
     finally:
         proc.terminate()
 
