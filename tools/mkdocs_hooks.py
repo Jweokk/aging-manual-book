@@ -44,3 +44,18 @@ def on_page_content(html: str, page, config, files) -> str:
     html = _pat_official.sub('<span class="mk mk-off" title="以官方文件口径为准">官方口径</span>', html)
     html = _pat_checked.sub(lambda m: f'<span class="mk mk-checked" title="已按该日期核对">核对 {m.group(1)}</span>', html)
     return html
+
+
+# ── 字号：在 <head> 里先按存下来的大小设一遍 ─────────────────────────────
+# extra_javascript 里的脚本在 <body> 末尾才跑，那时浏览器可能已经画过一帧，
+# 会看到标题先小后大地闪。这里在 head 里补一段内联脚本，只读 localStorage 设变量，
+# 默认值仍由 extra.css 的 :root 决定（所以两边不用同步常量）。
+_HEAD_SNIPPET = """<script>/* 变老说明书：首次绘制前先把上次调好的字大小设上 */
+(function(){try{var v=parseFloat(window.localStorage.getItem("aging-font-scale"));if(v>=1&&v<=3){document.documentElement.style.setProperty("--aging-scale",String(v));}}catch(e){}})();
+</script>"""
+
+
+def on_post_page(output: str, page, config) -> str:
+    if "</head>" in output:
+        return output.replace("</head>", _HEAD_SNIPPET + "</head>", 1)
+    return output

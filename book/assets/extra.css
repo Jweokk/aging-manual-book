@@ -71,3 +71,80 @@
 [data-md-color-scheme="slate"] .md-typeset li > strong:first-child {
   color: #fbbf24;
 }
+
+
+/* ── 字大小：全站字号调节（这本书的读者里中老年人多）──────────────
+   做法：整站以 rem 计量，把 <html> 的 font-size 乘以 --aging-scale 即可全站放大/缩小。
+   --aging-scale 由 assets/font-scale.js 读写并存 localStorage，换章节、重开浏览器都保持；
+   页面 <head> 里另有一段内联脚本在首次绘制前先设好，避免先小后大地闪一下。
+   默认 1.15（比 Material 原字号大一档）——读者反馈过默认字偏小。 */
+:root { --aging-scale: 1.15; }
+html { font-size: calc(125% * var(--aging-scale)) !important; }
+
+.aging-font {
+  position: fixed;
+  left: .6rem;
+  bottom: .6rem;
+  z-index: 5;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .45rem;
+  overflow: hidden;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .14);
+  font-size: .64rem;
+  line-height: 1;
+}
+.aging-font .af-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .12rem;
+  min-width: 2.6rem;
+  min-height: 2.6rem;
+  padding: .3rem .45rem;
+  border: 0;
+  border-right: 1px solid var(--md-default-fg-color--lightest);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.aging-font .af-btn:last-child { border-right: 0; }
+.aging-font .af-btn:hover { background: var(--md-default-fg-color--lightest); }
+.aging-font .af-btn:disabled { color: var(--md-default-fg-color--light); cursor: default; }
+.aging-font .af-btn:disabled:hover { background: transparent; }
+.aging-font .af-reset { font-weight: 400; }
+.aging-font .af-name { font-size: .85em; }
+.aging-font .af-pct { font-weight: 700; }
+
+.af-hint {
+  position: fixed;
+  left: .6rem;
+  bottom: 3.6rem;
+  z-index: 5;
+  max-width: 15rem;
+  padding: .5rem .65rem;
+  border-radius: .45rem;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: .62rem;
+  line-height: 1.5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  opacity: 0;
+  transform: translateY(.3rem);
+  pointer-events: none;
+  transition: opacity .25s, transform .25s;
+}
+.af-hint.af-on { opacity: 1; transform: none; }
+
+@media screen and (max-width: 44.9375em) {
+  .aging-font { left: .4rem; bottom: .4rem; }
+  .af-hint { left: .4rem; bottom: 3.2rem; max-width: 12rem; }
+}
+@media print {
+  .aging-font, .af-hint { display: none; }
+}

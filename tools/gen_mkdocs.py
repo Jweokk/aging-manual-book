@@ -74,6 +74,7 @@ extra_css:
   - assets/extra.css
 
 extra_javascript:
+  - assets/font-scale.js      # 左下角「字大小」调节（localStorage 持久化）
   - assets/shelf-counter.js   # 页脚：访问计数 + PDF 下载计数（counter.fly2ai.top）
 
 nav:
