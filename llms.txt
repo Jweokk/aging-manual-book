@@ -1,8 +1,8 @@
 # 变老说明书 (The Getting-Older Manual)
-> Open-source, continuously updated. A practical handbook for growing older in China: 22 chapters + 6 appendices, arranged by what you (or your parents) face next. 《变老说明书：你或你父母的下一步》——中国普通人用得上的晚年手册，免费公开、持续更新（非商业）。
+> Open-source, continuously updated. A practical handbook for growing older in China: 23 chapters + 6 appendices, arranged by what you (or your parents) face next. 《变老说明书：你或你父母的下一步》——中国普通人用得上的晚年手册，免费公开、持续更新（非商业）。
 Thesis: 变老分阶段来，每个阶段要办的事不一样。这本书不教你养老，只让你出问题的时候能翻到那一页。Reading paths: 通读（篇一→篇五）｜按症状查（附录 B）｜按心事查（附录 C）｜按制度查（附录 A）｜急事（附录 D）。
 Source discipline: 每个数字后挂证据分档 A/B/C；二手来源标〔转引〕；核不到出处的标〔待核〕；发布前跑版权自检（与任何来源连续重合 ≥12 个汉字 = 0 处）。
-Stats: 32 单元 / 约 16 万汉字 / A4 PDF 223 页；首版 2026-10-10，季度校准
+Stats: 33 单元 / 约 15 万汉字 / A4 PDF 237 页；首版 2026-10-10，季度校准
 ## Links
 - Read online (Chinese): https://aging.fly2ai.top
 - GitHub: https://github.com/Jweokk/aging-manual-book
@@ -37,10 +37,11 @@ Stats: 32 单元 / 约 16 万汉字 / A4 PDF 223 页；首版 2026-10-10，季�
   - [第 17 章 · 人从哪来 + 给照护者的部分](https://aging.fly2ai.top/17-第17章-人从哪来与给照护者的部分/)
   - [第 18 章 · 手机与骗局：把事办成，别被套走](https://aging.fly2ai.top/18-第18章-手机与骗局把事办成别被套走/)
   - [第 19 章 · 权限设置：趁清醒把权限交出去](https://aging.fly2ai.top/19-第19章-权限设置趁清醒把权限交出去/)
+  - [第 20 章 · 两个人一起变老](https://aging.fly2ai.top/20-第20章-两个人一起变老/)
 - 篇五 · 最后一程与善后〔阶段四〕
-  - [第 20 章 · 怎么开口：那些难以启齿的话](https://aging.fly2ai.top/20-第20章-怎么开口/)
-  - [第 21 章 · 走下坡之前：把最后的决定写好](https://aging.fly2ai.top/21-第21章-走下坡之前/)
-  - [第 22 章 · 谢幕之后：家属要办的手续](https://aging.fly2ai.top/22-第22章-谢幕之后/)
+  - [第 21 章 · 怎么开口：那些难以启齿的话](https://aging.fly2ai.top/21-第21章-怎么开口/)
+  - [第 22 章 · 走下坡之前：把最后的决定写好](https://aging.fly2ai.top/22-第22章-走下坡之前/)
+  - [第 23 章 · 谢幕之后：家属要办的手续](https://aging.fly2ai.top/23-第23章-谢幕之后/)
   - [结语 · 把说明书翻旧的那一天](https://aging.fly2ai.top/30-结语/)
   - [附录 A · 全国通用制度台账](https://aging.fly2ai.top/41-附录A/)
   - [附录 B · 症状速查表](https://aging.fly2ai.top/42-附录B-症状速查表/)

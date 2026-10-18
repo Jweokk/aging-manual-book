@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import re
+from pathlib import Path
 
 _GRADE_CLASS = {"A": "g-a", "B": "g-b", "C": "g-c"}
 _GRADE_TITLE = {
@@ -107,3 +108,27 @@ def on_post_page(output: str, page, config) -> str:
     if "</head>" in output:
         return output.replace("</head>", _HEAD_SNIPPET + "</head>", 1)
     return output
+
+
+# ── 旧地址：新增第 20 章后，原 20/21/22 章顺延，旧链接不能断 ─────────
+_REDIRECTS = {
+    "20-第20章-怎么开口": "21-第21章-怎么开口",
+    "21-第21章-走下坡之前": "22-第22章-走下坡之前",
+    "22-第22章-谢幕之后": "23-第23章-谢幕之后",
+}
+
+
+def on_post_build(config) -> None:
+    site = Path(config["site_dir"])
+    for old, new in _REDIRECTS.items():
+        p = site / old / "index.html"
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(
+            "<!doctype html><html lang=\"zh\"><head><meta charset=\"utf-8\">"
+            f'<meta http-equiv="refresh" content="0; url=../{new}/">'
+            f'<link rel="canonical" href="https://aging.fly2ai.top/{new}/">'
+            "<title>这一章已顺延</title></head><body>"
+            f'<p>这一章顺延了，新地址是 <a href="../{new}/">{new}</a>。</p>'
+            "</body></html>",
+            encoding="utf-8",
+        )

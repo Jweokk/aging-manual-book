@@ -34,9 +34,10 @@
 | `17-第17章-人从哪来与给照护者的部分.md` | `19-ch17-where-the-helpers-come-from.md` |
 | `18-第18章-手机与骗局把事办成别被套走.md` | `20-ch18-phones-and-scams.md` |
 | `19-第19章-权限设置趁清醒把权限交出去.md` | `21-ch19-handing-over-authority.md` |
-| `20-第20章-怎么开口.md` | `22-ch20-how-to-start-the-conversation.md` |
-| `21-第21章-走下坡之前.md` | `23-ch21-before-the-slope-starts.md` |
-| `22-第22章-谢幕之后.md` | `24-ch22-after-the-curtain-falls.md` |
+| `20-第20章-两个人一起变老.md` | `22-ch20-growing-old-together.md` |
+| `21-第21章-怎么开口.md` | `23-ch21-how-to-start-the-conversation.md` |
+| `22-第22章-走下坡之前.md` | `24-ch22-before-the-slope-starts.md` |
+| `23-第23章-谢幕之后.md` | `25-ch23-after-the-curtain-falls.md` |
 | `30-结语.md` | `30-afterword-when-the-manual-is-dog-eared.md` |
 | `41-附录A.md` | `41-appendix-a-national-entitlements-ledger.md` |
 | `42-附录B-症状速查表.md` | `42-appendix-b-symptom-lookup.md` |

@@ -33,7 +33,7 @@ LANGS = {
         "title": "变老说明书",
         "subtitle": "你或你父母的下一步",
         "meta": "整理者 Jweokk · {today} · v{version}",
-        "blurb": '中国普通人用得上的晚年手册：22 章正文、6 个附录，按"你或你父母的下一步"排。<br>不教你养老，只让你出问题的时候能翻到那一页——每条都写清要花多少、可以怎么做、来源在哪一档。',
+        "blurb": '中国普通人用得上的晚年手册：23 章正文、6 个附录，按"你或你父母的下一步"排。<br>不教你养老，只让你出问题的时候能翻到那一页——每条都写清要花多少、可以怎么做、来源在哪一档。',
         "disclaimer": "本书著作权归整理者 Jweokk 所有，免费阅读与非商业性分享，商业用途须事先获得书面许可。<br>内容为公开资料整理，不构成医疗建议。纠错与建议：weokk2025@gmail.com",
         "font_body": '"Noto Serif SC", "Songti SC", serif',
         "font_head": '"Noto Sans SC", "Heiti SC", sans-serif',

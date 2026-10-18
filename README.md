@@ -16,7 +16,7 @@
 
 ## What this book is
 
-Growing older does not happen in one day. It arrives in stages: first the body sends signals, then someone has to help at home, then come the conversations nobody wants to start. This book is arranged along that timeline — **five stages, 22 chapters, 6 appendices, roughly 160,000 Chinese characters**.
+Growing older does not happen in one day. It arrives in stages: first the body sends signals, then someone has to help at home, then come the conversations nobody wants to start. This book is arranged along that timeline — **five stages, 23 chapters, 6 appendices, roughly 150,000 Chinese characters**.
 
 It is not a to-do list. Most entries you will use once or twice in a lifetime; you can start with any single entry that fits where you are now.
 
