@@ -23,6 +23,11 @@ _GRADE_TITLE = {
     "B": "证据分档 B：有研究支持，但给不出具体数字",
     "C": "证据分档 C：通行做法（多数国家和地区都这么做）",
 }
+_GRADE_TITLE_EN = {
+    "A": "Grade A: a specific figure from a publicly checkable source",
+    "B": "Grade B: supported by research, but no specific figure",
+    "C": "Grade C: common practice, not evidence",
+}
 
 # 内联出处：正文里的数字后面常紧跟「【官方口径：某部委】」这种即时出处，中文与英文
 # 各有一套写法，两套都渲染成同样的徽标（中文用【】，英文用 []，见 assets/glossary-en.md）。
@@ -38,9 +43,9 @@ _pat_en_official = re.compile(r"\[official wording(?:[：:]\s*([^\]]{1,200}))?\]
 _pat_en_research = re.compile(r"\[third-party research(?:[：:]\s*([^\]]{1,200}))?\]")
 _pat_en_checked = re.compile(r"\[checked\s*([\d\-]{6,12})\]")
 # 英文版的分档用 ASCII 方括号放在来源行首（中文是【A】），后随空格或竖线
-_pat_en_grade = re.compile(r"\[([ABC])\](?=[\s|，。;:)])")
+_pat_en_grade = re.compile(r"\[([ABC])\](?=[\s|，。;:).,])")
 
-_pat_grade = re.compile(r"【([ABC])】")
+_pat_grade = re.compile(r"[【〔]([ABC])[】〕]")
 _pat_pending = re.compile(r"〔待核〕")
 _pat_quote = re.compile(r"〔转引〕")
 _pat_official = re.compile(r"〔官方口径〕")
@@ -51,6 +56,13 @@ def _grade(m: re.Match) -> str:
     g = m.group(1)
     return (
         f'<span class="grade {_GRADE_CLASS[g]}" title="{_GRADE_TITLE[g]}">{g}</span>'
+    )
+
+
+def _grade_en(m: re.Match) -> str:
+    g = m.group(1)
+    return (
+        f'<span class="grade {_GRADE_CLASS[g]}" title="{_GRADE_TITLE_EN[g]}">{g}</span>'
     )
 
 
@@ -88,7 +100,7 @@ def on_page_content(html: str, page, config, files) -> str:
     html = _pat_checked.sub(lambda m: f'<span class="mk mk-checked" title="已按该日期核对">核对 {m.group(1)}</span>', html)
     html = _pat_en_pending.sub('<span class="mk mk-pending" title="This entry has not been traced to a public source yet">unverified</span>', html)
     html = _pat_en_quote.sub('<span class="mk mk-quote" title="Somebody else\'s account of the source, not the original text">second-hand</span>', html)
-    html = _pat_en_grade.sub(_grade, html)
+    html = _pat_en_grade.sub(_grade_en, html)
     html = _pat_en_official.sub(_en_off, html)
     html = _pat_en_research.sub(_en_res, html)
     html = _pat_en_checked.sub(lambda m: f'<span class="mk mk-checked" title="Checked on this date">checked {m.group(1)}</span>', html)
