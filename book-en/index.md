@@ -31,7 +31,7 @@ The Chinese edition is the original and is complete. The English edition is bein
 | 2 | parts 3 and 4 (Chapters 9–20) | **Available** |
 | 3 | part 5, afterword, appendices (Chapters 21–23, A–F) | Planned |
 
-Chapters that are not yet translated are simply absent from the navigation on the left; nothing here is a machine translation of the whole book. Where the subject is China's own systems — long-term care insurance, medical insurance, guardianship, funeral procedures — the English text explains the mainland Chinese system and notes how it differs from what readers elsewhere may know (LTC insurance, Medicare, power of attorney). It does not argue that one system is better.
+Chapters that are not yet translated are simply absent from the navigation on the left. Each chapter is translated against the Chinese source and checked section by section — headings, figures, links and the evidence labels all have to match the original — so this is not an unreviewed machine translation of the whole book. Where the subject is China's own systems — long-term care insurance, medical insurance, guardianship, funeral procedures — the English text explains the mainland Chinese system and notes how it differs from what readers elsewhere may know (LTC insurance, Medicare, power of attorney). It does not argue that one system is better.
 
 The full Chinese edition, with all 23 chapters and 6 appendices, is at **[aging.fly2ai.top](https://aging.fly2ai.top/)**.
 
