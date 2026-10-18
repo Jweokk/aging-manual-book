@@ -50,7 +50,7 @@ _nest_bullet = re.compile(r"^\s{2,}- ", re.M)
 
 # ── 标记账本：把两语的写法折算成同一套键 ────────────────────────────────
 ZH_LEDGER = [
-    ("grade", re.compile(r"【([ABC])】")),
+    ("grade", re.compile(r"[【〔]([ABC])[】〕]")),
     ("grade", re.compile(r"^[ \t]*[-*]?[ \t]*\*{0,2}(?:来源|栏目|特别提醒)[^\n]{0,12}?\*{0,2}\s*[：:]\s*([ABC])\s*[｜|]", re.M)),
     # 档位词：中文把这些写成【】/（）/「｜官方口径：」等形态，英文写成 []，仅计数比对
     ("off", re.compile(r"官方口径")),
@@ -82,7 +82,8 @@ def mapping() -> dict[str, str]:
 
 
 def urls(t: str) -> set[str]:
-    return {u.rstrip(_trim) for u in _url.findall(t)}
+    # 中文源里 URL 后面常粘着 〔转引…〕（2026-10 核对） 这类标记，先按全角括号截断
+    return {re.split(r"[（〔【]", u)[0].rstrip(_trim + "）】〕，。、；") for u in _url.findall(t)}
 
 
 def ledger(t: str, rules) -> dict[str, int]:
