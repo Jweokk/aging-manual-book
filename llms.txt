@@ -2,7 +2,7 @@
 > Open-source, continuously updated. A practical handbook for growing older in China: 23 chapters + 6 appendices, arranged by what you (or your parents) face next. 《变老说明书：你或你父母的下一步》——中国普通人用得上的晚年手册，免费公开、持续更新（非商业）。
 Thesis: 变老分阶段来，每个阶段要办的事不一样。这本书不教你养老，只让你出问题的时候能翻到那一页。Reading paths: 通读（篇一→篇五）｜按症状查（附录 B）｜按心事查（附录 C）｜按制度查（附录 A）｜急事（附录 D）。
 Source discipline: 每个数字后挂证据分档 A/B/C；二手来源标〔转引〕；核不到出处的标〔待核〕；发布前跑版权自检（与任何来源连续重合 ≥12 个汉字 = 0 处）。
-Stats: 33 单元 / 约 15 万汉字 / A4 PDF 237 页；首版 2026-10-10，季度校准
+Stats: 33 单元 / 约 15.5 万汉字 / A4 PDF 245 页；首版 2026-10-10，季度校准
 ## Links
 - Read online (Chinese): https://aging.fly2ai.top
 - English edition (live at https://aging.fly2ai.top/en; the Chinese edition is the source language): [Index](https://github.com/Jweokk/aging-manual-book/blob/main/book-en/index.md)
