@@ -85,9 +85,9 @@
 
 ## 正式出书（2026-10-10）
 
-- 仓库 `Jweokk/aging-manual-book`（public，v1.2.0）｜正式站 **https://aging.fly2ai.top**（GitHub Pages + MkDocs Material）｜编辑台不变（aging-edit，走隧道）
+- 仓库 `Jweokk/aging-manual-book`（public，v1.2.1）｜正式站 **https://aging.fly2ai.top**（GitHub Pages + MkDocs Material）｜编辑台不变（aging-edit，走隧道）
 - 站点：`python3 tools/gen_mkdocs.py`（从 site/manifest.json 生成 mkdocs.yml 的 nav）→ `.venv/bin/mkdocs build --strict`；CI = `.github/workflows/deploy.yml`（push main 自动 gh-deploy）
-- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 245 页，v1.2.0，pdfinfo 计）＋留档版
+- PDF：`.venv/bin/python tools/build_pdf.py` → `book/aging-manual.pdf`（A4 245 页，v1.2.1，pdfinfo 计）＋留档版
 - 记号渲染：`tools/mkdocs_hooks.py`（〔待核〕/〔转引〕/【A】→ 徽标），PDF 复用同一套正则
 - 更新节奏：季度校准（cron `aging-book-quarterly-update`，1/4/7/10 月 1 日 05:00，已钉 deepseek-flash）+ 年度大更；纠错入口 = GitHub Issue / 邮箱
 - 英文版：骨架已立（`book-en/README.md` 31 行对应表 + `assets/glossary-en.md`），分三批推进
@@ -102,6 +102,8 @@
 - 站点加「字号」调节（2026-10-11 二改：从常驻左下角浮动改为页眉按钮+浮层）：读者反馈默认字小。`book/assets/font-scale.js` + `extra.css --aging-scale` + `<head>` 内联脚本（防闪）；六档 100%–185%，默认 115%，localStorage 持久化（换章节/刷新/重开浏览器都保持）。控件优先挂页眉（`.md-header__inner` 里、`.md-header__option` 前面），找不到槽位自动退回左下角浮动。验收脚本 `tools/verify_fontscale.py`（本地与线上都能跑：`SITE_BASE=https://aging.fly2ai.top/`；34 项断言，含浮层/气泡"不跑出视口"与"没被页眉裁掉"两项——这次就是手机首访气泡顶出右边界 69px 被抓出来的）。踩过的坑：① 变量名别叫 `place`，和定位函数 `place()` 撞名会把函数覆盖掉；② 浮层/气泡不能靠 CSS 居中，要按按钮位置用 JS 算坐标并夹在视口内。注意 `mkdocs.yml` 是 `tools/gen_mkdocs.py` 的生成物，加脚本要改生成器的 TEMPLATE。
 
 ## v1.2.0 修订（2026-10-28）
+
+**v1.2.1 追加**：全书人名过一遍，普通当事人只留身份不留全名（第 18 章“李奶奶”→一位老人、第 22 章“陈作兵”→一位急诊科医生，正文与来源成对改）；书作者/译者/论文作者/记者署名/已由法检脱敏的“某”名保留。以后写案例照此办：**当事人留身份，出处留署名**。
 
 - **起因**：读者问"防诈骗、资产配置、居家安全要不要补"。查稿结论：诈骗已有第 18 章一整章（6,382 字、13 节），不缺章；居家火电气与走失是真空；资产配置与《关于这份资料》里"不是投资建议、只讲制度怎么运转和怎么骗你"的定位相撞，**本轮不动**（要动得先改那一页的口径，并想清楚"排位置"与"选产品"的边界）。
 - **新增 6 节**：5.13 感烟报警器、5.14 出门三下与闻到味道三分钟、9.11 走失、18.12 冒充公检法、18.13 收藏品回购、18.14 社保代办补缴。全书汉字 154,754，带编号小节 332，PDF 245 页。
