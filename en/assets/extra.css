@@ -1,0 +1,245 @@
+/* 变老说明书 · 站点样式补充
+   目标：浅色、好读、手机上能看。正文样式尽量交给 Material，这里只补三件事：
+   证据分档徽标、内部记号徽标、宽表横滑。 */
+
+/* ── 证据分档徽标：【A】/【B】/【C】 ───────────────────────── */
+.md-typeset .grade {
+  display: inline-block;
+  min-width: 1.1em;
+  padding: 0 .32em;
+  margin: 0 .12em;
+  border-radius: .22em;
+  font-size: .68em;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  vertical-align: .18em;
+  letter-spacing: 0;
+}
+.md-typeset .g-a { background: #2563eb; color: #fff; }
+.md-typeset .g-b { background: #0d9488; color: #fff; }
+.md-typeset .g-c { background: #e8e6e1; color: #4b5563; }
+[data-md-color-scheme="slate"] .md-typeset .g-c { background: #3f3f46; color: #d4d4d8; }
+
+/* ── 内部记号徽标：待核 / 转引 / 核对 / 官方口径 ─────────────── */
+.md-typeset .mk {
+  display: inline-block;
+  padding: 0 .38em;
+  margin: 0 .12em;
+  border: 1px solid currentColor;
+  border-radius: .22em;
+  font-size: .72em;
+  line-height: 1.55;
+  vertical-align: .1em;
+  white-space: nowrap;
+}
+.md-typeset .mk-pending { color: #b45309; background: #fff7ed; }
+.md-typeset .mk-quote   { color: #7c3aed; background: #f5f3ff; }
+.md-typeset .mk-checked { color: #0f766e; background: #f0fdfa; }
+.md-typeset .mk-off     { color: #475569; background: #f8fafc; }
+.md-typeset .mk-res     { color: #1d4ed8; background: #eff6ff; }
+[data-md-color-scheme="slate"] .md-typeset .mk { background: transparent; }
+
+/* ── 宽表格：手机上横滑，别把版面撑破 ───────────────────────── */
+.md-typeset__table {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.md-typeset table:not([class]) {
+  font-size: .76rem;
+}
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  padding: .5em .6em;
+}
+
+/* ── 手机上正文大一点、段落松一点（读者多是中老年人） ───────── */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset {
+    font-size: .84rem;
+    line-height: 1.75;
+  }
+  .md-typeset h2 { margin-top: 1.4em; }
+}
+
+/* ── 条目里的栏目名（**要花多少**：…）着色，方便扫读 ─────────── */
+.md-typeset li > p > strong:first-child,
+.md-typeset li > strong:first-child {
+  color: #b45309;
+}
+[data-md-color-scheme="slate"] .md-typeset li > p > strong:first-child,
+[data-md-color-scheme="slate"] .md-typeset li > strong:first-child {
+  color: #fbbf24;
+}
+
+
+/* ── 字号：全站调节（这本书的读者里中老年人多）──────────────────
+   做法：整站以 rem 计量，把 <html> 的 font-size 乘以 --aging-scale 即可全站放大/缩小。
+   --aging-scale 由 assets/font-scale.js 读写并存 localStorage，换章节、重开浏览器都保持；
+   页面 <head> 里另有一段内联脚本在首次绘制前先设好，避免先小后大地闪一下。
+   默认 1.15（比 Material 原字号大一档）——读者反馈过默认字偏小。
+   控件本体用 px 写死，不跟着倍率涨大。 */
+:root { --aging-scale: 1.15; }
+html { font-size: calc(125% * var(--aging-scale)) !important; }
+
+/* 容器：页眉里（默认）或左下角浮动（找不到页眉槽位时的退路） */
+.aging-font {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
+.aging-font[data-place="float"] {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 5;
+}
+
+/* 页眉里的按钮：跟着页眉文字颜色走 */
+.aging-font__toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 40px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height: 1;
+  opacity: .75;
+  cursor: pointer;
+}
+.aging-font__toggle:hover,
+.aging-font__toggle[aria-expanded="true"] { opacity: 1; background: rgba(255, 255, 255, .12); }
+.aging-font[data-place="float"] .aging-font__toggle {
+  min-width: 56px;
+  min-height: 48px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .14);
+}
+
+/* 点「字号」展开的小浮层 */
+.aging-font__pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  z-index: 6;
+  min-width: 208px;
+  max-width: calc(100vw - 16px);
+  padding: 10px 12px 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .18);
+  text-align: center;
+}
+.aging-font__pop[hidden] { display: none; }
+.aging-font[data-place="float"] .aging-font__pop {
+  top: auto;
+  bottom: calc(100% + 6px);
+  left: 0;
+  transform: none;
+}
+.aging-font__pop .af-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.aging-font__pop .af-btn {
+  min-width: 64px;
+  min-height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+.aging-font__pop .af-btn:hover { background: var(--md-default-fg-color--lightest); }
+.aging-font__pop .af-btn:disabled { color: var(--md-default-fg-color--light); cursor: default; }
+.aging-font__pop .af-btn:disabled:hover { background: transparent; }
+.aging-font__pop .af-pct { min-width: 56px; font-size: 16px; font-weight: 700; }
+.aging-font__pop .af-reset {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.aging-font__pop .af-reset:hover { text-decoration: underline; }
+.aging-font__pop .af-tip {
+  margin: 6px 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* 首次访问的引导气泡（只出现一次） */
+.af-hint {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  z-index: 6;
+  width: 208px;
+  max-width: calc(100vw - 16px);
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.5;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s;
+}
+.aging-font[data-place="float"] .af-hint { top: auto; bottom: calc(100% + 6px); left: 0; transform: none; }
+.af-hint.af-on { opacity: 1; }
+
+@media screen and (max-width: 44.9375em) {
+  .aging-font__pop { min-width: 196px; padding: 8px 10px 6px; }
+  .aging-font__pop .af-btn { min-width: 56px; }
+  .aging-font[data-place="float"] { left: 8px; bottom: 8px; }
+}
+@media print {
+  .aging-font { display: none; }
+}
+
+/* ── 页眉别被自己的控件撑破（放大字号后才发现）─────────────────
+   extra.css 的 :root{--aging-scale} 是按倍率放大 html 字号，而 Material 的搜索框、
+   仓库链接是 rem 计宽——字号一到 165%/185%，它们跟着膨胀，把页眉顶出屏幕（实测：
+   平板 960 顶出 37px、手机 390 顶出 84px）。语言下拉（extra.alternate）在长标签下
+   同样会越过右边界。窄屏一律先把这两个「非正文控件」收起来：语言切换在导航栏首项，
+   仓库链接在导航栏末尾与页脚，读者一样找得到，正文一个字都不少。 */
+@media screen and (max-width: 59.9844em) {
+  .md-header .md-select { display: none; }
+}
+@media screen and (max-width: 76.2344em) {
+  .md-header__source { display: none; }
+}
