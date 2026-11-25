@@ -283,7 +283,19 @@ There is one principle worth writing down and sticking on the fridge: **in the f
 - **Who this is for**: **Who this holds for** — people who still have full civil capacity. Once cognition has declined, these things can no longer be done.
 - **What you get back**: relationships + money — no longer afraid that "finding someone else will scramble the family property"
 
-## 20.12 When the relationship itself is hurting you: how to recognize it, who to go to
+## 20.12 After one of you is gone, finding someone else: settle the money first
+
+A few years after being widowed, some people find a companion again. There is nothing shameful in that in itself; the trouble almost always comes from the same place: children on both sides, a little property and savings on both sides, and nobody having said anything plainly. By the time one of them falls ill or dies, the money and the flat have become a matter between two families.
+
+- **What it costs**: one notarisation or one agreement, a few hundred to a few thousand yuan (Money: a few hundred to a few thousand | Time: one or two trips | Effort: none | Do you have to speak up: yes — and speaking is the hardest part)
+- **In short**: settle one thing first — **whether you register the marriage changes everything legally**. Living together without registering, each keeps their own flat and money, and neither inherits from the other; register, and the partner becomes a first-order heir and will share with your children. Both roads can be walked, but walk one deliberately, not half-way in a fog.
+- **What you can do**: ① When to raise it: before deciding to move in together. Leave money and property until something goes wrong and it is too late. ② If you don't register, put it in writing: who pays what towards living costs, whose flat it is and who lives in it, who is responsible if one falls ill, and how long the other may stay if one dies. ③ If you do register, pre-marital property can be notarised or set out in an agreement; if you want the flat to go to your children but your partner to be able to stay, consider giving the partner a **right of residence** (written into the will or a contract and registered) — the flat goes to the children, the right to live in it to the partner. ④ Don't merge your savings, pension and medical insurance into one "joint pot"; mixed money is the hardest to divide. ⑤ The children on both sides should know — not to ask permission, but so they don't find out last.
+- **Where this comes from**: B | The order of inheritance, the right of residence and pre-marital property agreements are in the Civil Code; how to structure it for your own case is best done with a lawyer or a notary public.
+- **Who this is for**: **who it holds for** — people widowed or divorced who find a companion again, with adult children and property on both sides. If you are already living together with nothing agreed, an agreement added now still counts, and is better than none.
+- **What you get back**: dignity + relationships — no longer afraid of "wanting company and fearing I'll burden the children or be said to be after the money"
+- **How this works in China**: notary offices exist in every county and district and can advise on pre-marital property agreements, wills and registering a right of residence; if unsure, consult a lawyer first. Where to ask: the local notary office, the legal aid centre (12348).
+
+## 20.13 When the relationship itself is hurting you: how to recognize it, who to go to
 
 Not all harm happens out in the street. In old age the harm is often at home, and the person causing it may be your partner, or it may be your children.
 
@@ -309,7 +321,7 @@ This section covers two things only: how to recognize it, and who to go to.
 - **Who this is for**: **Who this holds for** — people still hesitating about whether to speak. Do one thing first: put your ID card, your bank cards and your regular medicines in one bag, and keep it somewhere you can reach.
 - **What you get back**: safety + dignity — no longer afraid that "there is nowhere left to turn"
 
-## 20.13 How this works in China: four places that can give you an answer
+## 20.14 How this works in China: four places that can give you an answer
 
 Most of this chapter is about what to do inside the household. When you actually need someone's help, there are four places in mainland China that can give you an answer, with no favors to call in.
 
@@ -320,7 +332,7 @@ Most of this chapter is about what to do inside the household. When you actually
 
 One more place is often forgotten: **the trade union or the retired-staff office of your former work unit**. If the first two years of retirement sit badly, ask them whether there are activities, whether there is anyone to talk to — better than sitting at home stewing.
 
-## 20.14 If you can only do one thing today
+## 20.15 If you can only do one thing today
 
 Tonight, after supper, say one sentence to the one you have grown old with: "Let's talk for fifteen minutes, you and me."
 
@@ -335,7 +347,7 @@ There are only three rules: don't interrupt, don't defend yourself, don't bring 
 
 When the fifteen minutes are up, stop. Come back to it next week.
 
-## 20.15 If you are reading this for your parents
+## 20.16 If you are reading this for your parents
 
 - **Don't take sides.** When they quarrel, you listen, without judging. The moment you judge, the other one becomes the outsider.
 - **Don't be the messenger.** "My mother says…" — every time you pass it on, it does damage. Let them say it themselves.
@@ -343,13 +355,13 @@ When the fifteen minutes are up, stop. Come back to it next week.
 - **Watch for harm.** If one of them has long been controlled over money, cut off, humiliated, don't write it off as "the old couple's business". Call the police or go to the community if you have to.
 - **Don't decide for them.** Where to live, how to be treated — ask first what they want; if they can't say clearly, go to the advance decisions in Chapter 22.
 
-## 20.16 What I am not sure about in this chapter
+## 20.17 What I am not sure about in this chapter
 
 - There are very few nationwide surveys of relationship quality among older couples in China. Most of the "what you can do" in this chapter comes from common practice in marriage and family therapy and in eldercare (grade C), not from large domestic samples. Which of it works particularly well in Chinese households still needs interviews to establish.
 - On sexual health, China has no unified public-information standard aimed at older people, and clinics differ a great deal from place to place. This chapter says only which changes to have checked, which department to go to, and what to ask; the diagnosis and any medication have to be decided by a doctor.
 - On property arrangements in remarriage, courts and registration practice differ from place to place. What this chapter gives you is the legal tools (a property agreement, a will, a residence right, designated guardianship); a particular case needs a lawyer.
 
-## 20.17 Sources for this chapter
+## 20.18 Sources for this chapter
 
 - [A] *Decision of the Standing Committee of the National People's Congress on Implementing the Gradual Raising of the Statutory Retirement Age* (《全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定》) (adopted 2024-09-13, in force 2025-01-01) and the annexed *Measures of the State Council on Gradually Raising the Statutory Retirement Age* (《国务院关于渐进式延迟法定退休年龄的办法》): male employees 60→63; female employees formerly at 55 → 58; female employees formerly at 50 → 55; one month added every four months (every two months for the 50 group), over fifteen years; flexible early retirement of up to three years, not below the original retirement age; from 2030 the minimum contribution period rises gradually from fifteen years to twenty. https://www.gov.cn/yaowen/liebiao/202409/content_6974294.htm [checked 2026-10-11]
 - [A] Tao Tao, Jin Guangzhao and Guo Yalong, *The Trend of Empty-Nest Households among Older People in China and the Basic Characteristics of the Empty-Nest Older Population* (《中国老年家庭空巢化态势与空巢老年群体基本特征》), *Population Research* (《人口研究》) 2023, Vol. 47 No. 1, pp. 58–71: in 2020 close to 1.5 亿 empty-nest older people; 772 万 very old and living alone; nearly seven in ten of those living alone were widowed; of the disabled older people living alone, only 19.86% had a hired carer. https://rkyj.ruc.edu.cn/CN/Y2023/V47/I1/58 [checked 2026-10-11]

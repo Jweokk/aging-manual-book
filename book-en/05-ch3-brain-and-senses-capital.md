@@ -107,26 +107,73 @@ Are hearing aids worth it? The first thing they buy back is "being able to hear,
 
 One honest word: of these five, some will keep getting worse all the way. Ears can be partly made up for with hearing aids, teeth can be partly made up for with restoration, and the brain and blood vessels can only be managed bit by bit, day by day. What this chapter can do is stop what can be stopped early, and get the same-day things done the same day.
 
-## 3.10 The one thing you can do today
+## 3.10 Ringing in the ears, lines that bend, no sense of smell: don't wait on these three
+
+What came before is the change you can see and describe. There are a few more that come slowly, don't hurt, and don't stop you getting through the day, which is exactly why they get filed under "it's just age": a sound in the ears that never stops, a straight line that bends a little, food that has lost its taste. None of them kills you the same day, but left alone each one takes something away — hearing clearly, seeing clearly, smelling at all.
+
+**A sound in the ears that won't stop: get it looked at once**
+
+- **What it costs**: one ENT appointment plus a hearing test, a few dozen to a couple of hundred yuan (Money: one registration plus tests | Time: half a day | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: tinnitus is hearing a sound that isn't there outside — cicadas, humming, hissing, or a beat that follows your pulse. Most of it is not dangerous, but a few kinds have to be ruled out first: sound in one ear only, sound together with hearing that is dropping, or sound with dizziness.
+- **What you can do**: ① Sort out three things before you go: which ear, how long, and what it sounds like. ② Book ENT and have pure-tone audiometry; an otoscopy and tympanometry if needed. ③ If it goes "thump-thump" with your pulse, say so — that kind gets looked at along the blood vessels. ④ If the doctor finds nothing serious, don't expect a cure in one visit: tinnitus is usually something you learn to live with rather than eliminate. Sleeping well, less strong tea and coffee, and a little background sound in the room all make it less wearing.
+- **Where this comes from**: B | Ruling out the treatable causes first is ordinary practice; better sleep and sound therapy reduce the distress, but there is no pill that stops it ringing.
+- **Who this is for**: **who it holds for** — anyone with a sound lasting more than a week, or in one ear only. With sudden hearing loss as well, go the same day (see 3.8); don't wait for a clinic appointment.
+- **What you get back**: independence — no longer afraid of "a noise in my head all day and no sleep at night"
+- **How this works in China**: book ENT. Hearing tests are usually billed as an outpatient test; whether insurance covers it depends on the local catalogue. Where to ask: the ENT department of the hospital you attend, its insurance office.
+
+**Straight lines that bend, a dark patch in the middle: get the retina looked at once**
+
+- **What it costs**: one eye clinic appointment plus a fundus examination (Money: one registration plus tests | Time: half a day | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: one small patch at the back of the eye is what does the "seeing clearly", and it is called the macula. When it goes wrong the edges still work, and it is the centre that blurs: the door frame looks bent, lines of print jump, the middle of a face is covered by a pale shadow.
+- **What you can do**: ① Test yourself at home: take a sheet of squared paper, cover one eye, stare at the dot in the middle, and see whether the lines bend or squares go missing or dark. Test the two eyes separately — plenty of people lose one eye first and the other covers for it for a long time. ② If anything changes, book an eye clinic for a fundus examination, with OCT if needed. ③ If you already have a diagnosis, keep the review dates the doctor set. ④ If someone in the family has had it and you smoke, giving up smoking is worth costing out seriously.
+- **Where this comes from**: B | The grid self-test is ordinary practice and helps a person catch a change themselves; whether it is macular degeneration, and which type, takes an eye examination — dry and wet types are treated completely differently.
+- **Who this is for**: **who it holds for** — people over 50, people who see things bent or lines jumping, people with it in the family. With sudden loss of vision, or a curtain across the eye, go the same day (see 3.8).
+- **What you get back**: independence — no longer afraid of "the middle of my sight gone blurry and me putting it down to reading glasses"
+- **How this works in China**: fundus examination is available in the eye department of most hospitals at secondary level and above; charges for OCT and similar vary by place, and so does insurance. Where to ask: the eye clinic, the hospital's insurance office.
+
+**No redness, no pain, and the edge of your vision slowly narrowing: don't miss this one either**
+
+- **What it costs**: one eye clinic appointment plus eye pressure, fundus and visual field tests (Money: one registration plus several tests | Time: half a day to a day | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: the commonest kind of glaucoma comes on slowly: no redness, no pain, straight-ahead vision fine, and what goes first is the ring at the edge of the field. By the time you notice, what is gone usually doesn't come back. The other kind is acute — sudden severe eye pain, a red eye, coloured rings around lights, nausea and vomiting; that is a same-day matter, see 3.8.
+- **What you can do**: ① From 40 on, when you have an eye examination, ask for the pressure to be measured and the optic nerve looked at (fundus photography). ② If glaucoma runs in the family, if you are very short-sighted, or if you have long used steroid eye drops or oral steroids, say so and go for reviews more often. ③ If you already have a diagnosis, use the drops as prescribed and keep the appointments — what you are buying is "keeping the field with medication"; don't expect a cure. ④ The field test takes a long time and is tedious; if you can't finish, do it in two sittings.
+- **Where this comes from**: B | Early open-angle glaucoma is picked up by eye pressure and optic nerve examination, with the field going at the edges first; how often to check has no national rule, and the ophthalmologist sets it by risk.
+- **Who this is for**: **who it holds for** — people over 40, with a family history, very short-sighted, or on long-term steroids. Severe eye pain with nausea, or sudden loss of vision, is an emergency; don't wait for a clinic.
+- **What you get back**: independence — no longer afraid of "losing a bit at the edge and finding out by walking into something"
+- **How this works in China**: pressure measurement and fundus photography are available in most eye departments; field tests are usually in the larger hospitals. Where to ask: the eye clinic; for reimbursement, the hospital's insurance office.
+
+**Can't smell: fix the safety side first**
+
+- **What it costs**: a gas alarm, a few dozen to about a hundred yuan (Money: under a hundred | Time: half an hour to install | Effort: none | Do you have to speak up: no)
+- **In short**: when smell goes, the first thing lost is not pleasure but safety: you can't smell gas, can't smell scorched wiring, can't smell food gone off. It can also be an early signal of other illnesses — but the reverse doesn't hold: a poor sense of smell does not mean you will get them.
+- **What you can do**: ① Fit the alarms first: a gas alarm in the kitchen, smoke alarms in the bedroom and hallway (see 5.13); press the test button once a month. ② Put date labels on the fridge and the cupboard and clear things when the date comes; don't judge by nose. ③ If you can't smell and can't say when it started, mention it at your next appointment so the doctor can look at it too. ④ Smelling the same few scents every day as smell training helps some people; ask the doctor how to do it.
+- **Where this comes from**: C | "Reduced smell is associated with neurodegenerative disease" is a repeatedly observed association and cannot be run backwards; fitting alarms at home is ordinary practice and the most solid item here.
+- **Who this is for**: **who it holds for** — people who have found food tasteless this past year, or who can't smell gas. If only one side can't smell, with a blocked nose or bloody discharge, see ENT first.
+- **What you get back**: independence — no longer afraid of "the gas leaking and me not able to smell it"
+- **How this works in China**: gas alarms are sold in hardware shops and online; in many places the gas company offers or recommends one during its safety inspection — remember to press the test button monthly. Where to ask: the local gas company's customer line.
+
+These four have one thing in common: they don't hurt and they aren't urgent, which is why they get put off. Set yourself a time — ask about them at your next check-up, or the next time you are at a hospital with someone else. Much easier than making a special trip.
+
+## 3.11 The one thing you can do today
 
 Remember roughly what notch the TV volume is on at home now, and look again next month. The volume creeping up one notch at a time is one of the easiest signals to miss after midlife.
 
 Then, go for a pure-tone audiometry test.
 
-## 3.11 If you are reading this for a parent
+## 3.12 If you are reading this for a parent
 
 **How to say it out loud**: don't say "you should get a hearing aid" at the moment when he can't hear you and you've repeated the same sentence a third time — that's pointing it out to his face. Try another way, putting yourself into it: "My hearing's been off lately too — I'm going to get it checked, come with me?" After the test, mention his situation to the doctor in passing. Or leave the hearing aid alone for now and just say "the TV's too loud, the neighbours will complain soon" — giving him a way to save face about turning it down.
 
 **What you can still do when he disagrees**: what usually trips older people up is "face" and "what's the use." There are three things you can do without his agreement. First, book the appointment and fix the time for him, turning "whether to go" into "which day to go." Second, help him find out how the local Disabled Persons' Federation's assistive-device subsidy works (see 3.9) — lower that money hurdle and the resistance drops too. Third, whether he's willing to wear it or not, start with the "being able to hear" situations: set him up with wireless headphones for the TV, put phone calls on speaker, seat him with his back to the wall at the dinner table and face him when you talk. Once he hears a little better, he'll know for himself that the thing is useful.
 
-## 3.12 What I am not sure about in this chapter
+## 3.13 What I am not sure about in this chapter
 
 The items in this chapter that were marked for verification have all been traced back to source where possible: the two oral-health figures go back to the survey release page and *China Population News*; the Lancet and hearing-aid passage goes back to the full report and the ACHIEVE paper; the Disabled Persons' Federation assistive-device subsidy goes back to the Xinhua piece on the Chinese government website. The remaining two are limits of the data itself, not things I failed to find, and I leave them as they are:
 
 - The randomised evidence on hearing aids and dementia is currently mainly just one trial, ACHIEVE, with 3-year follow-up; whether they can really delay dementia over the long term is still unanswered. The observational study a few years ago that said "hearing aids lower dementia risk" has been retracted by *The Lancet Public Health* and can no longer be used as a basis.
 - Among the causes of hearing disability in China, age-related deafness accounts for 51.61%, from the second national sampling survey of disabled persons in 2006; *China Hearing Health Report (2021)* was still using this older data when it was published in 2021, and there has been no new round of national sampling since, so this proportion is on the old side.
+- The four additions in 3.10 (tinnitus, macular degeneration, open-angle glaucoma, loss of smell) give ordinary practice and when to seek care, and quote no prevalence figures or screening intervals: for these in China there is no unified rule that can be pinned to a conclusion such as "check once a year", and inventing a number would be making one up. What they rest on is the names of the specialty guidelines; the original links will be added one by one in the next round of verification.
 
-## 3.13 Sources for this chapter
+## 3.14 Sources for this chapter
 
 (All links below were tested on 2026-10-10; for sites such as thelancet.com and achievestudy.org, usable alternative entries have been noted.)
 

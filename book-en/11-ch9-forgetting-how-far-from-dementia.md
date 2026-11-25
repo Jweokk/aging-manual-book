@@ -111,7 +111,37 @@ This section is about the mainland-China system. Where a term has a counterpart 
 - **Disability assessment and subsidies.** When dementia reaches the point of affecting daily life, you can apply for a disability certificate (intellectual disability or psychiatric disability category). China issues one national certificate for this; elsewhere the comparable step is registering for disability benefits, which comes with no card. Apply at the disabled persons' federation of the county or district, or the sub-district (township), where your household registration (*hukou*) is; collect the Disability Assessment Form; be assessed at the psychiatric (appraisal) department of the designated hospital; then the result is posted publicly and the certificate is made. A legal guardian generally handles it. Those who qualify can apply for the "two subsidies for disabled persons" (a living allowance for disabled people in hardship, and a nursing subsidy for people with severe disability); the severe-disability nursing subsidy generally does not look at household income, and some localities have brought grade 3 and grade 4 intellectual and psychiatric disability into it; it can be applied for online [official wording] (the "support for the vulnerable" section of the national government service platform).
 - **Where to ask**: the disabled persons' federation at the community or sub-district where you are registered, the district or county civil affairs bureau, the medical insurance bureau, plus the memory clinic at the hospital you usually go to. **The specific standards are whatever the latest local wording says.**
 
-## 9.11 If you can only do one thing today
+## 9.11 Going missing: before he walks out, get "finding him" ready
+
+- **What it costs**: an afternoon, and a small thing costing a few dozen yuan (Money: not much | Time: half a day | Effort: none | Do you have to speak up: yes, and it is a bit embarrassing)
+- **In short**: going missing is not "walking far"; it is not being able to recognise the way home. Tens of thousands of older people go missing in China every year, and more than seven in ten of them have a memory problem (third-party research: China Social Assistance Research Institute and Toutiao, *White Paper on Older People Going Missing in China*, released at the Ministry of Civil Affairs in October 2016). This has one feature: half an afternoon of preparation decides the outcome on the day.
+- **What you can do**:
+  - **Carry the information**: sew a card into the inside pocket of the coat with name, address, two phone numbers, what illnesses and what medicines; or use the yellow wristband issued by the China Population Welfare Foundation.
+  - **Leave a signal at the door**: have the smart lock or door sensor push an "opened" alert to the family's phones; on an old door, hang a bell behind it so that a noise at midnight tells you.
+  - **Get the neighbours on side**: the people opposite, the gatekeeper, the vegetable stall and the park gate — one sentence: "if he ever heads out on his own, please give me a call."
+  - **Keep photos ready**: a front-facing photo from the last three months and the coat he usually wears, kept at the top of the phone album, to hand over when you call the police.
+  - **You can buy a tracker, but don't rely on it alone**: wristbands get taken off and run out of power; a tag sewn into underwear stays put.
+  - **If he goes missing, call 110 at once.** Don't say "it's only been a few hours, let's wait", and don't believe "they only take it after 24 hours" — police in many places have publicly refuted that. Say clearly that he has cognitive impairment, and give height, clothing, and whether he has ID with him.
+  - **Split up**: one person stays home (he often walks back by himself), one checks the estate and junction cameras, one goes to the three places he usually goes (the old workplace, the market, the park).
+  - **Teach him one sentence**: if you get lost, find someone in uniform — police, security, a shop assistant — say "I can't find my way home", and show them the card.
+- **Where this comes from**: B | About 500,000 a year, roughly 1,370 a day (the 2016 white paper; the figure is an estimate inferred from police reports rather than a national census, and the authors have published their method); 72% of those who go missing have a memory disorder (same white paper); the "24 hours" claim has been publicly refuted by police in several places; the yellow wristband is a public project run since 2012 by the China Population Welfare Foundation with CCTV News.
+- **Who this is for**: **who it holds for** — people with a diagnosis or suspicion of cognitive impairment, people who have recently "taken a wrong turn" or wanted to "go back to the old home" at midnight; the first three months after moving house are the highest risk. People who find their way and are in good health don't need the whole set, but a card in the pocket costs nothing.
+- **What you get back**: independence + relationships — no longer afraid of "him out there and us not even knowing where to start looking"
+- **How this works in China**: for the yellow wristband ask the community or a local "Yellow Wristband Action" partner team; issue points differ by place, and most give them free to people over 60 with ID. Anti-wandering wristbands and trackers are on the "anti-wandering device" list in 民发〔2020〕86号, so ask the community whether home adaptation subsidies cover them. For the police, dial 110; there is no need to wait.
+
+## 9.12 Slow movement, smaller handwriting, one arm that doesn't swing: this may not be "age"
+
+Memory is the spine of this chapter, but there is a kind of "slowing down" that has nothing to do with memory and should not be filed under "getting muddled" — it has a name, and there are ways to slow it, provided you don't leave it two years before going to look.
+
+- **What it costs**: one neurology appointment (Money: one registration plus tests | Time: half a day | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: the earliest sign of Parkinson's is often not a tremor but things getting smaller: one arm stops swinging when walking, handwriting gets smaller and smaller, buttons, shoelaces and turning round become clumsy, the voice gets quieter, the face moves less. The family notices "he's not like he used to be"; he himself often just feels tired.
+- **What you can do**: ① Watch three things at home: do the arms swing the same on both sides when walking; is the handwriting clearly smaller than last year's; do you need a hand to push up from a chair. If any one is off, it is worth an appointment. ② Book neurology, and say when it started and which side is more affected — Parkinson's often starts on one side. ③ If he shouts and thrashes in his sleep, or falls out of bed, tell the doctor that too; it often shows up years before the tremor. ④ Long-standing constipation, loss of smell (see 3.10) and low mood — don't present them in three separate visits; say it all at once.
+- **Where this comes from**: B | These are ordinary clinical clues; they are here so you know which department to go to, not so you can diagnose by checklist. Confirmation takes a neurology examination.
+- **Who this is for**: **who it holds for** — people over 60 whose movements have slowed, whose arm doesn't swing on one side, whose handwriting has shrunk. If already on Parkinson's medication, don't raise, lower or retime the dose yourself: half an hour can make a visible difference with these drugs.
+- **What you get back**: independence + dignity — no longer afraid of "slowing down and being written off as muddled"
+- **How this works in China**: book neurology; larger hospitals have a movement-disorder clinic. After diagnosis, ask the local disabled persons' federation about rehabilitation and disability assessment (see 9.10). Where to ask: the neurology clinic, a referral through the community health centre.
+
+## 9.13 If you can only do one thing today
 
 Run the person you are worried about through the line in 9.2: is what he forgets a "thing" or a "function"?
 
@@ -119,7 +149,7 @@ If you can't tell, or he has already fallen on the "function" side, do one thing
 
 > "His (my) memory has been getting worse lately, and I want to find out whether there is a treatable cause."
 
-## 9.12 If you are reading this for your parents
+## 9.14 If you are reading this for your parents
 
 **How to say it out loud.** Don't say "I suspect you have dementia" — say that and it turns into a fight. Put it on yourself instead: "my memory's been bad lately, I want to get it checked, come with me, we'll both do the test." Put him in the position of "coming with" and "both of us." Once it's booked, just go to the hospital; don't hold a debate at the dinner table first.
 
@@ -127,13 +157,16 @@ If you can't tell, or he has already fallen on the "function" side, do one thing
 
 What he wants is often not to stay away — it is the fear of being stamped "dementia." Keep that door open for the day he feels for himself that something is wrong.
 
-## 9.13 What I am not sure about in this chapter
+## 9.15 What I am not sure about in this chapter
 
 - How far Alzheimer's blood markers ("one drop of blood" tests) actually reach in Chinese outpatient clinics, whether they are self-paid, and what they cost have been changing fast in recent years; this chapter writes only the one piece of wording that has been checked — its place is for people with symptoms, to help judge, not as routine screening for people without symptoms. For how a particular hospital does it, ask the memory clinic.
 - The assessment process for disability certificates (intellectual and psychiatric) and the standards and scope of the two subsidies vary from place to place; this chapter gives the national-level wording, and what happens on the ground differs — ask the disabled persons' federation, civil affairs and medical insurance bureau where you are registered.
 - How far community health centres have actually got with initial cognitive screening varies in speed from place to place; the national action plan sets its target for 2030.
+- The national total of "about 500,000 older people going missing each year" is an estimate inferred from police reports, a middle-of-the-road figure; the researchers published their method when it appeared and it is not a national census, so treat it as an order of magnitude, not a precise number.
+- That "when someone over 60 goes missing the police take it at once, with no 24-hour wait" is a public statement made by police in several places in case bulletins and interviews; I did not find a Ministry of Public Security document stating it, so this chapter treats it as grade B.
+- Where yellow wristbands are issued, whether an appointment is needed and whether they have a location function differ between local teams; the local team's wording governs.
 
-## 9.14 Sources for this chapter
+## 9.16 Sources for this chapter
 
 - [official wording] World Health Organization, *Dementia* fact sheet (《痴呆症》) (Chinese version, updated 2026-07-03): the global burden of dementia, signs and symptoms, treatment and care, risk factors and prevention. https://www.who.int/zh/news-room/fact-sheets/detail/dementia [checked 2026-10]
 - [official wording] 15 departments including the National Health Commission, *National Action Plan on Responding to Senile Dementia (2024—2030)* (《应对老年期痴呆国家行动计划（2024—2030年）》), 国卫老龄发〔2024〕42 号, issued 2024-12-31, published 2025-01-03: cognitive screening and early intervention, memory clinics, standardized diagnosis and treatment, care, guardianship, long-term care insurance. https://www.nhc.gov.cn/lljks/c100158/202501/4b4476877f21467fbfcea71bc90d8313.shtml [checked 2026-10]
@@ -148,3 +181,8 @@ What he wants is often not to stay away — it is the fear of being stamped "dem
 - [manufacturer or institution claim] BGI, *New Breakthrough in Early Screening for Alzheimer's Disease: Plasma p-tau 217 and Other Reagent Products Launched* (《阿尔茨海默病早筛新突破，血浆 p-tau 217 等试剂产品上市》) (2025-06-04): the launch of AD blood-marker reagent products and the performance figures given by the manufacturer (used in this chapter only as an example of "the manufacturers are pushing it," not as evidence). https://www.bgi.com/news/2025060501 [checked 2026-10]
 - [official wording] National Government Service Platform, "Support for the Vulnerable" service section: the fully online application route for disability certificates and the two subsidies for disabled persons. https://gjzwfw.www.gov.cn/col/col881/ [checked 2026-10]
 - [third-party research] Alzheimer's Association, stage descriptions (Chinese): the clues for each stage, from "possibly a normal change related to age" to "the family begins to notice symptoms." https://www.alz.org/asian/about/stages.asp?nL=ZH&dL=ZH [checked 2026-10]
+- [third-party research] China Social Assistance Research Institute and Toutiao, *White Paper on Older People Going Missing in China* (《中国老年人走失状况白皮书》, released at the Ministry of Civil Affairs, 2016-10): about 500,000 older people go missing each year, roughly 1,370 a day; 72% of them have a memory disorder. Reposted by the CPPCC newspaper (from CNR) https://www.rmzxw.com.cn/c/2016-10-09/1070391.shtml [checked 2026-11-25]
+- Yellow Wristband Action (China Population Welfare Foundation, a public project run with CCTV News since 2012): project disclosure https://www.cpwf.org.cn/content/71190 ; free issue to people over 60 on production of ID, with a QR code after registration showing name and relatives' contact details (foundation project update, 2023-03) https://www.cpwf.org.cn//content/70765 [checked 2026-11-25]
+- [public reporting] Going missing does not require a 24-hour wait: police in several places have publicly refuted the claim — Tencent News, *Benteng Legal Talk: if a family member goes missing there is no need to wait 24 hours, call the police at once* (2026-04-22) https://news.qq.com/rain/a/20260422A07CUG00 ; Guangming Online, *Wuhan: a 73-year-old with Alzheimer's out of contact…* (2026-05-26) https://m.gmw.cn/2026-05/26/content_1304471546.htm [checked 2026-11-25]
+- Anti-wandering devices are on the national recommended list: Ministry of Civil Affairs and eight other departments, *Guiding Opinions on Accelerating the Home Adaptation Programme for Older People* (民发〔2020〕86号), annex "Recommended list of home adaptation items and eldercare products for older people", item 29 "anti-wandering device". https://www.gov.cn/zhengce/zhengceku/2020-07/16/content_5527260.htm [checked 2026-11-25]
+

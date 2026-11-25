@@ -98,25 +98,37 @@ This chapter is not going to tell you to look on the bright side. It gives you a
 - **Hotlines**: see 11.8, and get them into your phone first.
 - These services are spread unevenly from place to place; asking once at the community is more accurate than guessing at home. What the local office says most recently governs. The arrangements above are the mainland-China ones — state-run community health centers, and a public health register kept by the local authorities. If you are reading this outside mainland China, the nearest counterpart is the community mental health team and your local crisis line; the structures differ, and this book does not judge which is better.
 
-## 11.11 If you can only do one thing today
+## 11.11 Thin, dry, itchy skin: don't scald it, and don't keep scratching
+
+This chapter is about not sleeping, about pain, about having no drive — and one small thing that is often left out and keeps people turning over all night: itching. It is not a serious illness, but anyone who has lost sleep to it knows how maddening it is.
+
+- **What it costs**: a bottle of moisturiser, a few dozen yuan (Money: a few dozen yuan | Time: two minutes a day | Effort: none | Do you have to speak up: no)
+- **In short**: with age the skin thins and makes less oil, so it dries and itches. The first reflex is hot water, hard scrubbing and scratching, and all three go the wrong way: hot water washes off the little oil that is left, scrubbing and scratching break thin skin, and broken skin infects easily — in diabetes it heals badly.
+- **What you can do**: ① Don't make the bath hot; warm is enough, keep it short, use less soap. Within three minutes of getting out, while the skin is still damp, put moisturiser over the whole body (urea, glycerin or ceramide are all fine — there is no need to buy an expensive one). ② If the room is dry, add humidity, especially with the heating on in winter. ③ If the itch keeps you awake, don't claw at it: a cold pack, light patting, one more layer of moisturiser all beat scratching. ④ See a dermatologist if scratched skin is weeping, if scabs keep multiplying, if the itch keeps you up all night, or if large red or purple patches appear. ⑤ With diabetes, be extra careful about itching and broken skin on the shins and feet (see 3.6).
+- **Where this comes from**: B | "Moisturise first, avoid hot water and over-washing" is ordinary dermatology practice. **But** itching can also be another illness showing itself on the skin (liver or gallbladder, kidney, thyroid, blood sugar, side effects of some medicines); if it will not settle, look in those directions.
+- **Who this is for**: **who it holds for** — people over 60, people who itch more in winter, people who itch more after a bath. For stubborn generalised itching with nothing to see on the skin, don't treat it only as a skin problem: let the doctor check blood sugar, liver and kidney function, and the medicines being taken.
+- **What you get back**: independence + dignity — no longer afraid of "itching all night and too embarrassed to say so"
+- **How this works in China**: moisturiser is in any pharmacy or supermarket; for stubborn cases, book dermatology. Where to ask: the dermatology clinic, the community health centre.
+
+## 11.12 If you can only do one thing today
 
 Save **12356** and **400-161-9995** into your phone and into your parents' phones. Then, at some quiet moment, ask your parents one question: "How have you been sleeping lately — is anything hurting?"
 
 Ask first; don't wait for them to bring it up. Once that question is out, at least one of the four things stops being "put up with it" and becomes "somebody knows."
 
-## 11.12 If you are reading this for a parent
+## 11.13 If you are reading this for a parent
 
 **How to say it to him**: don't start with "are you depressed?" Start from something concrete: "I've noticed you haven't wanted to go downstairs these past few weeks," "you said you can't sleep — how long has that been going on?" Put the word "illness" later. About pain, don't ask "where does it hurt" either; say "let me take you to get it looked at."
 
 **What you can still do when he won't agree** (no need for his nod): ① save 12356 and 400-161-9995 into his phone first, and into yours; ② quietly note what time he goes to bed, how many times he wakes at night, how much he eats, and whether he has said anything hopeless, make it into one page, and show it to a doctor when needed; ③ go to the community and ask whether there is an elderly psychological care point, and what the prevention doctor can help with; ④ the day he is willing to go to the hospital, go with him, write the symptoms on paper first and hand it to the doctor, and don't leave him alone to tell the doctor "I'm fine."
 
-## 11.13 What I am not sure about in this chapter
+## 11.14 What I am not sure about in this chapter
 
 - The nationwide figures on suicide in older people come from 2013 (based on Global Burden of Disease GBD2013 estimates), which is on the early side; for a more recent national picture, the latest mortality surveillance should govern.
 - How sleep clinics, pain clinics, geriatrics and psychiatry are set up and how you register differs from hospital to hospital; whether there is one locally and how to get in, the local situation governs.
 - The 23.61% comes from the 2018 China Family Panel Studies (CFPS), where the age cut-off is 45 and over and the scale is CES-D (with the 80th percentile as the cut-off); it, the WHO figure of "14.75% of those aged 70 and over with a mental disorder," and CHARLS-type surveys do not use the same sampling or the same scale, and cannot be compared with each other.
 
-## 11.14 Sources for this chapter
+## 11.15 Sources for this chapter
 
 - [official wording] World Health Organization, *Mental Health of Older Adults* fact sheet (《老年人精神健康》): in 2023 about 14.75% of adults aged 70 and over had a mental disorder, most commonly anxiety or depression; loneliness and social isolation are important risk factors for mental health problems in later life. https://www.who.int/zh/news-room/fact-sheets/detail/mental-health-of-older-adults [checked 2026-10-10]
 - [official wording] World Health Organization, *From Loneliness to Social Connection: Charting a Path to Healthier Societies* (《从孤独到社会联系：规划通往更健康社会的道路》) (report of the WHO Commission on Social Connection, 2025-06-30): loneliness is linked to about 871,000 deaths a year. Report page https://www.who.int/groups/commission-on-social-connection/report/ ; source of the figure (UN News, in Chinese, 2025-06-30) https://news.un.org/zh/story/2025/06/1140101 [checked 2026-10-10]

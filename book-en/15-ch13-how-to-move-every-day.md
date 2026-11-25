@@ -160,7 +160,53 @@ Getting moving isn't hard. What's hard is going on the third day, when it rains.
 - **What you get back**: relationships — you stop fearing "on my own, I move twice and then stop"
 - **How this works in China**: find a partner in a community fitness group or a square-dance team; ask the residents' committee or the community eldercare service station how to join.
 
-## 13.12 How this works in China
+## 13.12 On the hottest and coldest days, the way you move has to change
+
+What came before is how to move on an ordinary day. There are always a few dozen days a year that are not ordinary: a run of heat, a cold snap, a typhoon passing through, smog sitting on the city. For a young person those days are unpleasant; for a very old person they can be a trip to the emergency department. This section is about what to do on those days — not wellbeing advice, but bringing the risk down first.
+
+**On hot days: you can get heat stroke indoors — don't begrudge the air conditioning**
+
+- **What it costs**: a little more on the electricity bill (Money: a few to a dozen yuan a day | Time: none | Effort: none | Do you have to speak up: no)
+- **In short**: heat stroke is not only something that happens in the sun. Very old people sweat less and feel thirst less sharply, so a room at 35°C with no air conditioning and too little water can do it too. The worst form is heat stroke with hyperthermia: a high temperature, skin dry and hot, and the person becoming confused or talking nonsense — the death rate is high and it is an emergency.
+- **What you can do**: ① On heat-alert days, don't go out for a walk or to the fields between 10am and 4pm; move it to early morning or evening. ② Set the air conditioning to 26–27°C, don't let it blow straight at you, and put a basin of water in the room or use a humidifier; if you are worried about the bill, cool one room and stay in that one. ③ Drink on purpose, before you feel thirsty; on a day you sweat a lot, add a pinch of salt to the water or have a thin soup. ④ Ring an older person living alone once a day and ask one question: "did you put the air conditioning on today?" ⑤ If there is dizziness, nausea, weakness, hot skin with no sweat, or slurred speech, move to the shade, cool the body with wet towels, and call 120 at the same time — don't treat it as "just heat, rest a bit".
+- **Where this comes from**: B | Recognising hyperthermia and "cool first, then transport" is ordinary emergency practice; the temperature thresholds in warnings differ by place, so go by the local meteorological service.
+- **Who this is for**: **who it holds for** — people over 75, living alone, with heart or cerebrovascular disease, on diuretics or blood-pressure drugs. If consciousness is already clouded or there are convulsions, don't give water; call 120.
+- **What you get back**: independence — no longer afraid of "the killer-hot days and me alone at home with nobody knowing"
+- **How this works in China**: heat warnings come from the local meteorological service; communities usually have cooling points, ask the community committee; people living alone can be put on the community's visiting list. Where to ask: the community committee, the community health centre.
+
+**On cold days: keep the head and feet warm, and ventilate when you heat**
+
+- **What it costs**: a hat, thick socks, an electric blanket (Money: a few dozen to two hundred yuan | Time: none | Effort: none | Do you have to speak up: no)
+- **In short**: what goes wrong in cold weather is not "getting cold": it is two things. One is blood pressure surging in the cold, with more heart attacks and strokes. The other is heating done the wrong way — coal, charcoal, a direct-exhaust gas water heater, an engine left running in a closed car — all can cause carbon monoxide poisoning. Carbon monoxide has no smell, and people usually fall asleep first.
+- **What you can do**: ① Wear a hat outdoors; don't leave the neck and ankles bare; keep the indoor temperature above 16°C and don't seal the windows completely at night. ② Getting up at night and getting up in the morning are the two dangerous moments: sit on the edge of the bed for a minute first, put something on, then go to the bathroom. ③ Don't heat with coal stoves or charcoal braziers, and never put a gas water heater in the bathroom; fit a carbon monoxide alarm, a few dozen yuan. ④ If you feel dizzy, sick or your heart racing in the shower, open the window, turn the heater off and go outside at once — don't lie down in the room. ⑤ During a cold snap, if you normally walk outside every day, walk indoors and do exercises indoors instead; don't force it.
+- **Where this comes from**: B | Preventing carbon monoxide poisoning, and "open windows, leave the room, get medical help", are ordinary practice; direct-exhaust gas water heaters were banned from production and sale in China long ago — if one is still in the house, replace it.
+- **Who this is for**: **who it holds for** — households with coal stoves or old gas water heaters, people living alone, people with high blood pressure or coronary disease. With headache, nausea, confusion or a reddened face, treat it as carbon monoxide poisoning: open windows, get out, then call 120.
+- **What you get back**: independence — no longer afraid of "saving a bit on heating and paying with my life"
+- **How this works in China**: carbon monoxide alarms are in hardware shops and online; for a water heater replacement ask the local gas company; in older estates, ask the community whether there is a heating safety check. Where to ask: the local gas company, the community committee.
+
+**Typhoon, torrential rain, flooding: stock up three days ahead, don't go out on the day**
+
+- **What it costs**: three days of water and food, one or two hundred yuan (Money: one or two hundred yuan | Time: half a day | Effort: carrying things is a bit of work | Do you have to speak up: no)
+- **In short**: in a city, what hurts people in a typhoon or a downpour is usually not the wind: it is standing water, missing manhole covers, underground car parks, scooters swept over, and ground-floor flats losing power. An old person is slow on their feet already; one wade doubles the risk of a fall and of electric shock.
+- **What you can do**: ① As soon as the warning is up, stock three days: drinking water, food that needs no cooking, regular medicines (at least a week), a torch, power banks, cash. ② If you live on the ground floor, in a basement or in an old building, put ID, medicines and phone into a waterproof bag up high in advance and unplug appliances. ③ During the worst hours, don't go out, and don't "just pop down to look"; if you must, avoid standing water and underpasses, and don't step on manhole covers. ④ If the power goes, first check whether it is your own trip switch, then call the supply service; if the water goes, use your stored water and don't go to the river to fetch any. ⑤ After the typhoon, don't rush to the sea, the river or the hills to look: collapses and drownings mostly happen then.
+- **Where this comes from**: C | This is ordinary practice; local emergency management guidance is more detailed (for example which warning level closes schools and workplaces), and the local wording governs.
+- **Who this is for**: **who it holds for** — people on ground floors and in self-built houses, people living alone, people who depend on a lift. Never use a lift in a power cut; if there is medical equipment at home that needs power (oxygen concentrator, ventilator), ask in advance what happens if the supply fails.
+- **What you get back**: independence — no longer afraid of "a typhoon day alone at home with no water, no power and nothing ready"
+- **How this works in China**: warnings come from the local meteorological and emergency management services; for power cuts call 95598, for water ask the local water company; communities usually notify evacuations in advance. Where to ask: the community committee, the local emergency management bureau.
+
+**On smoggy and dusty days: move the exercise indoors**
+
+- **What it costs**: nothing (Money: nothing | Time: none | Effort: none | Do you have to speak up: no)
+- **In short**: brisk walking or morning exercise outdoors on a heavily polluted day cancels out part of the benefit. People with COPD, asthma or coronary disease feel it more.
+- **What you can do**: ① Check the day's air quality index, and on heavily polluted days move outdoor activity indoors. ② If you go out, wear a well-fitting mask (N95-type), and don't walk along the road or the main road. ③ Keep windows shut and turn on the air purifier if you have one. ④ With COPD or asthma, take the medicine as the doctor prescribed; don't stop it yourself. ⑤ On a dusty day, wash your face, rinse your mouth and change clothes when you come home.
+- **Where this comes from**: C | This is ordinary practice; the effects of air pollution on breathing and the heart are supported by research, but there is no single hard line of "above this index nobody should go out" that fits everyone.
+- **Who this is for**: **who it holds for** — people with COPD, asthma, coronary disease or heart failure, and anyone who has to work outdoors. With clear shortness of breath or gasping, don't tough it out; go to the emergency department.
+- **What you get back**: independence — no longer afraid of "forcing myself out for that walk on a smoggy day"
+- **How this works in China**: the air quality index is in any weather app; protective masks are in pharmacies. Where to ask: the community health centre.
+
+These kinds of weather have one thing in common: the warning comes in advance, which gives you half a day to get ready. What actually goes wrong is usually the one time somebody thought it would be fine.
+
+## 13.13 How this works in China
 
 - The equipment in housing compounds and parks is mostly free. The state is pushing a "15-minute fitness circle" in urban communities, meaning a place to exercise within 15 minutes' walk or cycle; a 2025 survey by the General Administration of Sport found that 90.4% of residents aged 19 and over can reach one within 15 minutes ([official wording]). Ask the property office or the residents' committee where the nearest equipment point and the bigger parks are.
 - If you want people to move with: community aerobics groups, square-dance teams, tai chi groups, walking groups — mostly in parks, on squares, in community activity rooms. Where to ask: the residents' committee, the community eldercare service station, the university of the third age.
@@ -168,13 +214,13 @@ Getting moving isn't hard. What's hard is going on the third day, when it rains.
 - If you have a chronic disease, have had surgery, or are afraid of falling: register at a rehabilitation medicine or geriatrics department and have a doctor set out an "exercise prescription" once — they cover everything from cardiac rehabilitation to fall-prevention training. Where to ask: the rehabilitation medicine clinic at a tier-3 hospital, or your contracted family doctor.
 - If you're not sure how to apply locally or what it costs: ask the community health centre and the residents' committee. Specific programs and subsidies differ from place to place; go by the latest local wording.
 
-## 13.13 If you can only do one thing today
+## 13.14 If you can only do one thing today
 
 **Set an alarm on your phone for "get up for two minutes every hour", starting this afternoon.**
 
 No changing shoes, no going out. When the alarm goes, stand up and walk about, pour a glass of water, do a few heel raises. Sitting too long is the cheapest thing in this chapter to change, and the one fewest people change.
 
-## 13.14 If you're reading this for your parents
+## 13.15 If you're reading this for your parents
 
 The most useless sentence in trying to get your parents moving is "you need to exercise more". What he hears is "you're finished".
 
@@ -184,12 +230,12 @@ When he won't agree, the things you can do that don't need his agreement: **chan
 
 He may not admit it out loud. His body will.
 
-## 13.15 What I'm not sure about in this chapter
+## 13.16 What I'm not sure about in this chapter
 
 - The "get up and walk for 5 minutes every 30 minutes" arm comes from a small randomized crossover trial of only 11 people, looking at the acute response of blood sugar after meals and blood pressure that same day; whether it translates into fewer illnesses and fewer hospital stays over the long run is not settled, and there is no local research on the equivalent dose for Chinese people. This chapter treats it as a direction, not a precise prescription.
 - The square-dancing randomized controlled trial had a sample that was mostly women (about 78%); the intervention group trained 3 times a week, while the control group had only 3 health-education classes in 12 weeks, so the two groups' contact time was not equal; the authors' own conclusion is "associated", not "causal", and you should be careful about generalizing to men, or about treating it as "square dancing definitely does this".
 
-## 13.16 Where this chapter's numbers come from
+## 13.17 Where this chapter's numbers come from
 
 - World Health Organization, WHO guidelines on physical activity and sedentary behaviour (2020-11-25): for older adults, 150–300 minutes of moderate-intensity or 75–150 minutes of vigorous-intensity aerobic activity a week, muscle strength on at least 2 days a week, multicomponent (balance plus strength) training on at least 3 days a week, less sedentary time, and 5–6 on a 0–10 scale as moderate intensity. https://www.who.int/publications/i/item/9789240015128 ; Chinese fact sheet https://www.who.int/zh/news-room/fact-sheets/detail/physical-activity [checked 2026-10]
 - Physical Activity Guidelines for the Chinese Population (2021) (《中国人群身体活动指南（2021）》) (under the guidance of the Disease Control and Prevention Bureau of the National Health Commission; led by the Chinese CDC and the China Institute of Sport Science of the General Administration of Sport): published in Chinese Journal of Public Health (《中国公共卫生》), 2022, Vol. 38, No. 2, pp. 129–130. Older people's section: the adult recommendation applies as well; keep up balance, flexibility and mobility exercises; if your body won't allow it, increase the activity you can manage as much as possible; people with chronic disease should consult a doctor before exercising. https://www.zgggws.com/cn/article/id/46482813-3205-4c34-a7b9-73bace965e59 [checked 2026-10]

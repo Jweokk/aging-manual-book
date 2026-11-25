@@ -117,13 +117,25 @@ Relationships slip away; you can't stop it. All you can do is slow it down.
 - **What you get back**: self-reliance + relationships — no longer afraid that "no one goes to the doctor with me, and I don't know who to call"
 - **How this works in China**: where to sign — the community health centre or township health centre where you live. Ask three questions: "Who am I signing with? What does it cover? How much does it cost?" For reimbursement when seeing a doctor away from home, ask the medical insurance bureau where you're enrolled, or use the "National Medical Insurance Service Platform" app. The latest local wording prevails.
 
-## 4.10 The one thing you can do today
+## 4.10 Still want to work: settle three things first
+
+Carrying on after retirement is not a minority pursuit: some are re-hired by their old employer, some take a job at a new company as a gatekeeper, a driver, a bookkeeper, some take work on themselves. The terms and the risks of these roads are completely different, and most people only find out they stood on the wrong one after something goes wrong.
+
+- **What it costs**: one trip to social insurance or one phone call; read the contract before signing (Money: nothing | Time: half a day | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: first work out whether you are signing a "labour contract" (劳动合同) or a "service agreement" (劳务协议). The difference between those two words matters far more than how thick the paper is. The first is protected by labour law; the second is only what the contract says.
+- **What you can do**: ① Ask one question: "what is this relationship, legally?" With a labour contract there is a minimum wage, overtime pay and work-injury cover underneath you; with a service agreement, if something happens you can only claim under the contract and the Civil Code. ② Work injury is the one that matters most: once you are already drawing a pension, most places no longer treat it as an employment relationship, and the employer usually cannot buy work-injury insurance for you — so an injury on the job may only be claimable as "a person providing services was injured", through a civil suit. Either get the employer to buy employer's liability insurance, or buy an accident policy yourself first. ③ Declare the income: the pension is exempt from income tax, but re-employment wages and service fees are declared as "wages and salaries" or "remuneration for services"; the employer has a duty to withhold, and if you take work on yourself, do the year-end reconciliation. ④ Don't let medical insurance lapse: post-retirement entitlement is tied to years contributed; if you live in another province, file for out-of-area treatment first (see 16.4).
+- **Where this comes from**: B | The difference in rights between the three statuses is written in labour law, the Civil Code and social insurance policy; how over-retirement-age employment is treated varies by place, and the same agreement can be judged differently in two cities.
+- **Who this is for**: **who it holds for** — anyone planning to keep earning after retirement, especially physical work, driving, building sites, night shifts. If you already have heart or cerebrovascular disease or take anticoagulants, weigh the risk of the work itself before you talk money.
+- **What you get back**: money + dignity — no longer afraid of "wanting to do something and having nobody answerable when it goes wrong"
+- **How this works in China**: for contracts and work-injury determination ask the local human resources and social security department (12333); for income tax, 12366; out-of-area treatment filing is done in the National Healthcare Security Service Platform app or at the insurance office where you are insured. Rules vary by place; the latest local wording governs.
+
+## 4.11 The one thing you can do today
 
 Pick up the phone and call the one old friend you most want to keep, and settle on a fixed day right there: next Wednesday at three in the afternoon, a walk together, or a pot of tea.
 
 You can look up your pension any time; that account won't vanish overnight. Relationships are different — they depreciate every day, and today's phone call is the first deposit you make into it.
 
-## 4.11 If you are reading this for a parent
+## 4.12 If you are reading this for a parent
 
 Every "do it for them" in this chapter works best when it becomes "do it together with them".
 
@@ -131,13 +143,13 @@ Every "do it for them" in this chapter works best when it becomes "do it togethe
 
 **What you can still do when they refuse**: some things don't need their nod. ① You look up their contribution years for them using the "Zhangshen 12333" app or the "electronic social security card". ② Go to the social insurance bureau where they're enrolled and ask how lapses and transfers are handled. ③ Go to their community and ask one question: is LTCI running, and have they signed up a family doctor? ④ If you're not often by their side, help them get to know their neighbours — when you're not there, the neighbours are. These four don't need their agreement; do what you can first.
 
-## 4.12 What I am not sure about in this chapter
+## 4.13 What I am not sure about in this chapter
 
 - "Basic old-age insurance covers 1.076 billion people nationwide" has been traced back to MOHRSS's original release (the "2025 Statistical Bulletin on the Development of Human Resources and Social Security" and MOHRSS's routine press conference of 2026-01-27), and no longer rests on second-hand commentary. "Over 150 million private-pension accounts opened" could not be pinned to an original MOHRSS figure; the only official number is the "cumulative contributions of 145.2 billion yuan" in the "2025 National Bulletin on the Development of Aging-Related Undertakings". The account figures come from several financial media relaying MOHRSS's figures (about 150 million, 2025); when you use them, go by the latest official wording.
 - LTCI coverage moves forward with time and the figures are not fully consistent: the National Healthcare Security Administration said on 2025-09-25 that it covered 190 million people with cumulative spending above 85 billion yuan; Xinhua and the aging bulletin, by the end of 2025, put it at about 300 million. This chapter uses the latter. Implementation timing and benefits differ a lot from place to place; go by the medical insurance bureau where you're enrolled.
 - The link between loneliness and death risk is supported by cohort studies, but on "whether keeping up relationships from now on can extend life" there is a lack of intervention studies targeting older Chinese people.
 
-## 4.13 Sources for this chapter
+## 4.14 Sources for this chapter
 
 - Basic old-age insurance enrolees: "2025 Statistical Bulletin on the Development of Human Resources and Social Security" (MOHRSS; at the end of 2025 basic old-age insurance covered 1,075.91 million people — 546.72 million urban employees and 529.19 million urban-and-rural residents; enterprise annuities at 177,900 employers covering 33.43 million employees) https://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/szrs/tjgb/202607/W020260716567491153024.pdf [checked 2026-10-10]; the same figures appear in MOHRSS's routine press conference of 2026-01-27 (CNR: as of the end of 2025 basic old-age insurance covered 1.076 billion people nationwide) https://news.cnr.cn/dj/20260127/t20260127_527507408.shtml
 - Three pillars and private-pension contributions: Ministry of Civil Affairs and National Office on Aging, "2025 National Bulletin on the Development of Aging-Related Undertakings" (published 2026): cumulative private-pension contributions of 145.2 billion yuan. https://www.caoss.org.cn/upload/file/26081016414941.pdf [checked 2026-10-10]. For an institutional reading of the three pillars see also "Accelerating the Development of a Multi-Tiered, Multi-Pillar Old-Age Insurance System" (Wang Chao, Guangming Daily, 2026-04-23, reposted by People's Daily Online, relayed): http://theory.people.com.cn/n1/2026/0423/c40531-40706948.html
@@ -152,3 +164,5 @@ Every "do it for them" in this chapter works best when it becomes "do it togethe
 - Loneliness and health: WHO Commission on Social Connection, "From loneliness to social connection: charting a path to healthier societies" (2025): about 1/6 of people worldwide affected by loneliness; loneliness linked to about 871,000 deaths a year (2014–19). https://www.who.int/groups/commission-on-social-connection/report/ [checked 2026-10-10]
 - Social relationships and death risk: Holt-Lunstad J, Smith TB, Layton JB. Social Relationships and Mortality Risk: A Meta-analytic Review. PLoS Medicine, 2010. https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316 [checked 2026-10-10]
 - Look-up channels: "Zhangshen 12333" app (Ministry of Human Resources and Social Security) https://www.12333.gov.cn/ggfwstatic/download/app.html ; "National Medical Insurance Service Platform" app (National Healthcare Security Administration).
+- [third-party research] Gong J, Wang G, Wang Y, et al., *Nowcasting and forecasting the care needs of the older population in China: analysis of data from the China Health and Retirement Longitudinal Study (CHARLS)*, Lancet Public Health 2022;7(12):e1005-e1013: on the three-level definition of dependency, older people needing care in 2020 numbered 20.61 million (any ADL difficulty), 36.33 million (adding difficulty with cooking, shopping or medication) and 45.30 million (any ADL or IADL difficulty), forecast at 29.71, 49.07 and 59.32 million by 2030. DOI: https://doi.org/10.1016/S2468-2667(22)00203-1 ; full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC9741660/ [checked 2026-11-25]
+

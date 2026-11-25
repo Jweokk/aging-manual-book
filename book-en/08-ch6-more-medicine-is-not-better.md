@@ -94,7 +94,19 @@ This chapter is about gathering the medicines scattered across several departmen
 - **Contracted family doctors**: Since 2016 the state has promoted contracted family doctor services (Guoyigaibanfa [2016] No. 1). After you sign up, follow-up for chronic conditions, prescriptions, and referrals can go through your family doctor first. What the service includes and what it charges differ from place to place; go to the community health centre where you live and ask "what can signing up do for me?"
 - The detailed rules for these three things, and how each links to medical insurance (*yibao*, China's public medical insurance — a separate scheme from Medicare, the NHS, or private insurance elsewhere), differ from city to city. Go by the latest local wording.
 
-## 6.11 If you are reading this for a parent
+## 6.11 On these medicines, there are a few things to keep off the table
+
+Medicine and food interfere with each other. What goes wrong most often is not "the more forbidden foods the better" but a few specific pairings: someone on a statin has a grapefruit every morning; someone on warfarin hears that greens are good and suddenly drinks a big glass of vegetable juice every day. The medicine was taken correctly, and the result is still wrong.
+
+- **What it costs**: nothing, one question to the pharmacist (Money: nothing | Time: a few minutes | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: only a few classes of medicine fight with what is on the table: anticoagulants, statins, some blood-pressure drugs, diabetes drugs. Get those few straight and there is no need to treat everything as dangerous.
+- **What you can do**: ① On **warfarin**, what to watch is vitamin K: spinach, rape greens, broccoli and Chinese kale are not forbidden, but you should eat **roughly the same amount every day** — a big plate today and none tomorrow is what makes the INR swing. Keep alcohol low; ask the doctor before taking Chinese medicines such as ginkgo or dong quai. ② On a **statin** (especially simvastatin, lovastatin, atorvastatin), keep off **grapefruit and grapefruit juice**: it pushes the level of drug in the blood up, and the risk of muscle pain and liver damage with it. ③ On blood-pressure drugs such as **nifedipine**, grapefruit is off the table too. ④ On newer anticoagulants such as **rivaroxaban or apixaban**, ask about grapefruit as well. ⑤ On **diabetes drugs**, be careful with alcohol, especially on an empty stomach — the signs of low blood sugar get masked by the drink, and other people think you have simply had too much. ⑥ If unsure, there is one move: photograph the boxes and ask at the community pharmacy or a hospital medicines clinic, "I take these — what should I keep off the table?" More reliable than searching online.
+- **Where this comes from**: B | The interaction between grapefruit and these classes is written in the package inserts and pharmacy consensus; for the one in your hand, read the "drug interactions" section or ask the pharmacist.
+- **Who this is for**: **who it holds for** — anyone on anticoagulants, statins, some blood-pressure drugs, diabetes drugs. If you are already on warfarin and you change your diet substantially (starting a daily vegetable juice, suddenly going vegetarian), tell the doctor, because the INR may need checking. No doses and no instructions on adjusting medicine are given here; that is the doctor's business.
+- **What you get back**: independence — no longer afraid of "taking the medicine right and having one mouthful throw it off"
+- **How this works in China**: ask the pharmacist at a community pharmacy, or a hospital medicines clinic (many large hospitals have one; the registration fee is about that of an ordinary outpatient visit). If the insert's print is too small, ask the pharmacist to read it out. Where to ask: the medicines clinic at the hospital you attend, the pharmacy at the community health centre.
+
+## 6.12 If you are reading this for a parent
 
 He may refuse to talk about cutting back on medicine, or he may feel you are implying he is past managing. Here are some things you can do that don't need his agreement:
 
@@ -103,20 +115,20 @@ He may refuse to talk about cutting back on medicine, or he may feel you are imp
 - Don't cut his drugs for him, and don't throw medicines away in front of him. Which can be stopped — let the doctor say it in his presence.
 - Once he feels you are treating him as "a patient who can't control himself," he may push back harder. Hand the conversation over to the doctor; see Chapter 20, 20.5.
 
-## 6.12 The one thing you can do today
+## 6.13 The one thing you can do today
 
 Take everything you take today (medicines, supplements, Chinese herbal medicine, eye drops), lay it out on one table, take a photo, count how many, save it on your phone, and name it "My medicines."
 
 Next time you see the doctor, show it to them and say one sentence: **"Please look through it all with me, and tell me which ones I still need."**
 
-## 6.13 What I am not sure about in this chapter
+## 6.14 What I am not sure about in this chapter
 
 - The three figures "70.8%", "8.6 drugs", and "29%" are given in the *Chinese Expert Consensus on the Assessment and Management of Polypharmacy in Older Adults (2024)*, which cites domestic studies. I checked back to the consensus text, but I did not obtain each original study it cites one by one; here I use them as the consensus states them.
 - The drug-use standards of different years (Beers 2023, STOPP/START 2023, PIM-China 2024) differ in their items. This chapter picks out only four common classes, and does not make a complete list.
 - Deprescribing can slightly reduce falls and hospital admissions; the evidence comes from a systematic review plus pooled analysis (Aging Medicine, 2026). The effect is modest and the effect of any single item is small; different studies are not fully consistent.
 - For long prescriptions, contracted family doctors, and pharmacist clinics, this chapter gives only the national-level documents; how it works in each city has to be asked locally.
 
-## 6.14 Sources for this chapter
+## 6.15 Sources for this chapter
 
 - *Chinese Expert Consensus on the Assessment and Management of Polypharmacy in Older Adults (2024)* (《老年人多重用药评估与管理中国专家共识（2024）》), Geriatrics Society of the Chinese Medical Association (Shen Jie, Gao Ningzhou, Zheng Songbai; corresponding author Zheng Songbai): definition of polypharmacy (≥5 drugs = polypharmacy, ≥10 = hyper-polypharmacy), polypharmacy rate 70.8%, average 8.6 drugs a day, adverse-reaction rate 29%, share of drug spending, European data on hospital admissions for adverse reactions, a Finnish study of cognitive impairment, requirements for a medication list and an annual medication consultation. *Chinese Journal of Geriatrics* 2024;43(3):269–278, DOI: 10.3760/cma.j.issn.0254-9026.2024.03.002. Link: https://rs.yiigle.com/cmaid/1497882 [checked 2026-10-10]
 - 2023 AGS Beers Criteria® (American Geriatrics Society): the "avoid" recommendations for first-generation antihistamines, benzodiazepines and "Z-drugs," NSAIDs, and proton pump inhibitors, and the rates of NSAID-caused upper-GI ulcer/bleeding/perforation. J Am Geriatr Soc. 2023;71(7):2052–2081, DOI: 10.1111/jgs.18372. Readable full-text PDF: https://geriatrictoolkit.missouri.edu/drug/Beers-Criteria-AGS-2023.pdf ; citation page (US AHRQ · PSNet): https://psnet.ahrq.gov/issue/american-geriatrics-society-2023-updated-ags-beers-criteria-potentially-inappropriate [checked 2026-10-10]

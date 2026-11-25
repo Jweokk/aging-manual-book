@@ -10,7 +10,7 @@
 
 **Compiled by Jweokk** · weokk2025@gmail.com
 
-**Read online**: <https://aging.fly2ai.top> · **PDF**: [aging-manual.pdf](https://aging.fly2ai.top/aging-manual.pdf) (v1.4.0, A4, 263 pp.)
+**Read online**: <https://aging.fly2ai.top> · **PDF**: [aging-manual.pdf](https://aging.fly2ai.top/aging-manual.pdf) (v1.4.1, A4, 263 pp.)
 
 ---
 

@@ -143,13 +143,25 @@ Money is limited, so there is an order to what you protect first and what you le
 - **What you get back**: money + dignity — no longer afraid that "a lifetime's savings get taken and I don't dare let anyone know"
 - **How this works in China**: if you think you have been scammed, call 110; for the rules on prepaid fees at elder-care institutions, ask the local civil affairs bureau; to check whether a financial product is real, ask the bank counter or the financial regulator. The latest local wording prevails.
 
-## 16.12 If you can only do one thing today
+## 16.12 Your pension is not taxed, but the money you earn after retiring is
+
+After retiring, money can come in by two or three roads at once: the pension paid by social insurance, wages from being re-hired, fees from work you take on yourself. These three are not the same for tax, and lumping them together most simply gets you chased for a top-up at year end — or over-withheld with no refund claimed.
+
+- **What it costs**: done on the phone, nothing (Money: nothing | Time: half an hour | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: the basic pension paid by social insurance is exempt from individual income tax; that is written into the rules. Money earned after retirement is not exempt: if you go back to an employer and sign a labour or service agreement, it is withheld as "wages and salaries"; if you take work on yourself — teaching, writing, livestreaming — it is mostly withheld as "remuneration for services", at a rate that starts high and can come back at year end.
+- **What you can do**: ① Keep the two apart from the start: the pension is not taxed, re-employment wages are; don't believe "once you retire you pay nothing". ② If you have service remuneration, do the annual reconciliation in the official Individual Income Tax app at year end — withholding starts at 20%, the full year often comes to less, and the excess is refundable; many people forget this step. ③ Fill in the special additional deductions you are entitled to: support for elderly parents, major medical costs, mortgage interest or rent. ④ Don't trust calls, texts or links offering to "help you get a tax refund" or saying "your pension has to be re-assessed": refunds are done only in the tax administration's own app, and card details never go into a link somebody sent you. ⑤ If your income comes in several kinds, keep your own running record and settle it all at year end; that is easier than digging through it afterwards.
+- **Where this comes from**: B | The exemption for the basic pension, and withholding plus annual reconciliation for service remuneration, are written in the Individual Income Tax Law and its implementing regulations; how each payment is computed follows the tax authority's own wording.
+- **Who this is for**: **who it holds for** — anyone with re-employment, part-time work, teaching, writing fees or livestream income after retiring. Small amounts can still count; don't wait for a notice.
+- **What you get back**: money — no longer afraid of "the bit I earned extra getting chased for at year end"
+- **How this works in China**: the annual reconciliation is done in the tax administration's Individual Income Tax app; if unsure, call 12366 or ask at the local tax service hall. The latest local wording governs.
+
+## 16.13 If you can only do one thing today
 
 Open the "National Medical Insurance Service Platform" app, claim your personal enrollment record and your electronic medical insurance credential, and while you are in there glance at whether you pay employee medical insurance or resident medical insurance.
 
 This step doesn't cost a single yuan and takes ten minutes. But every question you have later — how much is covered, where to claim — begins its answer here.
 
-## 16.13 If you are reading this for your parents
+## 16.14 If you are reading this for your parents
 
 In our parents' generation there are a lot of things they would rather carry alone than bring up, "money" and "illness" most of all. If you are reading this chapter for them, the most useful help you can give is to turn "ask them" into "look it up".
 
@@ -159,7 +171,7 @@ In our parents' generation there are a lot of things they would rather carry alo
 
 **What you can still do if they won't agree**: get the paperwork together first — diagnosis, hospital receipts, medicine list — into one bag. When the day comes, one bag of documents is worth more than ten conversations.
 
-## 16.14 Where I am not sure
+## 16.15 Where I am not sure
 
 - Outpatient chronic and special disease: the 10 conditions that can be settled directly across provinces are nationally uniform, but the list of conditions that get the *benefit*, and the reimbursement rates, are set by each pooling area. This chapter cannot give one rate that works everywhere, only how to apply and where to ask.
 - The documents, the time limits and the reimbursement reductions for out-of-area filing differ from place to place; the range given in this chapter is a summary and was not traced back place by place. The place you are enrolled governs.
@@ -167,7 +179,7 @@ In our parents' generation there are a lot of things they would rather carry alo
 - Long-term care insurance benefits differ widely from place to place; this chapter gives the national timeline and targets. For what a particular city pays and how it assesses, go back and ask the local medical insurance bureau.
 - There is no nationwide statistic for the income family carers lose or for the price of a carer; this chapter only sets out which bills to count.
 
-## 16.15 Sources for this chapter
+## 16.16 Sources for this chapter
 
 Date checked: 2026-10-10. All links were tested and open (some pages on the financial regulator's site are dynamic and need to be opened in a browser).
 

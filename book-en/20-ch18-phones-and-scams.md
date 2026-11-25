@@ -3,7 +3,6 @@
 Seven in the morning. You want to book an appointment on your phone. You poke at the screen for a long while and can't find the place. The letters are too small, there are too many steps. You put the phone down and say, "I'll go early and queue tomorrow."
 
 Put it down, and you have handed someone else a thing you could have done yourself.
-
 ## 18.1 What this chapter is for
 
 This book works out four accounts, and the first is self-reliance. The old saying about managing for yourself meant being able to feed yourself and get to the toilet on your own. Today that sentence is only half of it — you have to add one more line: **being able to pick up your own phone and get done the things that mean seeing a doctor, going out, paying money.**
@@ -114,7 +113,71 @@ The scammer is younger than you, and knows the phone better than you do.
 - **What you get back**: money — no longer afraid that "I went looking for a dignified old age and put the principal in"
 - **How this works in China**: Before paying, go to the local civil affairs bureau and ask about the institution's filing and how its prepaid fees are supervised. Ask three things: Is it on file? How are prepayments supervised? How are refunds calculated? The latest local wording prevails.
 
-## 18.12 Set yourself one rule: big money waits a day before it leaves
+## 18.12 "Your account is suspected of money laundering": there is no such thing as a "safe account"
+
+- **What it costs**: one hang-up (Money: nothing | Time: a minute | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: these calls have a fixed shape: first they recite your name, ID number and address (that information leaked long ago), then say you are suspected of money laundering or that your identity has been used, and that you must "cooperate with the investigation and prove your innocence". In between they have you on video, share your screen, or book a hotel room for a "secret statement". The last step is always the same: move the money into a "safe account" or a "fund verification account". The police, the procuratorate and the courts have no safe accounts.
+- **What you can do**: ① Hang up, no explanation needed, and don't call back the number they gave. ② If you want to check, dial 110 yourself or walk into the nearest police station and ask in person. ③ Four things to remember: no video, no screen sharing, no hotel room, no transfer. ④ Pictures of "wanted notices", "arrest warrants" or "freezing orders" are fake — investigators do not send you a picture first. ⑤ If they say "this must not be told to the family", that is exactly when to tell them: that sentence is the switch.
+- **Where this comes from**: B | CCTV News' "anti-fraud keywords" and police notices from several places describe the same sequence (for example, notices from the Fuyang public security bureau in March 2026 and the Yongzhou public security bureau in August 2025); "there is no safe account and cases are not handled by phone" is a line the police have repeated publicly, and no specific statute says it.
+- **Who this is for**: **who it holds for** — everyone, especially people living alone, alone at home during the day, who panic when the phone rings. If cognition is already failing and the person has been "played" by phone for a long time, the family should take over incoming calls.
+- **What you get back**: money + dignity — no longer afraid of "being frightened into transferring a lifetime's savings"
+- **How this works in China**: after hanging up, call 110 or 96110; save 96110 and your bank's customer line in the phone; the National Anti-Fraud Centre app can turn on call warnings. The latest local wording governs.
+
+## 18.13 Appraisal, auction, promised buy-back: on the collectibles road, the last step is the disappearance
+
+- **What it costs**: one refusal to buy (Money: nothing | Time: one visit | Effort: none | Do you have to speak up: yes, and it is hard)
+- **In short**: a commemorative coin, a stamp or a painting bought for a few dozen yuan is presented as something that will appreciate, with a promise to "buy it back at a 20% premium in a year". While you are buying it is called a collection; when they run, it is paper. The Supreme People's Procuratorate lists this among typical cases of fraud against older people, and one part of the pattern stings: they approach you first with warmth, calling you "uncle" or "auntie", keeping you company and bringing small gifts.
+- **What you can do**: ① If the pitch contains "we promise to buy it back", "guaranteed to appreciate" or "we'll get it into an auction", it is not collecting, it is investing — treat it as a fraud first. ② If they want an "appraisal fee", "catalogue fee", "deposit" or "membership fee" up front, once paid it does not come back. ③ If you genuinely like collecting, go to a licensed auction house, look at completed sale records and inspect in person; don't order in an "exhibition room" in an office block. ④ If you have already bought one, don't buy the "matching" second batch; keep the contract, receipts and transfer records and go to the police.
+- **Where this comes from**: A | Typical cases of combating fraud against older people published by the Supreme People's Procuratorate in June 2022 — the Xu Mouyan case of fundraising fraud: commemorative coins and stamps bought cheaply were passed off as collectibles with investment value, with a promise to buy back at a 20% premium after a year, and family-like warmth used to win older people's trust.
+- **Who this is for**: **who it holds for** — people with spare money who want to "leave the children something" and who fear they don't understand investing. Where cognitive impairment is already diagnosed, the family should keep these "home recommendations" outside the door.
+- **What you get back**: money — no longer afraid of "wanting to leave the children something and leaving a cupboard of paper"
+- **How this works in China**: for suspected fraud call 110 or 96110; for false advertising report to the market regulation department on 12315. If you have paid, take the contract and transfer records to the police station; don't go and "argue it out" yourself. The latest local wording governs.
+
+## 18.14 Paying an agent to top up contributions, "internal quotas": there is no back door into social insurance
+
+- **What it costs**: one refusal (Money: nothing | Time: a few minutes | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: anyone claiming "I have an inside channel, we can top up 15 years in one payment and get your pension started straight away" takes tens of thousands to a hundred thousand yuan of "back contributions" plus a "handling fee", and disappears. A top-up has to rest on a real employment relationship; whether it can be done and how is settled only at the social insurance office.
+- **What you can do**: ① Remember one rule: anyone charging a fee and promising to "top up in one payment", "handle your retirement for you" or offering an "internal quota" is a fraud. ② Your own years of contributions are visible in the 掌上12333 app or on your e-social-security card, so whether you have enough is plain — no intermediary needed. ③ If you are short of 15 years, the proper routes are to keep paying until you reach 15, or to transfer into the urban and rural residents' pension as the rules allow. ④ If a genuine back payment is needed, go to the social insurance office where you are insured and nowhere else, and use no intermediary. ⑤ If you have already paid, take the transfer records and the chat logs to the police.
+- **Where this comes from**: A | Ministry of Human Resources and Social Security and Ministry of Finance, *Notice on Further Strengthening the Management of Revenue and Expenditure of the Enterprise Employees' Basic Pension Insurance Fund* (人社部发〔2016〕132号), item (3): localities may not, in breach of national rules, bring people over the statutory retirement age or otherwise ineligible into the scheme by way of a one-off payment; self-employed urban businesses and flexible workers may not add contribution years by paying in arrears. The Beijing Municipal Human Resources and Social Security Bureau has publicly stated that social insurance offices have never authorised any company or individual to handle back payments or agency contributions, and that fee-charging promises of one-off top-ups or agency contributions are suspected fraud.
+- **Who this is for**: **who it holds for** — people close to retirement age who are a few years short, people who left state employment early or have gaps in contribution. If a son or daughter runs this errand for a parent, they should not use an "agent" either.
+- **What you get back**: money — no longer afraid of "handing the retirement money to a fixer and then not being able to find the fixer"
+- **How this works in China**: contribution records are in the 掌上12333 app or on the e-social-security card; business is done at the social insurance office where you are insured; for policy call 12333, and if unsure 12345. The latest local wording governs.
+
+## 18.15 Buying medicine, buying devices, leaving your details: the three places you get hooked
+
+Most of the scams earlier in this chapter are "somebody comes to you". There are three places you walk into yourself: ordering medicine on the phone, adding a smart device at home, scanning a code and filling in details. They are not necessarily fraud, but each has its own pit.
+
+**Buying prescription medicine online: first check the licence, then check the prescription**
+
+- **What it costs**: about the same as a physical pharmacy; don't be led away by "factory direct" price gaps (Money: depends on the medicine | Time: a few minutes | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: prescription medicine is not an ordinary product, and selling it online has a threshold: the platform needs an internet pharmaceutical information service licence, and one selling prescription medicines needs a drug e-commerce qualification; the order must be backed by a prescription and checked by a licensed pharmacist. A "channel" that skips those steps has nobody watching whether the medicine is genuine or how it was stored.
+- **What you can do**: ① Only buy through the "pharmacy" section of a proper platform, where the licence number is at the foot of the page. ② For prescription medicine, upload a prescription or open an online consultation for one; anyone willing to sell without a prescription is not to be bought from. ③ On arrival check three things: the packaging is intact, the expiry date, and the approval number (国药准字); if any is wrong, send it back. ④ Insulin and some biologics need a cold chain, so buying online in summer is riskier; if you can go to a physical pharmacy, go. ⑤ Don't buy "insider price" or "same as the hospital" in WeChat groups: when something goes wrong with those channels there is nobody to find.
+- **Where this comes from**: A | Selling prescription medicine only against a prescription, and the qualifications a platform must hold, are set out in the *Measures for the Supervision and Administration of Online Drug Sales* (in force 2022).
+- **Who this is for**: **who it holds for** — people on long-term medicine for chronic disease who shop online for a cheaper price. If what arrives has a different packaging, colour or taste, don't take it; take it to a pharmacist.
+- **What you get back**: independence — no longer afraid of "buying a box of fake medicine to save a few yuan"
+- **How this works in China**: approval numbers and pharmacy licences can be checked on the National Medical Products Administration website; if unsure, ask a pharmacist at a community pharmacy. Where to ask: the local market regulation bureau, the community pharmacy.
+
+**How your name, phone number and health details get sold**
+
+- **What it costs**: nothing — change a few settings, ask one more question (Money: nothing | Time: ten minutes or so | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: lists of older people circulate through the health-supplement, renovation, insurance and health-check trades, priced by how precise they are: one price with a phone number, another with an address, a medical history and a knowledge of what medicines you take. So when you get a call asking "is it your back that's bad?" or "do you still have that medicine you bought?", it means your details have already been pieced together.
+- **What you can do**: ① Give your name and number sparingly — not in unknown mini-programs, prize draws or at a stall handing out free eggs. ② With a precisely targeted sales call, don't argue, just hang up and mark it as nuisance; if they keep calling, report on 12321. ③ Tear off the name and number on delivery labels before throwing them away. ④ When someone offers a "free blood pressure check, free bone density scan" at the door, don't leave a phone number or ID. ⑤ Families too: when buying things for an older person, don't let slip to a salesperson that they live alone or what medicines they take.
+- **Where this comes from**: B | Collecting and reselling personal information is clearly unlawful under the Personal Information Protection Law; which particular lead leaked is usually untraceable, so the emphasis is on giving less away.
+- **Who this is for**: **who it holds for** — people who often go to health talks, free check-ups and community promotions. If a caller can already name your illness, stop the conversation, and above all don't confirm "yes, that's what I have".
+- **What you get back**: dignity — no longer afraid of "my private business ending up as somebody's list"
+- **How this works in China**: report nuisance calls and spam texts on 12321 or to your carrier; if a leak causes loss, call 12315 or the police. Where to ask: the 12321 reporting centre, the local cyberspace administration.
+
+**Eldercare devices with a "free trial, pay a deposit": check whether the company still exists**
+
+- **What it costs**: deposits are often thousands to tens of thousands — best to pay nothing at this step (Money: possibly over ten thousand | Time: a few minutes | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: the trick is not new, only the name changes: eldercare robots, smart nursing beds, AI companion speakers. "Free trial", "a deposit locks in the discount", "we are about to list, subscribe for founder shares" — the last step is usually the company deregistered and the people gone.
+- **What you can do**: ① For any "high-tech eldercare device" that wants money up front, do one thing first: look the company up in the National Enterprise Credit Information Publicity System — how long it has existed, whether it is in abnormal operation, whether it has been penalised. ② For anything called a medical device, look for the registration number; without one it may not claim to treat anything. ③ Don't sign "subscription", "shareholding" or "prepay and get rebates" contracts; once signed, the money is no longer "buying a device". ④ For a large outlay, tell your children or someone you trust first and decide a day later. ⑤ If you have already paid, keep the contract, transfer records and leaflets, and report to the police and 12315 as soon as possible.
+- **Where this comes from**: B | "Check the business licence, check the medical device registration, don't prepay, don't subscribe" is ordinary practice; how such a case is characterised depends on the evidence.
+- **Who this is for**: **who it holds for** — people moved by words like "high-tech" and "listing" who are not confident looking a company up on a phone. For the children, the single most useful habit is to ask regularly whether there has been any large spending at home.
+- **What you get back**: money — no longer afraid of "buying something for my old age and buying away the money for my old age"
+- **How this works in China**: look the company up in the National Enterprise Credit Information Publicity System (gsxt.gov.cn); medical device registration numbers are on the NMPA website; complaints on 12315. Where to ask: the local market regulation department.
+
+## 18.16 Set yourself one rule: big money waits a day before it leaves
 
 - **What it costs**: one day (money: none | time: one day | effort: none | do you have to ask: easy to ask)
 - **In short**: What a scammer fears most is that you wait. Almost every scam contains a "if you don't do it today it's too late", precisely so that you have no time to think. Put a "one day later" on big money and the scammer's words stop working.
@@ -124,7 +187,7 @@ The scammer is younger than you, and knows the phone better than you do.
 - **What you get back**: money — no longer afraid that "I transferred in a hurry, with no time to think"
 - **How this works in China**: Look for the "transfer arrival time" setting in your mobile banking app; if you're not sure, dial 96110. The latest local wording prevails.
 
-## 18.13 If you really are cheated: stop the payment, keep the evidence, call the police — and don't hide it from the family
+## 18.17 If you really are cheated: stop the payment, keep the evidence, call the police — and don't hide it from the family
 
 - **What it costs**: the first few hours (money: none | time: a few hours | effort: none | do you have to ask: hard to bring up)
 - **In short**: If you have been cheated, don't start by cursing yourself, and don't hide it. Whether the money can be recovered depends on these first few hours. The order is: stop the payment → keep the evidence → call the police.
@@ -134,13 +197,13 @@ The scammer is younger than you, and knows the phone better than you do.
 - **What you get back**: money + dignity — no longer afraid that "if I've been cheated no one will help me, and I daren't say it out loud"
 - **How this works in China**: 110, 96110, the bank counter; the National Anti-Fraud Center app has a one-tap report. The latest local wording prevails.
 
-## 18.14 If you can only do one thing today
+## 18.18 If you can only do one thing today
 
 Today, set the phone's font size to the largest, and turn on WeChat's care mode. Just that one thing.
 
 With bigger letters you can see everything in this chapter clearly — where the first tap goes for those six tasks, and the one place in a scam where something doesn't sit right.
 
-## 18.15 If you are reading this for your parents
+## 18.19 If you are reading this for your parents
 
 It is hard to say "be careful, don't get cheated" straight out. The moment you say it, it becomes distrust.
 
@@ -152,15 +215,17 @@ It is hard to say "be careful, don't get cheated" straight out. The moment you s
 
 **The hardest part**: don't let him feel that you are investigating him or guarding against him. For someone who has been cheated, what they fear most is often not that the money is gone, but being scolded by the family. If he is willing to tell you first thing, the money can still be saved.
 
-## 18.16 What I am not sure about in this chapter
+## 18.20 What I am not sure about in this chapter
 
 - [unverified] Two figures on AI fraud — "up about 45% quarter on quarter" and "older people made up 38% of those cheated" — this chapter found only the People's Daily Overseas Edition (2026-04-13) and reprints by the Legal Daily site and Credit China saying they are cited from Ministry of Public Security data; I did not read the ministry's original bulletin, so they are still treated as second-hand. To check the original wording, go to the ministry's website or look up the transcript of a ministry press conference.
 - The entrances for elder mode and care mode have to be found again every time a version changes: the current paths for Apple, Huawei and WeChat can all be matched against their own official help pages (see 18.17); Huawei, for one, merged its earlier "simple mode" into "care mode", which shows that renaming really does happen. Alipay has no long-term stable official page, so go by what the app on your own phone actually shows.
 - There is no nationwide system for hospital accompaniment, and no nationwide qualification standard. Shanghai is furthest ahead (see Chapter 17 and 18.5): open to everyone over 60, with no household-registration requirement, so older people who have come to Shanghai from elsewhere can buy it too. A few cities (Xiamen, for instance) have also issued municipal accompaniment schemes through the civil affairs department in recent years, but most have not. Whether your city has one, and what it charges, you have to ask the local civil affairs bureau.
 - On how many disputes "roaming" and prepaid retirement membership fees have actually produced, there is no public authoritative statistic, and we did not find a number — what this chapter gives is the regulatory wording (Minfa [2024] No. 19) plus an official risk notice: on 2025-09-09 the National Office on Aging, the Ministry of Civil Affairs, the China Association of Aging and the China Consumers Association jointly issued an eldercare consumption notice, naming the problem of "membership-based eldercare" and "prepaid cards" charging large membership fees. To check whether a particular institution is compliant, go to the Ministry of Civil Affairs' National Elderly Care Service Information Platform (see 18.17), or ask the local civil affairs bureau.
+- The 18.14 item on social insurance back payments gives the national rule (Minfa [2016] No. 132, from the Ministry of Human Resources and Social Security and the Ministry of Finance) plus the Beijing bureau's public warning; places still have their own line on whether and how a top-up can be done (recovering contributions the employer owed but did not pay, and top-ups to the urban and rural residents' pension, follow different rules), so the answer from the social insurance office where you are insured governs.
+- The statement in 18.12 that "the police, procuratorate and courts have no safe accounts and do not handle cases by phone" is wording the police have repeated publicly; no specific statute says it, so this chapter treats it as grade B.
 - The default for "arrives in 24 hours" in mobile banking differs from bank to bank, and there is no nationwide page explaining it: some default to instant, some make you choose "next-day arrival" under "arrival time" when you transfer. Open your own mobile banking and look for that option once on the transfer screen; if you're not sure, call the bank's hotline.
 
-## 18.17 Sources for this chapter
+## 18.21 Sources for this chapter
 
 - The Shenzhen case, "70-year-old woman cheated of 147,000 yuan" (fake customer service): Shenzhen Municipal Public Security Bureau, *A 70-Year-Old Woman Cheated of 147,000 Yuan! This New Kind of "Customer Service" Scam Targets Older People* (《70岁阿姨14.7万被骗！这种新型"客服"骗局专盯老年人》) (Shenzhen anti-fraud center bulletin, 2025-07-10). https://ga.sz.gov.cn/JMHD/YWZSK/XJGL_ZS/content/post_12272860.html [checked 2026-10-10]
 - The Grandma Li case in Zhengzhou (AI face-swap, voice-clone "grandson"), and the Ministry of Public Security figures "up 45% quarter on quarter, 38% older people": People's Daily Overseas Edition, *AI Is "Cheating" Older People — the Umbrella Needs to Be Held Wide Open* (《AI"坑老"，守护伞要撑好！》) ("Rong" View of China, staff reporter Huo Minhan, 2026-04-13, page 08) https://paper.people.com.cn/rmrbhwb/pc/content/202604/13/content_30150642.html ; reprinted on the Legal Daily site: http://www.legaldaily.com.cn/newzt/content/2026-04/13/content_9372640.html [second-hand] (Ministry of Public Security data)
@@ -175,3 +240,7 @@ It is hard to say "be careful, don't get cheated" straight out. The moment you s
 - Shanghai hospital accompaniment is open to all people over 60, with no household-registration requirement: Shanghai Municipal People's Government, *Fully Rolling Out Medical Accompaniment Services for Older People! In Force from July 1 (with Q&A)* (《全面推进老年助医陪诊服务！7月1日起实施（附热点问答）》) (Shanghai Fabu, 2026-06-26) https://www.shanghai.gov.cn/xbhygq/20260626/a2766847705d4c9b91933443fc1c53dc.html [checked 2026-10-10]
 - Alipay's official customer service line, 95188: Alipay Service Hall, *Contact Us* (《联系我们》) https://help.alipay.com/lab/help_detail.htm?help_id=212632 [checked 2026-10-10]
 - Hospital accompaniment: Shanghai, *Pilot Scheme for Medical Accompaniment Services for Older People in Shanghai* (《上海市老年人助医陪诊服务试点方案》) (issued 2025-01-22) and *Scheme for Fully Rolling Out Medical Accompaniment Services for Older People* (《关于全面推进老年助医陪诊服务的方案》) (Humin Yanglaofa [2026] No. 5); on charges and qualifications see Chapter 17, 17.4 and 17.14. https://mzj.sh.gov.cn/MZ_zhuzhan279_0-2-8-15-55-231/20260625/b5d7b569f014474a862c818ec54c2671.html [checked 2026-10-10]
+- Impersonating the police, procuratorate or courts: CCTV News, *Anti-fraud keyword: "you are suspected of money laundering, transfer to a safe account" — what to do next if you get this call* (2025-06-23) https://news.cctv.com/2025/06/23/ARTIfatIYWy0ZxCDL2AasTPX250623.shtml ; Yongzhou public security bureau warning (reposted by Guangming Online, 2025-08-19) https://m.gmw.cn/2025-08/19/content_1304114836.htm ; Fuyang public security bureau, *Fraudsters have latched onto official apps* https://gaj.fy.gov.cn/Content/show/1291760.html [checked 2026-11-25]
+- Collectibles: Supreme People's Procuratorate, *The Xu Mouyan fundraising fraud case — using family-like warmth and premium buy-backs to defraud older people* (one of the typical cases of combating fraud against older people, 2022-06-17): commemorative coins and stamps bought cheaply passed off as collectibles, with a promise to buy back at a 20% premium after a year. https://www.spp.gov.cn/spp/djzzylzp/202206/t20220617_560405.shtml ; China Peace Network http://chinapeace.gov.cn/chinapeace/c100007/2022-06/17/content_12637375.shtml [checked 2026-11-25]
+- Social insurance back payments: Ministry of Human Resources and Social Security and Ministry of Finance, *Notice on Further Strengthening the Management of Revenue and Expenditure of the Enterprise Employees' Basic Pension Insurance Fund* (人社部发〔2016〕132号) item (3) "standardising enrolment and contribution policy"; the text is quoted in the Jilin Provincial Social Insurance Administration's policy handbook https://jlsi.jl.gov.cn/xxgk/gsgg/ybz_424450/hcs/202506/t20250627_9676064.html ; Beijing Municipal Human Resources and Social Security Bureau, *Paying an agency for social insurance? Watch out for fraud!* (2025-12-24) https://www.bjjubao.org.cn/2025-12/24/content_47891.html
+
