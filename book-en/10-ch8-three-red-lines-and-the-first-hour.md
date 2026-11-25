@@ -129,22 +129,46 @@ Print it out, fill it in, and tape it next to the phone:
 > Community or family-doctor phone: __________
 > Children's phones: __________   Neighbours' phones: __________
 
-## 8.11 If you are reading this for a parent
+## 8.11 One cause of stroke you can check for at home: feel your pulse
+
+A stroke means calling 120, and there is nothing to discuss about that. But one kind of stroke leaves a clue months earlier, and the clue is in your wrist — most people have never noticed it.
+
+- **What it costs**: feeling your pulse costs nothing; an ECG is a few tens of yuan; a 24-hour Holter is a few hundred (Money: tens to a few hundred | Time: half a day | Effort: none | Do you have to speak up: yes, easy)
+- **In short**: in one kind of stroke the clot does not form in the neck, it forms in the heart. When the heartbeat goes chaotic — atrial fibrillation — blood swirls in the atrium and clots easily; a clot breaks off and is carried into the brain. Strokes caused by atrial fibrillation tend to be more severe, with a higher share of death and disability. The trouble is that many people do not know they have it: it can come and go, and there is no sensation when it comes.
+- **What you can do**: (1) Feel it once yourself: press the index and middle finger of the other hand on the wrist on the thumb side, count for 30 seconds and double it. What you are looking at is not speed but **whether it is even** — whether the gaps between beats keep changing. (2) If it is uneven, or you cannot tell, get an ECG at a community health centre or hospital. Intermittent atrial fibrillation may not show on a single ECG, and the doctor may suggest a 24-hour Holter; a smartwatch's "AFib alert" is a hint, not a diagnosis. (3) If you are already on an anticoagulant, the one thing that matters most: **do not stop it yourself.** Stopping because "it did not feel like it was doing anything" is one of the commonest triggers of stroke. (4) People with high blood pressure, diabetes, heart failure, hyperthyroidism, long-term heavy drinking or loud snoring (sleep apnoea) are at higher risk; mention it at a checkup.
+- **Where this comes from**: B | The link between atrial fibrillation and ischaemic stroke, and the fact that anticoagulation lowers stroke risk, are both hard evidence; how to treat it and which drug to use is for the cardiologist. No prevalence figure is given here, because Chinese surveys differ widely in method.
+- **Who this is for**: **Who it holds for** — people over sixty, or with high blood pressure, heart failure, hyperthyroidism or heavy snoring. If you already have atrial fibrillation and are on an anticoagulant, this section only says "do not stop it yourself"; dose, switching drugs and whether to have a procedure are the doctor's business.
+- **What you get back**: independence — no longer afraid that "the thing blocking my brain had already waved at me from my wrist"
+- **How this works in China**: An ECG can be done at most community health centres for a few tens of yuan; a Holter is done in the cardiology department of a secondary or higher hospital. Whether insurance covers it depends on the local catalogue. Where to ask: the community health centre, the cardiology clinic.
+
+## 8.12 "Not himself today" is the line you should be looking at
+
+The sections above are about which symptoms show up. This one is about the other line: nothing you can name, and yet the person is not right. That is the hardest kind to judge, and the easiest to lose days on.
+
+- **What it costs**: the time it takes to look once a day (Money: nothing | Time: a minute | Effort: none | Do you have to speak up: yes, easy — you only have to be willing to say "something is off with Mum today")
+- **In short**: when an older person gets an acute illness, there is often no fever, no complaint of pain, no cough. A heart attack can be nothing but a lost appetite and drowsiness; pneumonia can come without a cough; a urinary infection can be nothing but "he has not been himself these few days". What shows up first is usually not one organ's symptom, it is **that he cannot do what he could do yesterday**.
+- **What you can do**: (1) Write the baseline down: which things he can still do each day — get out of bed alone, eat alone, get to the toilet alone, go downstairs, recognise people. Keep the sheet on the fridge. (2) Ask one question a day: compared with yesterday, what can he no longer do? (3) If any of these appears, do not wait: no food for a day, or less than half of what he usually eats; sleepy or muddled in the daytime, answers that do not fit; new incontinence; suddenly unsteady or unable to walk; not back to his usual self after three days. (4) At the hospital, say this first: **"Three days ago he was fine; from Tuesday he could not get out of bed on his own."** That sentence tells the doctor more than a temperature and a blood pressure.
+- **Where this comes from**: A | Being in hospital is itself a break point for older people: about one third of people over 70 who are admitted come out less able than they went in, and it happens even when the illness that brought them in has been treated [third-party research: Covinsky et al., JAMA 2011]. **But** there is no unified national red line for "functional decline"; hospitals judge it differently. What is given here is the version you can understand and act on.
+- **Who this is for**: **Who it holds for** — people over 75, people living alone, people just home from hospital, people just started on a new medicine. For someone already disabled, the baseline is how they are now, and what you watch is still the same: what they did yesterday and cannot do today. Fever is not a requirement; plenty of older people with an infection never run one.
+- **What you get back**: independence — no longer afraid that "he is plainly not right and I cannot say what is wrong"
+- **How this works in China**: A contracted family doctor at the community health centre can put the baseline into the health record, so you can check against it at follow-up; on the day of discharge, ask the doctor in charge for one sentence on which things he can still do for himself at home. The latest local wording governs.
+
+## 8.13 If you are reading this for a parent
 
 Print the table in 8.10 out larger and tape it next to the phone at your parents' home, with the address, community phone, and your and your siblings' numbers filled in. When you call 120 on a parent's behalf, the medication list, medical history and insurance type in your hands are the most useful things (Chapters 0 and 19).
 
-## 8.12 The one thing you can do today
+## 8.14 The one thing you can do today
 
 Take a photo of the top three rows of this chapter's decision table, save it to your phone's album and pin it; then add 120 to your phone's speed dial.
 
 You don't have to remember all of it today. When the day really comes, the only things you need to recall are: **call 120, don't drive yourself, and note down the time to the minute.**
 
-## 8.13 What I am not sure about in this chapter
+## 8.15 What I am not sure about in this chapter
 
 - The thrombolysis time window updates with the method of treatment (there is now an extra tier of "extended time window after imaging screening"). This chapter follows the Chinese Guidelines for the Diagnosis and Treatment of Acute Ischaemic Stroke 2023 in writing "within 4.5 hours of onset as the standard, extendable to 4.5–9 hours with imaging screening"; for exactly what to do, the guideline and protocol your hospital is following that day governs.
 - For how to assess people on anticoagulants or antiplatelet drugs after a fall, and when to do a CT, this chapter writes only "seek medical attention as soon as possible"; the specific handling is left to the emergency department and neurosurgery, and this text does not decide it on their behalf.
 
-## 8.14 Sources for this chapter
+## 8.16 Sources for this chapter
 
 - [A] National Health Commission online interview, *Popularising First-Aid Knowledge and Skills, Jointly Building a Line of Safety for Life* (普及急救知识技能 共筑生命安全防线) (2026-09-29): the key points of calling 120, chest pain, stroke, CPR, and airway obstruction. https://www.nhc.gov.cn/wjw/zxft/hdjl_zxft_detail.shtml?id=e49e3059afcf4a179f552df29219a610 [checked 2026-10]
 - [A] Chinese Center for Disease Control and Prevention, *Time Is Myocardium, Time Is Life* (时间就是心肌，时间就是生命) (2024-11-20). https://www.chinacdc.cn/jkkp/mxfcrb/xxg/202411/t20241120_302729.html
@@ -155,3 +179,4 @@ You don't have to remember all of it today. When the day really comes, the only 
 - [A] Chinese Society of Cardiology and the Editorial Board of the Chinese Journal of Cardiovascular Diseases, *Guidelines for the Diagnosis and Treatment of Acute ST-Segment Elevation Myocardial Infarction (2019)* (急性ST段抬高型心肌梗死诊断和治疗指南（2019）), *Chinese Journal of Cardiovascular Diseases* 2019, 47(10): 766-783: symptoms in older patients are often atypical, easily misdiagnosed or delayed; the rate of atypical chest pain is high in those with diabetes. https://seleguide.yiigle.com/uploads/guide_html/急性ST段抬高型心肌梗死诊断和治疗指南（2019）.html [checked 2026-10-10]
 - [A] Emergency Physicians Branch of the Chinese Medical Doctor Association et al., *Chinese Expert Consensus on Prehospital and Emergency Diagnosis and Treatment of Adult Traumatic Brain Injury* (成人创伤性颅脑损伤院前与急诊诊治中国专家共识) (Medical Journal of Chinese People's Liberation Army (解放军医学杂志), 2025 online first): the indications for a head CT in mild traumatic brain injury include "currently receiving anticoagulant or antiplatelet therapy"; a history of anticoagulant/antiplatelet use should be assessed in the emergency department. https://medtion-image.medtion.com/uploads/1/file/public/202503/20250312144833_pc1vfaw79s.pdf [checked 2026-10-10]
 - [B] Calling 120 and reporting address and condition: Yantai Municipal People's Government, *How to Correctly Call the 120 Emergency Number* (如何正确拨打 120 急救电话) (2022-09-13). https://www.yantai.gov.cn/art/2022/9/13/art_67475_3018538.html
+- [third-party research] Covinsky KE, Pierluissi E, Johnston CB. Hospitalization-associated disability: “She was probably able to ambulate, but I’m not sure”. JAMA. 2011;306(16):1782: acute medical illness requiring hospital admission is itself a trigger for disability in older people; about one third of patients over 70 develop hospitalization-associated disability, and it can occur even when the illness that caused the admission has been successfully treated. PMID: https://pubmed.ncbi.nlm.nih.gov/22028354/ [checked 2026-11-25]

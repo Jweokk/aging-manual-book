@@ -32,6 +32,8 @@ According to a 2021 sample survey by the Ministry of Civil Affairs, the National
 
 The people who can spend every day at the bedside are either a spouse who no longer has the strength, or children who cannot take that much leave. The gap in between is what this chapter is trying to fill.
 
+Broken down by age, the person you lean on changes. In the same survey, among older people who need care and have received it: in the 60–69 group about 72.5% rely mainly on a spouse; at 80 and over only about 23% still rely on a spouse and about 76% on the younger generation (children, children's spouses, grandchildren) [public reporting: CHARLS wave 6]. **"Your other half will look after you" has a shelf life.** After eighty, the ones who take over are mostly the children's generation — fewer of them, and mostly not nearby. The two surveys asked the questions differently, so the percentages cannot be compared directly; what they show is the direction.
+
 ## 17.3 Do not wait for the day it happens to scroll through your contacts
 
 - **What it costs**: one afternoon and a pen (Money: none | Time: half a day | Effort: none | Do you have to speak up: easy to ask)
@@ -42,7 +44,36 @@ The people who can spend every day at the bedside are either a spouse who no lon
 - **What you get back**: relationships — no longer afraid of "something happening at night and no one knowing"
 - **How this works in China**: Ask at the residents' committee or the community eldercare service station whether your area has visits to people living alone, "knock on the door" rounds, contracted family doctors, and registration of emergency contacts. The latest local wording governs.
 
-## 17.4 Hospital accompaniment: paying someone to run the hospital for you
+## 17.4 Count the gaps first: twelve things, and who is helping
+
+- **What it costs**: one sheet of paper, a pen, half an hour (Money: nothing | Time: half an hour | Effort: none | Do you have to speak up: yes, easy — you only have to admit, in front of him, that some things can no longer be done)
+- **In short**: disability is not a word, it is twelve concrete things. Which of them cannot be done, and which of them has nobody helping, is what tells you who to ask and where the money has to go.
+- **What you can do**: count them in two groups. **Six close to the body**: dressing, bathing, eating, getting in and out of bed, using the toilet, controlling bladder and bowels. **Six for daily living**: cooking, shopping, housework, taking medicines, managing money, using a phone to get things done. Mark each one — can do alone / needs a hand / cannot do — then write a name after it: who is helping. The boxes that say "nobody" are the gap this chapter is about.
+- Print the table below and fill it in (in pencil; fill it again in three months):
+
+| Task | Can do alone | Needs a hand | Cannot do | Who helps (write "nobody" if nobody does) |
+|---|---|---|---|---|
+| Dressing |  |  |  |  |
+| Bathing |  |  |  |  |
+| Eating |  |  |  |  |
+| Getting in and out of bed |  |  |  |  |
+| Using the toilet |  |  |  |  |
+| Controlling bladder and bowels |  |  |  |  |
+| Cooking |  |  |  |  |
+| Shopping |  |  |  |  |
+| Housework |  |  |  |  |
+| Taking medicines |  |  |  |  |
+| Managing money |  |  |  |  |
+| Using a phone to get things done |  |  |  |  |
+
+- One number: counted this way, about one in five people over 60 needs help with at least one of the twelve. By age the spread is wide: about 11% at 60–69, about 21% at 70–79, and about 46% at 80 and over [public reporting: CHARLS wave 6].
+- The gap matters more than the need: among older people who do need care, nearly 30% have at least one item that nobody helps with, and about 12% have nobody helping with any of the twelve. Take the most intimate items on their own — about 20% of those who need help using the toilet get none, and about 22% of those who need a hand moving about indoors get none [public reporting: CHARLS wave 6].
+- **Where this comes from**: B | The age breakdown and the gaps come from the sixth wave of the China Health and Retirement Longitudinal Study (fielded 2021–2023), from the questionnaire data and weights the project team published, as reported by Caixin in November 2026. **But** the two denominators must not be mixed: one is "all respondents aged 60 and over", the other is "people who need care". To say "thirty percent of older people are looked after by nobody" is wrong; "among those who need care, thirty percent have an item nobody helps with" is right.
+- **Who this is for**: **Who it holds for** — the table is useful to three sorts of people: you at around seventy, filling it in to see how many years of independence are left; your parents at around eighty, filling it in to see which box the gap is in; someone already disabled, filling it in to take to the assessment, which is far clearer than describing it out loud. For someone already bedbound, skip the items and look at the six close to the body.
+- **What you get back**: independence + relationships — no longer afraid of "what exactly is missing, and who to ask, I cannot say"
+- **How this works in China**: The official assessment uses the national standard *Specification for Ability Assessment of Older Adults* (GB/T 42195-2022), which sorts ability into five levels and looks at self-care, mobility, mental state, sensory function and social participation (see 17.9); long-term care insurance in its first stage covers only severe disability, so begin with a rough count of how many of the six close-to-the-body items he can still do alone. Where to ask: the community or sub-district eldercare service centre, the district civil affairs bureau, the medical insurance bureau where he is insured. The latest local wording governs.
+
+## 17.5 Hospital accompaniment: paying someone to run the hospital for you
 
 - **What it costs**: 100 to 300 yuan a time (Money: some money | Time: half a day to a full day | Effort: none | Do you have to speak up: yes, and it is a little embarrassing — you have to be willing to admit you cannot work it out yourself)
 - **In short**: The bigger the hospital, the more it is a maze — registering, paying, collecting medicine, finding the department, walking back and forth. What a hospital companion does is run the errands and do the talking for an older person.
@@ -52,7 +83,7 @@ The people who can spend every day at the bedside are either a spouse who no lon
 - **What you get back**: independence + dignity — no longer afraid of "going to the doctor with no one with me, unable to explain myself, and treated as a nuisance"
 - **How this works in China**: In mainland China, in Shanghai you can order through the district platform (such as "Pu Laohui" in Pudong), or ask at a comprehensive eldercare service center or the service station at the end of your street; older people on the minimum living guarantee or low incomes can be brought into the eldercare service subsidy. In other cities, start by asking the district civil affairs bureau whether there is a "medical assistance and hospital accompaniment service." At national level, 民发〔2024〕52 号 has already written medical assistance and hospital accompaniment into home-based eldercare services. The latest local wording governs.
 
-## 17.5 Respite care: a day off for the person who watches every day
+## 17.6 Respite care: a day off for the person who watches every day
 
 - **What it costs**: depends on the place; sometimes the government pays, sometimes you pay part (Money: some money | Time: a few days a month | Effort: none | Do you have to speak up: yes, and it is a little embarrassing — you have to be willing to admit you cannot hold out)
 - **In short**: One person watching another sick person every day, 365 days a year with no break — the one who breaks first is the watcher. Respite care means either moving the older person into a facility for a few days, or having a professional come to your home and take over for half a day.
@@ -62,7 +93,7 @@ The people who can spend every day at the bedside are either a spouse who no lon
 - **What you get back**: relationships — no longer afraid of "the carer collapsing first and the whole family going down with them"
 - **How this works in China**: In mainland China, ask at the sub-district or community eldercare service center, or the district civil affairs bureau: "respite services for family carers, short-term residential care, family eldercare beds — does this area have them, and how do I apply?" Fengtai in Beijing, Qingyang in Chengdu, and Guanghan in Sichuan have all run pilots. The latest local wording governs.
 
-## 17.6 If you are the carer, count yourself in first
+## 17.7 If you are the carer, count yourself in first
 
 - **What it costs**: one self-check and one phone call (Money: none | Time: a few minutes | Effort: none | Do you have to speak up: yes, and it is a little embarrassing — you have to admit you might not hold out either)
 - **In short**: Caregiving is not a cold; it is a chronic drain that hollows a person out bit by bit. One meta-analysis pooled 13 studies and 4,970 people and put the detection rate of depressive symptoms among family carers of disabled older people in China at 41.81% (95% confidence interval about 37.6%–46.1%). **Look closely at the words "detection rate"**: this is a proportion pooled from several studies, not a prevalence rate, and it certainly does not mean "one in every two carers has depression." What it says is that emotional problems are very common in this group, that they have never been treated as an illness, and that they should not be written off as "not being able to let things go."
@@ -70,11 +101,11 @@ The people who can spend every day at the bedside are either a spouse who no lon
 - **Where this comes from**: B | The high detection rate of depression among carers has meta-analytic support pooling several studies; **but** the scales, samples, and regions differ between studies, and the pooled interval itself is wide (95% CI about 37.6%–46.1%, with subgroups from about 33% to nearly 50%), so treat 41.81% as a reminder, not a diagnosis, and certainly not as a "national prevalence."
 - **Who this is for**: **Who it holds for** — at 60 and in decent health, you can run into this the moment you start caring for your parents; at 75, ill yourself and also caring for someone, it is heaviest; if the older person is already disabled, the carer is often an even older spouse, and the risk is highest. **If you hear "there's no point in living" or "I'd be better off dead," take it seriously and do only two things: stay with the person, and call for help.** National psychological assistance hotline 12356 (set up by the National Health Commission in 2024, with each line required to provide at least 18 hours of service a day); the Hope 24 hotline 400-161-9995 (24/7). If someone is in immediate danger, call 120 or 110.
 - **What you get back**: relationships + independence — no longer afraid of "the person doing the caring collapsing first"
-- **How this works in China**: Call 12356; ask at the community whether there is an older-adult mental health care point or a community mental health doctor (more places to turn are in 17.10). The latest local wording governs.
+- **How this works in China**: Call 12356; ask at the community whether there is an older-adult mental health care point or a community mental health doctor (more places to turn are in 17.11). The latest local wording governs.
 
 There is no version of caregiving that is not tiring.
 
-## 17.7 The four hurdles caregiving has to get over: body, money, work, feelings
+## 17.8 The four hurdles caregiving has to get over: body, money, work, feelings
 
 Whether you are caring for a parent or a spouse, the wearing-down comes in just four forms.
 
@@ -87,7 +118,7 @@ Whether you are caring for a parent or a spouse, the wearing-down comes in just 
 
 The hardest one to say out loud is feelings: you can say you are tired, but being fed up is often something you do not dare say.
 
-## 17.8 "It is time for a facility" is about capacity, not filial devotion
+## 17.9 "It is time for a facility" is about capacity, not filial devotion
 
 - **What it costs**: one assessment or one conversation (Money: assessments usually go through LTCI, or are free | Time: half a day | Effort: none | Do you have to speak up: hard to say — this is the hardest step to take)
 - **In short**: Whether the older person should move to a facility is not settled by "am I a good son or daughter," but by a few very concrete questions: can they go on safely at home, can the carer still hold out, is there enough money.
@@ -97,7 +128,7 @@ The hardest one to say out loud is feelings: you can say you are tired, but bein
 - **What you get back**: relationships + dignity — no longer afraid of "am I unfilial," "the old person being sent away"
 - **How this works in China**: For the disability assessment, LTCI benefits, and whether a facility offers a trial stay, ask at the community or sub-district eldercare service center, the district civil affairs bureau, or the medical insurance bureau where the person is insured. If you are unsure, start by having the older person stay in a facility for a few days on trial. The latest local wording governs.
 
-## 17.9 Between siblings, count money and time separately
+## 17.10 Between siblings, count money and time separately
 
 - **What it costs**: one family meeting (Money: none | Time: an hour or two, possibly several of them | Effort: none | Do you have to speak up: hard to say — it means talking about money, and possibly opening old scores)
 - **In short**: The falling-out is usually not about who gives less, but about no one saying clearly who gave how much. Count the time given and the money given separately, write them on one sheet, and there is less to argue about.
@@ -107,11 +138,11 @@ The hardest one to say out loud is feelings: you can say you are tired, but bein
 - **What you get back**: relationships — no longer afraid of "the family turning on each other over money and care"
 - **How this works in China**: The community mediation committee, the residents' committee, and social workers can all help get the family into one room to talk; if it really cannot be settled, go the legal route. The latest local wording governs.
 
-## 17.10 For the carer: a few places you can call
+## 17.11 For the carer: a few places you can call
 
 When you are tired, fed up, or cannot hold out, these are places you can turn.
 
-- **Respite care**: have a professional cover for you for a few days (see 17.5).
+- **Respite care**: have a professional cover for you for a few days (see 17.6).
 - **The 12356 national psychological assistance hotline**: set up by the National Health Commission in 2024; each line is required to provide at least 18 hours of service a day, and in many places it runs 24 hours. There is also the Hope 24 hotline, 400-161-9995 (24/7).
 - **The community mental health doctor**: if there is someone at home with a severe mental disorder (schizophrenia, for example), the community health center or township health center has a dedicated mental health doctor responsible for follow-up; it is part of the National Basic Public Health Service, with at least 4 follow-ups a year.
 - **Older-adult mental health care points**: under the action to care for older adults' mental health that the National Health Commission promoted from 2022 to 2025, in principle every county (city, district) has at least one such point in a community or village. Ask at your community whether there is one.
@@ -121,29 +152,29 @@ When you are tired, fed up, or cannot hold out, these are places you can turn.
 
 How far these have been built out differs from place to place; asking once is more accurate than guessing at home. The latest local wording governs.
 
-## 17.11 If you can do only one thing today
+## 17.12 If you can do only one thing today
 
 Take one sheet of paper and write down three names and phone numbers: **one who can be there at once if something happens, one who can put in money, one who can handle paperwork and make decisions.** When you have written them, stick the sheet on the fridge.
 
 If the second and third columns on that sheet are both empty, spend today on one phone call instead — to the person you have not been in touch with the longest, and who is most likely to help you.
 
-## 17.12 If you are reading this for your parents
+## 17.13 If you are reading this for your parents
 
 This chapter means two things for you: one is finding people for your parents; the other is a reminder that you are also one of the people who has to be counted in.
 
 **Assemble the people for your parents.** Take the table in 17.2 and fill it in for your own family, see which kind is missing, and then go and look. Do not underrate neighbors: first help them get to know the people across the corridor and upstairs and downstairs, and leave each other phone numbers — when you are not there, the neighbor is the person closest to them. Ask at the community once whether your area has visits to people living alone, contracted family doctors, meal services, and respite care.
 
-**Do not use yourself up.** Many people run everywhere for their parents, cast themselves as the substitute player, come whenever called, and do not dare get sick or get fed up. Once disability is long-term, one person cannot carry it for a year. While there is still time, do three things: settle how the siblings divide money and time (17.9); ask clearly about respite care and short-term residential care (17.5); and keep for yourself one person you can talk to and one hotline (17.10).
+**Do not use yourself up.** Many people run everywhere for their parents, cast themselves as the substitute player, come whenever called, and do not dare get sick or get fed up. Once disability is long-term, one person cannot carry it for a year. While there is still time, do three things: settle how the siblings divide money and time (17.10); ask clearly about respite care and short-term residential care (17.6); and keep for yourself one person you can talk to and one hotline (17.11).
 
 **And one more layer.** The way you care for your parents today is, most likely, the way your children will care for you later. Do you want your children to quit a job, or break down, for your sake? If not, then now — for yourself and for them — set the ground rules for the road that is "paying someone to help."
 
-## 17.13 What I am not sure about in this chapter
+## 17.14 What I am not sure about in this chapter
 
 - The qualifications and fees for hospital accompaniment: there is no unified national occupational qualification, the "companion certificate" is mostly a local or industry assessment, and whether another city recognizes it I have not checked city by city. Fees are set by each agency; the Shanghai figures in this chapter (198–280 yuan for half a day in Pudong, 200–300 yuan for citywide packages, and so on) represent only Shanghai's published figures in 2026, and other cities have to be asked separately.
-- Respite care, long-term care insurance, and one-child carer leave are almost one pattern per province, sometimes per city: at national level respite care is only at the "explore" stage (see 17.5), LTCI's disability assessment and benefits are still being rolled out, and the number of days of carer leave depends on your province's regulations — this chapter stops at "where to ask," and the specific terms have to come from your own locality.
+- Respite care, long-term care insurance, and one-child carer leave are almost one pattern per province, sometimes per city: at national level respite care is only at the "explore" stage (see 17.6), LTCI's disability assessment and benefits are still being rolled out, and the number of days of carer leave depends on your province's regulations — this chapter stops at "where to ask," and the specific terms have to come from your own locality.
 - Carer depression at 41.81%: this is a detection rate pooled from 13 studies; the scales differ between studies and the pooled interval is wide (about 34%–49%), so it can only serve as a reminder, not as the prevalence in your area or in any one person.
 
-## 17.14 Sources for this chapter
+## 17.15 Sources for this chapter
 
 - [official wording: Shanghai Civil Affairs Bureau; Shanghai Municipal Health Commission] *Pilot Program for Medical Assistance and Hospital Accompaniment Services for Older Adults in Shanghai* (《上海市老年人助医陪诊服务试点方案》) (issued 2025-01-22; piloted in 9 districts — Pudong, Yangpu, Songjiang, Xuhui, Changning, Putuo, Jing'an, Hongkou, Huangpu). Reposted by the China Association of Aging: https://www.cncaprc.gov.cn/xxzcfg/10031895.jhtml [checked 2026-10-10]
 - [official wording: Shanghai Civil Affairs Bureau and others] *Program for Comprehensively Rolling Out Hospital Accompaniment Services for Older Adults* (《关于全面推进老年助医陪诊服务的方案》) (沪民养老发〔2026〕5 号, in force from 2026-07-01): open to people aged 60 and over, with no household registration restriction; agencies must assign at least 5 companions, and companions' ID badges can be checked. https://mzj.sh.gov.cn/MZ_zhuzhan279_0-2-8-15-55-231/20260625/b5d7b569f014474a862c818ec54c2671.html ; Q&A interpretation (including "aged 60 and over, no household registration restriction"): https://mzj.sh.gov.cn/mz-zcjd/20260625/bdccad85a0c243109153416a38805758.html [checked 2026-10-10]
@@ -161,3 +192,5 @@ This chapter means two things for you: one is finding people for your parents; t
 - [official wording: General Office of the National Health Commission] *Notice on Launching the Action to Care for the Mental Health of Older Adults* (《关于开展老年心理关爱行动的通知》) (国卫办老龄函〔2022〕204 号, issued 2022-06-14, published 2022-06-20): carried out nationwide in 2022–2025; by the end of the 14th Five-Year Plan period, in principle every county (city, district) has at least one community or village with an older-adult mental health care point. https://www.nhc.gov.cn/lljks/c100157/202206/d52e414c77f741e099fcc13945d85a5b.shtml [checked 2026-10-10]
 - [official wording: National Healthcare Security Administration] Long-term care insurance: on 2025-09-25 the National Healthcare Security Administration said the scheme covered about 190 million people (by the end of 2025, 308.54 million were insured — see the Ministry of Civil Affairs and the National Working Commission on Aging, *2025 Bulletin on the Development of National Aging Programs* (《2025 年度国家老龄事业发展公报》) (released 2026-07-31 by the Ministry of Civil Affairs and the National Working Commission on Aging; full-text PDF of the bulletin): https://www.cncaprc.gov.cn/u/cms/www/202608/01013057jmzq.pdf ); the General Office of the CPC Central Committee and the General Office of the State Council, *Opinions on Accelerating the Establishment of a Long-Term Care Insurance System* (《关于加快建立长期护理保险制度的意见》) (2026-03-25). https://www.nhsa.gov.cn/art/2025/9/25/art_105_18022.html ; https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm [checked 2026-10-10]
 - [official wording: no national rule; the number of days differs by province] One-child carer leave. A summary reposted by the government service platform of the Xinjiang Uygur Autonomous Region, *Many Places Make It Clear: Up to 20 Days, with Pay* (《多地明确：最长可休 20 天，工资照发》). https://zwfw.xinjiang.gov.cn/zmlske/zwfwqjd/xwzx/art/2025/art_0133b7233c8c4baab724f556779ea09b.html [checked 2026-10-10] [the specific number of days is governed by your province's regulations]
+- [public reporting] China Health and Retirement Longitudinal Study (CHARLS), sixth wave (fielded 2021–2023; 18,160 respondents, of whom 11,487 were aged 60 or over), as reported by Caixin in November 2026 from the questionnaire data and weights published by the project team: about 20% need help with at least one of the twelve ADL/IADL items (about 11% at 60–69, 21% at 70–79, 46% at 80 and over); among those needing care, about 30% have at least one item with nobody helping and about 12% have nobody helping with any of the twelve (about 20% of those needing help using the toilet get none, about 22% of those needing a hand moving indoors get none); about 28% live in housing with steps at the entrance and no barrier-free route, and about 68% of those on the second floor or above have no lift; about 94% of those receiving help are helped by relatives (about 72.5% of the 60–69 group mainly by a spouse; at 80 and over about 23% by a spouse and 76% by the younger generation); about 18% felt lonely on at least three days in the past week (about 25% at 80 and over) and 23.5% felt low on at least three days; about 95% are covered by social medical insurance and about 20% were in hospital in the past year, with a median out-of-pocket cost of 3,000 yuan (about 50% of the bill on resident insurance, about 33% on employee insurance); about 48% have been diagnosed with high blood pressure and about 39% with arthritis or rheumatism. The original report sits behind a paywall; the summary was verified against United Daily News 2026-11-22 (https://udn.com/news/story/7333/9897250 ) and Ming Pao 2026-11-24 (https://news.mingpao.com/ins/兩岸/article/20261124/s00004/1795508640406/ ). [checked 2026-11-25]
+- [third-party research] Gong J, Wang G, Wang Y, et al. Nowcasting and forecasting the care needs of the older population in China: analysis of data from the China Health and Retirement Longitudinal Study (CHARLS). Lancet Public Health. 2022;7(12):e1005-e1013: on a three-level dependency definition, 20.61 million older people needed care in 2020 (difficulty in any ADL), 36.33 million once difficulty with cooking, shopping or taking medicines is added, and 45.30 million with difficulty in any ADL or IADL; projected for 2030: 29.71 million, 49.07 million and 59.32 million. DOI: https://doi.org/10.1016/S2468-2667(22)00203-1 ; full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC9741660/ [checked 2026-11-25]
